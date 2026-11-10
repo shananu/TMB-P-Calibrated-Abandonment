@@ -103,7 +103,7 @@ Bug found by writing the new tests: the first version of the twin test failed, w
 - Not re-verified in this audit: the from-scratch TMB-P rebuild (step 02) and a Linux run.
 
 ## 9. Git
-GIT_PLACEHOLDER
+Local repository initialised on branch `main`. Initial commit `50906ac2d5ddc2bade4244784198375b95dcfeb7` contains 179 files (code, tests, vendored benchmark, data, results). This report's Git section was added in a follow-up commit. No remote was created and nothing was pushed. Git normalises text files to LF line endings in the repository (`.gitattributes`); `CHECKSUMS.sha256` hashes text with LF, so `checksums.py verify` works on any checkout. `_audit_repro/` (partial re-run outputs and logs) is git-ignored.
 
 ## 10. Reproduction commands
 ```
