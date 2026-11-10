@@ -1,0 +1,9 @@
+version: v0.1
+seed: 42
+dataset: data/toolmisusebench_v0_1
+split: test_public
+agents:
+  - heuristic
+  - schema_repair
+  - policy_aware
+out_dir: out/experiments/v0_1

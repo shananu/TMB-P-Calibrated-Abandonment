@@ -1,0 +1,14 @@
+{
+  "instruction_parser": {
+    "task_success": 0.7666666666666667,
+    "cond_recovery": 0.7361530715005036,
+    "exposure": 1.0,
+    "mean_calls": 1.9391666666666667
+  },
+  "instruction_parser_no_recovery": {
+    "task_success": 0.1575,
+    "cond_recovery": 0.0,
+    "exposure": 1.0,
+    "mean_calls": 1.0
+  }
+}
