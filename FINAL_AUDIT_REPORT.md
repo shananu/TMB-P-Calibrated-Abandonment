@@ -82,7 +82,7 @@ Bug found by writing the new tests: the first version of the twin test failed, w
 - **From scratch, in an isolated copy with no `data/` or `results/`:**
   - `00_reproduce.py` regenerated `data/tmb_v02_large` **identical** to the saved copy (5/5 files) and reproduced 0.7667 / 0.7362 / 0.1575.
   - `01_verify_benchmark.py` ran successfully.
-  - The from-scratch run was then **stopped by the user** during TMB-P rebuilding, so rebuilding the TMB-P data was **not re-verified** in this audit. Each variant's build report records 0 replay mismatches from the original build.
+  - The from-scratch run was then stopped during TMB-P rebuilding: first restarted when its working directory had to be moved, then **stopped at the user's request**. So rebuilding the TMB-P data was **not re-verified** in this audit. Each variant's build report records 0 replay mismatches from the original build.
 - **Re-run of 03–08 on the saved TMB-P data** into `_audit_repro/results_rerun`, compared with `checksums.py compare`: see section 6.
 
 ## 6. Result discrepancies
