@@ -28,6 +28,7 @@ All classification-metrics artifacts are present: script 08, its JSON and MD out
 | I8 | limitation (measured) | 652/2,160 pool instructions appear verbatim in train, and 1,620/2,160 match a train template once digits and quoted values are masked. Features never include text, so there is no feature leakage, but tasks are not independent |
 | I9 | minor | The `retries_left` feature always equals `calls_left`. It is redundant but harmless and was left unchanged, because changing it would change results |
 | I10 | missing | No dependency pins, Python version, `.gitignore`, checksums or test runner existed |
+| I11 | reproducibility (found in release review) | `scripts/checksums.py verify` (added in this audit) printed UNLISTED files but still exited 0, so an extra file under `data/` or `results/` passed verification. Fixed: changed, missing or unlisted files now all exit 1 |
 
 **Checked and found correct:**
 - **Scrubbing and features:** `details.faults` is scrubbed before feature extraction, and the observable feature set has no `leak_*`, `task_id`, `gold_summary` or `fault_plan` fields.
@@ -62,19 +63,34 @@ All classification-metrics artifacts are present: script 08, its JSON and MD out
   - `test_methodology.py`: exact metric values and denominators, CRC invariance to Y=0 and no-failure episodes and its tightness, persistent/transient twin identity, encoder behaviour on unseen categories, lookup-table prior, Bayes formula.
   - `test_reported_numbers.py`: every README headline number against saved artifacts.
 - `requirements.txt`, `.python-version`, `.gitignore`, `.gitattributes`, `scripts/checksums.py`, `CHECKSUMS.sha256`.
+- **Checksum exit-code fix (I11):**
+  - `verify()` returns 1 for changed, missing or unlisted files.
+  - Regression tests are in `tests/test_checksums.py`: an unlisted file fails, a changed or missing file fails, a clean tree passes, and CRLF-only differences pass.
+  - Command-line check: adding `results/_probe.json` gave exit 1; removing it gave exit 0.
 
 ## 4. Tests executed
-`python -m tests` on the final code gave **20/20 passed** (exit 0). Log: `_audit_repro/tests_main.txt`, git-ignored.
+**Final outcome:** the suite was run in a fresh virtual environment installed only from `requirements.txt` (`python -m venv .venv` + `pip install -r requirements.txt`, Python 3.12.6, Windows 11).
+- `python -m tests`: **23/23 passed**, exit 0. No tolerance was loosened: README-number checks use half a unit of the printed digit, and the AUROC/Brier refit check uses 1e-12.
+- `python scripts/checksums.py verify`: **62/62 listed files match, 0 unlisted**, exit 0.
+- Logs (git-ignored): `_audit_repro/tests_pinned_env.txt`, `_audit_repro/pinned_env_freeze.txt`.
 
-| module | tests | result |
+**Installed versions (`pip freeze` of that environment):**
+- Pinned, all installed exactly: numpy 2.2.6, pandas 3.1.1, scikit-learn 1.5.1, scipy 1.14.0, matplotlib 3.8.4, pydantic 2.9.2, pydantic_core 2.23.4, joblib 1.4.2, threadpoolctl 3.5.0, pillow 10.3.0.
+- Unpinned transitive packages, as resolved: annotated-types 0.8.0, contourpy 1.4.0, cycler 0.12.1, fonttools 4.68.0, kiwisolver 1.5.1, packaging 26.3, pyparsing 3.3.3, python-dateutil 4.0.0, typing_extensions 4.16.0, tzdata 2026.6.
+- These can differ from the environment that produced the saved results (e.g. annotated-types 0.7.0 there). None of them affects model fitting or the tested numbers.
+
+| module | tests | result (pinned env) |
 |---|---|---|
-| test_tmbp | 3 (CRC validity: joint 0.0997, conditional 0.0924 at α=0.1; monotonicity and fallback; scrubbing) | pass |
-| test_shift | 4 | pass |
+| test_checksums (new) | 3 (unlisted, changed/missing, clean + CRLF) | pass |
 | test_classification | 3 | pass |
 | test_methodology (new) | 6 | pass |
 | test_reported_numbers (new) | 4 | pass |
+| test_shift | 4 | pass |
+| test_tmbp | 3 (CRC validity on synthetic data: joint 0.0997, conditional 0.0924 at α=0.1) | pass |
 
-Bug found by writing the new tests: the first version of the twin test failed, which exposed I3.
+**Earlier runs:**
+- Before the checksum fix, the global interpreter (same pinned versions of the main packages) passed 20/20.
+- The first version of the twin test failed, which is how I3 was found.
 
 ## 5. Experiments reproduced
 - `python scripts/checksums.py verify`: 62/62 data and results files match the manifest. Reference outputs were also confirmed byte-identical to a pre-audit MD5 snapshot.
@@ -88,6 +104,7 @@ Bug found by writing the new tests: the first version of the twin test failed, w
 ## 6. Result discrepancies
 - No saved numeric result was changed. The only discrepancies were README text (I1, I2, I3); `tests/test_reported_numbers.py` now guards against recurrence.
 - Re-run comparison of 03–08: the re-run was **stopped by the system for low memory** partway through script 03. It completed `E1_main_E7_leakage.json` and `E2_budget.json`, and both are **byte-identical** to the saved results. E3–E6 and scripts 04–08 were **not re-run** (UNVERIFIED by re-execution). They remain covered by the checksum manifest, `test_reported_numbers`, and script 08's built-in assertion that it reproduces E1's AUROC/Brier.
+- **E1–E8 have therefore NOT been fully reproduced by re-execution in this audit.** Only steps 00–01 (from scratch) and E1–E2 (re-run on the saved TMB-P data) were. The pinned-environment test run (section 4) checks the saved artifacts; it does not regenerate them.
 
 ## 7. Missing artifacts
 - No per-example predictions were saved by E1–E7. Script 08 refits deterministically and asserts it reproduces the saved AUROC/Brier to within 1e-12.
@@ -103,12 +120,13 @@ Bug found by writing the new tests: the first version of the twin test failed, w
 - Not re-verified in this audit: the from-scratch TMB-P rebuild (step 02) and a Linux run.
 
 ## 9. Git
-Local repository initialised on branch `main`. Initial commit `50906ac2d5ddc2bade4244784198375b95dcfeb7` contains 179 files (code, tests, vendored benchmark, data, results). This report's Git section was added in a follow-up commit. No remote was created and nothing was pushed. Git normalises text files to LF line endings in the repository (`.gitattributes`); `CHECKSUMS.sha256` hashes text with LF, so `checksums.py verify` works on any checkout. `_audit_repro/` (partial re-run outputs and logs) is git-ignored.
+Local repository initialised on branch `main`. Initial commit `50906ac2d5ddc2bade4244784198375b95dcfeb7` contains 179 files (code, tests, vendored benchmark, data, results). This report was updated in follow-up commits: `9121e1a` and `1d81464` (report), then the release commit with the checksum fix, `tests/test_checksums.py` and the pinned-environment test outcome (latest `git log` entry). `.venv/` is git-ignored. No remote was created and nothing was pushed. Git normalises text files to LF line endings in the repository (`.gitattributes`); `CHECKSUMS.sha256` hashes text with LF, so `checksums.py verify` works on any checkout. `_audit_repro/` (partial re-run outputs and logs) is git-ignored.
 
 ## 10. Reproduction commands
 ```
+python -m venv .venv && .venv/Scripts/activate      # Linux/macOS: source .venv/bin/activate
 python -m pip install -r requirements.txt
-python scripts/checksums.py verify
+python scripts/checksums.py verify                  # exit 1 if any file is changed, missing or unlisted
 python -m tests
 # full regeneration into a separate directory (bash syntax; see README for Windows):
 export TMBP_RESULTS_DIR=results_rerun

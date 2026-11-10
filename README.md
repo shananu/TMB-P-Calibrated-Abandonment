@@ -14,7 +14,7 @@ ToolMisuseBench is vendored, unmodified, in `third_party/toolmisusebench` at ups
 
 ## Verify the saved artifacts (a few minutes)
 ```
-python scripts/checksums.py verify   # SHA-256 of every file in data/ and results/ against CHECKSUMS.sha256
+python scripts/checksums.py verify   # SHA-256 of data/ and results/ vs CHECKSUMS.sha256; exit 1 if any file is changed, missing or unlisted
 python -m tests                      # whole test suite (run from the repo root); prints PASS/FAIL per test
 ```
 
@@ -56,7 +56,7 @@ tmbp/core.py          rollouts, observation scrubbing, observable features, exac
 tmbp/experiments.py   baselines, learned predictors, E1–E7 protocol (run_policies)
 tmbp/shift.py         E8 frozen-calibration protocol
 scripts/00–08         pipeline (see table above); _bootstrap.py = path/cwd/overwrite guard; checksums.py
-tests/                python -m tests  (test_tmbp, test_shift, test_classification, test_methodology, test_reported_numbers)
+tests/                python -m tests  (test_tmbp, test_shift, test_classification, test_methodology, test_reported_numbers, test_checksums)
 data/tmb_v02_large/   regenerated ToolMisuseBench v0.2 release (seed 42)
 data/tmbp_pi*_q*/     TMB-P variants: train/pool task JSONL, never-stop episode logs (episodes.pkl), build report
 results/              reference outputs (JSON, tables, figures, q_shift/)
