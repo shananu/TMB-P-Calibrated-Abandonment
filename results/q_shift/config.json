@@ -1,0 +1,28 @@
+{
+ "config": {
+  "source_q": "0.5",
+  "target_qs": [
+   "0.2",
+   "0.8"
+  ],
+  "pi": 0.5,
+  "alpha": 0.1,
+  "risk": "conditional (FAR_cond)",
+  "n_splits": 50,
+  "split_seed": 20261109,
+  "calib_fraction": 0.5,
+  "model": "HistGradientBoosting(max_iter=200, lr=0.05, max_leaf_nodes=15, random_state=0)",
+  "table": "Beta posterior per (tool, code, min(consec_fail,4), budget_total)",
+  "tmbp_gen_seed": 7,
+  "tmb_commit": "b6ee341"
+ },
+ "inputs_md5": {
+  "0.5": "cafd23680307a4b62e4d1a63266eb147",
+  "0.2": "58ff30396bc43272da669d83eb816cc5",
+  "0.8": "83902a22970855c88b55bbbc15e65f50"
+ },
+ "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "sklearn": "1.5.1",
+ "runtime_s": 11.1
+}

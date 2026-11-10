@@ -1,0 +1,15 @@
+# Exact versions used to produce every saved result (Python 3.12.6, Windows 11, CPU only).
+# Install: python -m pip install -r requirements.txt
+# The vendored ToolMisuseBench (third_party/toolmisusebench, commit b6ee341) needs only pydantic and
+# is put on sys.path by scripts/_bootstrap.py and tests/__init__.py - it is not pip-installed.
+numpy==2.2.6
+pandas==3.1.1
+scikit-learn==1.5.1
+scipy==1.14.0
+matplotlib==3.8.4
+pydantic==2.9.2
+# transitive pins, listed for exact reproduction of model fits and figures
+pydantic_core==2.23.4
+joblib==1.4.2
+threadpoolctl==3.5.0
+pillow==10.3.0

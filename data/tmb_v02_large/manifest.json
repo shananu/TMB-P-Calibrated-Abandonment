@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "bytes": 8359767,
+      "path": "train\\tasks.jsonl",
+      "sha256": "9dccab25c1682801f02519bb92ee8a7dcfd89786cae9d1e561172ce3fa72afb1"
+    },
+    {
+      "bytes": 1250242,
+      "path": "dev\\tasks.jsonl",
+      "sha256": "99f1c51378a394c1b4c16bde8c7aa501aae5974dddb8319adf028752d17900d8"
+    },
+    {
+      "bytes": 1696341,
+      "path": "test_public\\tasks.jsonl",
+      "sha256": "ec853f3829ab9e217dbaa13c3f809273097adb2e92e00ae5fc60ed21de0bcab9"
+    }
+  ],
+  "seed": 42,
+  "splits": {
+    "dev": 900,
+    "test_public": 1200,
+    "train": 6000
+  },
+  "version": "v0.2"
+}

@@ -1,0 +1,16 @@
+implementation.md
+research.tex
+researchV2.tex
+research_anonymous.tex
+research_camera_ready.tex
+figures/
+
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+*.egg-info/
+.DS_Store
+
+data/
+out/

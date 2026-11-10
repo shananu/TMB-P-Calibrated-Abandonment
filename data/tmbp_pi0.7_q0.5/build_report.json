@@ -1,0 +1,175 @@
+{
+ "pi": 0.7,
+ "q": 0.5,
+ "decision_points_with_success_already": 0,
+ "replay_checks": 2160,
+ "replay_mismatches": 0,
+ "pool_Y_rate": 0.32592592592592595,
+ "outcomes": {
+  "('adversarial_error', 'persistent', 'relaxed')": {
+   "n": 90,
+   "Y_rate": 0.0,
+   "calls": 12.0
+  },
+  "('adversarial_error', 'persistent', 'standard')": {
+   "n": 88,
+   "Y_rate": 0.0,
+   "calls": 8.0
+  },
+  "('adversarial_error', 'persistent', 'tight')": {
+   "n": 82,
+   "Y_rate": 0.0,
+   "calls": 4.0
+  },
+  "('adversarial_error', 'transient', 'relaxed')": {
+   "n": 30,
+   "Y_rate": 0.9,
+   "calls": 2.77
+  },
+  "('adversarial_error', 'transient', 'standard')": {
+   "n": 32,
+   "Y_rate": 0.875,
+   "calls": 3.31
+  },
+  "('adversarial_error', 'transient', 'tight')": {
+   "n": 38,
+   "Y_rate": 0.789,
+   "calls": 2.74
+  },
+  "('authz', 'persistent', 'relaxed')": {
+   "n": 89,
+   "Y_rate": 0.0,
+   "calls": 12.0
+  },
+  "('authz', 'persistent', 'standard')": {
+   "n": 81,
+   "Y_rate": 0.0,
+   "calls": 8.0
+  },
+  "('authz', 'persistent', 'tight')": {
+   "n": 90,
+   "Y_rate": 0.0,
+   "calls": 4.0
+  },
+  "('authz', 'transient', 'relaxed')": {
+   "n": 31,
+   "Y_rate": 0.903,
+   "calls": 2.9
+  },
+  "('authz', 'transient', 'standard')": {
+   "n": 39,
+   "Y_rate": 0.923,
+   "calls": 2.87
+  },
+  "('authz', 'transient', 'tight')": {
+   "n": 30,
+   "Y_rate": 0.8,
+   "calls": 2.57
+  },
+  "('clean', 'none', 'relaxed')": {
+   "n": 120,
+   "Y_rate": 0.892,
+   "calls": 1.0
+  },
+  "('clean', 'none', 'standard')": {
+   "n": 120,
+   "Y_rate": 0.892,
+   "calls": 1.0
+  },
+  "('clean', 'none', 'tight')": {
+   "n": 120,
+   "Y_rate": 0.908,
+   "calls": 1.0
+  },
+  "('rate_limit', 'persistent', 'relaxed')": {
+   "n": 71,
+   "Y_rate": 0.0,
+   "calls": 12.0
+  },
+  "('rate_limit', 'persistent', 'standard')": {
+   "n": 86,
+   "Y_rate": 0.0,
+   "calls": 8.0
+  },
+  "('rate_limit', 'persistent', 'tight')": {
+   "n": 87,
+   "Y_rate": 0.0,
+   "calls": 4.0
+  },
+  "('rate_limit', 'transient', 'relaxed')": {
+   "n": 49,
+   "Y_rate": 0.918,
+   "calls": 2.78
+  },
+  "('rate_limit', 'transient', 'standard')": {
+   "n": 34,
+   "Y_rate": 0.882,
+   "calls": 3.0
+  },
+  "('rate_limit', 'transient', 'tight')": {
+   "n": 33,
+   "Y_rate": 0.818,
+   "calls": 3.0
+  },
+  "('schema_drift', 'persistent', 'relaxed')": {
+   "n": 85,
+   "Y_rate": 0.0,
+   "calls": 12.0
+  },
+  "('schema_drift', 'persistent', 'standard')": {
+   "n": 81,
+   "Y_rate": 0.0,
+   "calls": 8.0
+  },
+  "('schema_drift', 'persistent', 'tight')": {
+   "n": 87,
+   "Y_rate": 0.0,
+   "calls": 4.0
+  },
+  "('schema_drift', 'transient', 'relaxed')": {
+   "n": 35,
+   "Y_rate": 0.143,
+   "calls": 8.4
+  },
+  "('schema_drift', 'transient', 'standard')": {
+   "n": 39,
+   "Y_rate": 0.179,
+   "calls": 6.08
+  },
+  "('schema_drift', 'transient', 'tight')": {
+   "n": 33,
+   "Y_rate": 0.152,
+   "calls": 3.67
+  },
+  "('timeout', 'persistent', 'relaxed')": {
+   "n": 91,
+   "Y_rate": 0.0,
+   "calls": 12.0
+  },
+  "('timeout', 'persistent', 'standard')": {
+   "n": 82,
+   "Y_rate": 0.0,
+   "calls": 8.0
+  },
+  "('timeout', 'persistent', 'tight')": {
+   "n": 82,
+   "Y_rate": 0.0,
+   "calls": 4.0
+  },
+  "('timeout', 'transient', 'relaxed')": {
+   "n": 29,
+   "Y_rate": 0.931,
+   "calls": 3.34
+  },
+  "('timeout', 'transient', 'standard')": {
+   "n": 38,
+   "Y_rate": 0.868,
+   "calls": 2.95
+  },
+  "('timeout', 'transient', 'tight')": {
+   "n": 38,
+   "Y_rate": 0.763,
+   "calls": 2.61
+  }
+ }
+}

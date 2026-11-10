@@ -1,0 +1,6502 @@
+[
+ {
+  "lambda_frozen_learned": 0.10350127088740209,
+  "lambda_frozen_table": 0.10000000000000002,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 503,
+    "n_Y1_with_failure": 332
+   },
+   "frozen_learned": {
+    "success": 0.45555555555555555,
+    "mean_calls": 2.3944444444444444,
+    "stop_rate": 0.47962962962962963,
+    "FAR": 0.010185185185185186,
+    "FAR_cond": 0.03313253012048193,
+    "wasted_calls": 1.55,
+    "waste_reduction": 0.5909090909090908
+   },
+   "frozen_table": {
+    "success": 0.45555555555555555,
+    "mean_calls": 2.551851851851852,
+    "stop_rate": 0.3990740740740741,
+    "FAR": 0.010185185185185186,
+    "FAR_cond": 0.03313253012048193,
+    "wasted_calls": 1.7074074074074075,
+    "waste_reduction": 0.5493646138807429
+   },
+   "retry_3": {
+    "success": 0.46296296296296297,
+    "mean_calls": 2.859259259259259,
+    "stop_rate": 0.3074074074074074,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009036144578313253,
+    "wasted_calls": 2.0064814814814813,
+    "waste_reduction": 0.47043010752688175
+   },
+   "never_stop": {
+    "success": 0.46574074074074073,
+    "mean_calls": 4.644444444444445,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.7888888888888888,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4398148148148148,
+    "mean_calls": 2.0,
+    "stop_rate": 0.5305555555555556,
+    "FAR": 0.025925925925925925,
+    "FAR_cond": 0.08433734939759036,
+    "wasted_calls": 1.175,
+    "waste_reduction": 0.6898826979472141,
+    "lambda": 0.19951773657577881
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4305555555555556,
+    "mean_calls": 1.9194444444444445,
+    "stop_rate": 0.5277777777777778,
+    "FAR": 0.03518518518518519,
+    "FAR_cond": 0.1144578313253012,
+    "wasted_calls": 1.1092592592592592,
+    "waste_reduction": 0.7072336265884653,
+    "lambda": 0.11838009935916999
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 424,
+    "n_Y1_with_failure": 253
+   },
+   "frozen_learned": {
+    "success": 0.3074074074074074,
+    "mean_calls": 2.7537037037037035,
+    "stop_rate": 0.6333333333333333,
+    "FAR": 0.08518518518518518,
+    "FAR_cond": 0.36363636363636365,
+    "wasted_calls": 1.8305555555555555,
+    "waste_reduction": 0.591275584039694
+   },
+   "frozen_table": {
+    "success": 0.3148148148148148,
+    "mean_calls": 2.9407407407407407,
+    "stop_rate": 0.5222222222222223,
+    "FAR": 0.07777777777777778,
+    "FAR_cond": 0.33201581027667987,
+    "wasted_calls": 2.015740740740741,
+    "waste_reduction": 0.5499276410998553
+   },
+   "retry_3": {
+    "success": 0.31574074074074077,
+    "mean_calls": 3.274074074074074,
+    "stop_rate": 0.44074074074074077,
+    "FAR": 0.07685185185185185,
+    "FAR_cond": 0.32806324110671936,
+    "wasted_calls": 2.3583333333333334,
+    "waste_reduction": 0.47343394666115357
+   },
+   "never_stop": {
+    "success": 0.3925925925925926,
+    "mean_calls": 5.652777777777778,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.478703703703704,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35462962962962963,
+    "mean_calls": 3.7398148148148147,
+    "stop_rate": 0.44814814814814813,
+    "FAR": 0.03796296296296296,
+    "FAR_cond": 0.16205533596837945,
+    "wasted_calls": 2.6425925925925924,
+    "waste_reduction": 0.40996485424850115,
+    "lambda": 0.003968070280350215
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3537037037037037,
+    "mean_calls": 3.725925925925926,
+    "stop_rate": 0.5064814814814815,
+    "FAR": 0.03888888888888889,
+    "FAR_cond": 0.16600790513833993,
+    "wasted_calls": 2.626851851851852,
+    "waste_reduction": 0.41347942939838744,
+    "lambda": 0.06679947085198257
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.08258086218633248,
+  "lambda_frozen_table": 0.07547169811320756,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 482,
+    "n_Y1_with_failure": 317
+   },
+   "frozen_learned": {
+    "success": 0.4388888888888889,
+    "mean_calls": 2.512962962962963,
+    "stop_rate": 0.4722222222222222,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.025236593059936908,
+    "wasted_calls": 1.7046296296296297,
+    "waste_reduction": 0.5640539900544637
+   },
+   "frozen_table": {
+    "success": 0.4425925925925926,
+    "mean_calls": 2.8296296296296295,
+    "stop_rate": 0.33611111111111114,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012618296529968454,
+    "wasted_calls": 2.0185185185185186,
+    "waste_reduction": 0.4837793038124556
+   },
+   "retry_3": {
+    "success": 0.44537037037037036,
+    "mean_calls": 2.8925925925925924,
+    "stop_rate": 0.31203703703703706,
+    "FAR": 0.000925925925925926,
+    "FAR_cond": 0.0031545741324921135,
+    "wasted_calls": 2.0768518518518517,
+    "waste_reduction": 0.46886099928960456
+   },
+   "never_stop": {
+    "success": 0.4462962962962963,
+    "mean_calls": 4.726851851851852,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.910185185185185,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4222222222222222,
+    "mean_calls": 2.0055555555555555,
+    "stop_rate": 0.5509259259259259,
+    "FAR": 0.024074074074074074,
+    "FAR_cond": 0.08201892744479496,
+    "wasted_calls": 1.2157407407407408,
+    "waste_reduction": 0.6890835898650249,
+    "lambda": 0.19609014855271076
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4166666666666667,
+    "mean_calls": 1.9370370370370371,
+    "stop_rate": 0.5370370370370371,
+    "FAR": 0.02962962962962963,
+    "FAR_cond": 0.10094637223974763,
+    "wasted_calls": 1.1592592592592592,
+    "waste_reduction": 0.7035282974188966,
+    "lambda": 0.11417798127675453
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 403,
+    "n_Y1_with_failure": 238
+   },
+   "frozen_learned": {
+    "success": 0.3111111111111111,
+    "mean_calls": 2.9157407407407407,
+    "stop_rate": 0.600925925925926,
+    "FAR": 0.062037037037037036,
+    "FAR_cond": 0.2815126050420168,
+    "wasted_calls": 2.0194444444444444,
+    "waste_reduction": 0.5701616081986598
+   },
+   "frozen_table": {
+    "success": 0.3138888888888889,
+    "mean_calls": 3.263888888888889,
+    "stop_rate": 0.43796296296296294,
+    "FAR": 0.05925925925925926,
+    "FAR_cond": 0.2689075630252101,
+    "wasted_calls": 2.3675925925925925,
+    "waste_reduction": 0.49605833661805276
+   },
+   "retry_3": {
+    "success": 0.30277777777777776,
+    "mean_calls": 3.3074074074074074,
+    "stop_rate": 0.4527777777777778,
+    "FAR": 0.07037037037037037,
+    "FAR_cond": 0.31932773109243695,
+    "wasted_calls": 2.449074074074074,
+    "waste_reduction": 0.47871501773748526
+   },
+   "never_stop": {
+    "success": 0.3731481481481482,
+    "mean_calls": 5.753703703703704,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.698148148148148,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3611111111111111,
+    "mean_calls": 4.197222222222222,
+    "stop_rate": 0.43333333333333335,
+    "FAR": 0.012037037037037037,
+    "FAR_cond": 0.0546218487394958,
+    "wasted_calls": 3.1638888888888888,
+    "waste_reduction": 0.32656681119432396,
+    "lambda": 0.0004125940460280657
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.36018518518518516,
+    "mean_calls": 3.9574074074074073,
+    "stop_rate": 0.44722222222222224,
+    "FAR": 0.012962962962962963,
+    "FAR_cond": 0.058823529411764705,
+    "wasted_calls": 2.9231481481481483,
+    "waste_reduction": 0.37780843515963736,
+    "lambda": 0.04035770401497793
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.068686858975756,
+  "lambda_frozen_table": 0.07547169811320756,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 486,
+    "n_Y1_with_failure": 325
+   },
+   "frozen_learned": {
+    "success": 0.44722222222222224,
+    "mean_calls": 2.564814814814815,
+    "stop_rate": 0.4361111111111111,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009230769230769232,
+    "wasted_calls": 1.7407407407407407,
+    "waste_reduction": 0.5376291195277915
+   },
+   "frozen_table": {
+    "success": 0.4462962962962963,
+    "mean_calls": 2.8055555555555554,
+    "stop_rate": 0.32685185185185184,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012307692307692308,
+    "wasted_calls": 1.9824074074074074,
+    "waste_reduction": 0.4734382685686178
+   },
+   "retry_3": {
+    "success": 0.4462962962962963,
+    "mean_calls": 2.863888888888889,
+    "stop_rate": 0.2972222222222222,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012307692307692308,
+    "wasted_calls": 2.0407407407407407,
+    "waste_reduction": 0.4579439252336449
+   },
+   "never_stop": {
+    "success": 0.45,
+    "mean_calls": 4.591666666666667,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.7648148148148146,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4222222222222222,
+    "mean_calls": 1.9657407407407408,
+    "stop_rate": 0.5472222222222223,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.09230769230769231,
+    "wasted_calls": 1.1712962962962963,
+    "waste_reduction": 0.6888834235120511,
+    "lambda": 0.20513725473033453
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.425,
+    "mean_calls": 1.974074074074074,
+    "stop_rate": 0.5212962962962963,
+    "FAR": 0.025,
+    "FAR_cond": 0.08307692307692308,
+    "wasted_calls": 1.1777777777777778,
+    "waste_reduction": 0.6871618298081652,
+    "lambda": 0.11147871798427049
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 407,
+    "n_Y1_with_failure": 246
+   },
+   "frozen_learned": {
+    "success": 0.31574074074074077,
+    "mean_calls": 3.063888888888889,
+    "stop_rate": 0.5657407407407408,
+    "FAR": 0.06111111111111111,
+    "FAR_cond": 0.2682926829268293,
+    "wasted_calls": 2.1064814814814814,
+    "waste_reduction": 0.542713567839196
+   },
+   "frozen_table": {
+    "success": 0.3138888888888889,
+    "mean_calls": 3.3092592592592593,
+    "stop_rate": 0.43333333333333335,
+    "FAR": 0.06296296296296296,
+    "FAR_cond": 0.2764227642276423,
+    "wasted_calls": 2.3777777777777778,
+    "waste_reduction": 0.4838190954773869
+   },
+   "retry_3": {
+    "success": 0.29907407407407405,
+    "mean_calls": 3.316666666666667,
+    "stop_rate": 0.44907407407407407,
+    "FAR": 0.07777777777777778,
+    "FAR_cond": 0.34146341463414637,
+    "wasted_calls": 2.4314814814814816,
+    "waste_reduction": 0.4721608040201005
+   },
+   "never_stop": {
+    "success": 0.3768518518518518,
+    "mean_calls": 5.723148148148148,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.606481481481482,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3537037037037037,
+    "mean_calls": 3.911111111111111,
+    "stop_rate": 0.43796296296296294,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.1016260162601626,
+    "wasted_calls": 2.837962962962963,
+    "waste_reduction": 0.3839195979899498,
+    "lambda": 0.001723278180917968
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3592592592592593,
+    "mean_calls": 3.948148148148148,
+    "stop_rate": 0.45,
+    "FAR": 0.017592592592592594,
+    "FAR_cond": 0.07723577235772358,
+    "wasted_calls": 2.862962962962963,
+    "waste_reduction": 0.37849246231155775,
+    "lambda": 0.04271857908483539
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10350127088740209,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 484,
+    "n_Y1_with_failure": 322
+   },
+   "frozen_learned": {
+    "success": 0.43703703703703706,
+    "mean_calls": 2.4407407407407407,
+    "stop_rate": 0.48703703703703705,
+    "FAR": 0.011111111111111112,
+    "FAR_cond": 0.037267080745341616,
+    "wasted_calls": 1.6277777777777778,
+    "waste_reduction": 0.5789221556886228
+   },
+   "frozen_table": {
+    "success": 0.4388888888888889,
+    "mean_calls": 2.596296296296296,
+    "stop_rate": 0.3851851851851852,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.031055900621118012,
+    "wasted_calls": 1.7814814814814814,
+    "waste_reduction": 0.5391616766467067
+   },
+   "retry_3": {
+    "success": 0.44537037037037036,
+    "mean_calls": 2.890740740740741,
+    "stop_rate": 0.31203703703703706,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009316770186335404,
+    "wasted_calls": 2.0675925925925926,
+    "waste_reduction": 0.46514970059880234
+   },
+   "never_stop": {
+    "success": 0.44814814814814813,
+    "mean_calls": 4.691666666666666,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.865740740740741,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.40555555555555556,
+    "mean_calls": 1.9055555555555554,
+    "stop_rate": 0.5694444444444444,
+    "FAR": 0.04259259259259259,
+    "FAR_cond": 0.14285714285714285,
+    "wasted_calls": 1.1324074074074073,
+    "waste_reduction": 0.7070658682634731,
+    "lambda": 0.23338151812057667
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4111111111111111,
+    "mean_calls": 1.9296296296296296,
+    "stop_rate": 0.5453703703703704,
+    "FAR": 0.037037037037037035,
+    "FAR_cond": 0.12422360248447205,
+    "wasted_calls": 1.1537037037037037,
+    "waste_reduction": 0.701556886227545,
+    "lambda": 0.12760617323383047
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 394,
+    "n_Y1_with_failure": 232
+   },
+   "frozen_learned": {
+    "success": 0.2851851851851852,
+    "mean_calls": 2.787037037037037,
+    "stop_rate": 0.6481481481481481,
+    "FAR": 0.07962962962962963,
+    "FAR_cond": 0.3706896551724138,
+    "wasted_calls": 1.9361111111111111,
+    "waste_reduction": 0.5833001195695496
+   },
+   "frozen_table": {
+    "success": 0.29444444444444445,
+    "mean_calls": 2.9944444444444445,
+    "stop_rate": 0.5018518518518519,
+    "FAR": 0.07037037037037037,
+    "FAR_cond": 0.3275862068965517,
+    "wasted_calls": 2.1314814814814813,
+    "waste_reduction": 0.5412514946193703
+   },
+   "retry_3": {
+    "success": 0.28888888888888886,
+    "mean_calls": 3.3194444444444446,
+    "stop_rate": 0.45092592592592595,
+    "FAR": 0.07592592592592592,
+    "FAR_cond": 0.35344827586206895,
+    "wasted_calls": 2.475,
+    "waste_reduction": 0.46731765643682743
+   },
+   "never_stop": {
+    "success": 0.3648148148148148,
+    "mean_calls": 5.736111111111111,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.646296296296296,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.33055555555555555,
+    "mean_calls": 3.821296296296296,
+    "stop_rate": 0.45092592592592595,
+    "FAR": 0.03425925925925926,
+    "FAR_cond": 0.15948275862068967,
+    "wasted_calls": 2.801851851851852,
+    "waste_reduction": 0.3969709047429255,
+    "lambda": 0.0035890453560514903
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.33611111111111114,
+    "mean_calls": 3.925925925925926,
+    "stop_rate": 0.4666666666666667,
+    "FAR": 0.028703703703703703,
+    "FAR_cond": 0.1336206896551724,
+    "wasted_calls": 2.886111111111111,
+    "waste_reduction": 0.3788361897170187,
+    "lambda": 0.04983232376852982
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.07318123982415589,
+  "lambda_frozen_table": 0.07547169811320756,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 490,
+    "n_Y1_with_failure": 328
+   },
+   "frozen_learned": {
+    "success": 0.44537037037037036,
+    "mean_calls": 2.564814814814815,
+    "stop_rate": 0.44907407407407407,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.027439024390243903,
+    "wasted_calls": 1.7407407407407407,
+    "waste_reduction": 0.542244947650353
+   },
+   "frozen_table": {
+    "success": 0.44907407407407407,
+    "mean_calls": 2.8324074074074073,
+    "stop_rate": 0.3287037037037037,
+    "FAR": 0.004629629629629629,
+    "FAR_cond": 0.01524390243902439,
+    "wasted_calls": 2.0055555555555555,
+    "waste_reduction": 0.4726077428780131
+   },
+   "retry_3": {
+    "success": 0.45092592592592595,
+    "mean_calls": 2.863888888888889,
+    "stop_rate": 0.30925925925925923,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009146341463414634,
+    "wasted_calls": 2.033333333333333,
+    "waste_reduction": 0.46530314097881664
+   },
+   "never_stop": {
+    "success": 0.4537037037037037,
+    "mean_calls": 4.636111111111111,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8027777777777776,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4185185185185185,
+    "mean_calls": 1.925,
+    "stop_rate": 0.549074074074074,
+    "FAR": 0.03518518518518519,
+    "FAR_cond": 0.11585365853658537,
+    "wasted_calls": 1.135185185185185,
+    "waste_reduction": 0.7014852690528366,
+    "lambda": 0.21779167224582405
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.42407407407407405,
+    "mean_calls": 1.9305555555555556,
+    "stop_rate": 0.5277777777777778,
+    "FAR": 0.02962962962962963,
+    "FAR_cond": 0.0975609756097561,
+    "wasted_calls": 1.1388888888888888,
+    "waste_reduction": 0.7005113221329438,
+    "lambda": 0.11365967758607087
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 412,
+    "n_Y1_with_failure": 250
+   },
+   "frozen_learned": {
+    "success": 0.3212962962962963,
+    "mean_calls": 3.001851851851852,
+    "stop_rate": 0.5712962962962963,
+    "FAR": 0.06018518518518518,
+    "FAR_cond": 0.26,
+    "wasted_calls": 2.0592592592592593,
+    "waste_reduction": 0.5470468431771894
+   },
+   "frozen_table": {
+    "success": 0.32314814814814813,
+    "mean_calls": 3.2824074074074074,
+    "stop_rate": 0.42592592592592593,
+    "FAR": 0.058333333333333334,
+    "FAR_cond": 0.252,
+    "wasted_calls": 2.3537037037037036,
+    "waste_reduction": 0.48228105906313645
+   },
+   "retry_3": {
+    "success": 0.30925925925925923,
+    "mean_calls": 3.287037037037037,
+    "stop_rate": 0.4444444444444444,
+    "FAR": 0.07222222222222222,
+    "FAR_cond": 0.312,
+    "wasted_calls": 2.4,
+    "waste_reduction": 0.47209775967413437
+   },
+   "never_stop": {
+    "success": 0.3814814814814815,
+    "mean_calls": 5.649074074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.546296296296297,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.36666666666666664,
+    "mean_calls": 4.185185185185185,
+    "stop_rate": 0.42407407407407405,
+    "FAR": 0.014814814814814815,
+    "FAR_cond": 0.064,
+    "wasted_calls": 3.1064814814814814,
+    "waste_reduction": 0.3167006109979633,
+    "lambda": 0.000479325283692373
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3675925925925926,
+    "mean_calls": 3.9407407407407407,
+    "stop_rate": 0.4444444444444444,
+    "FAR": 0.013888888888888888,
+    "FAR_cond": 0.06,
+    "wasted_calls": 2.859259259259259,
+    "waste_reduction": 0.3710794297352342,
+    "lambda": 0.04035770401497793
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.08857119417384172,
+  "lambda_frozen_table": 0.08450704225352114,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 495,
+    "n_Y1_with_failure": 333
+   },
+   "frozen_learned": {
+    "success": 0.45092592592592595,
+    "mean_calls": 2.471296296296296,
+    "stop_rate": 0.4583333333333333,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.024024024024024024,
+    "wasted_calls": 1.637037037037037,
+    "waste_reduction": 0.578646329837941
+   },
+   "frozen_table": {
+    "success": 0.45185185185185184,
+    "mean_calls": 2.7305555555555556,
+    "stop_rate": 0.34814814814814815,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.021021021021021023,
+    "wasted_calls": 1.8962962962962964,
+    "waste_reduction": 0.5119161105815062
+   },
+   "retry_3": {
+    "success": 0.4564814814814815,
+    "mean_calls": 2.852777777777778,
+    "stop_rate": 0.31666666666666665,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006006006006006006,
+    "wasted_calls": 2.012037037037037,
+    "waste_reduction": 0.4821258341277407
+   },
+   "never_stop": {
+    "success": 0.4583333333333333,
+    "mean_calls": 4.727777777777778,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8851851851851853,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4361111111111111,
+    "mean_calls": 2.013888888888889,
+    "stop_rate": 0.5268518518518519,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.07207207207207207,
+    "wasted_calls": 1.1981481481481482,
+    "waste_reduction": 0.6916110581506196,
+    "lambda": 0.19554453932766827
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.42777777777777776,
+    "mean_calls": 1.9555555555555555,
+    "stop_rate": 0.5203703703703704,
+    "FAR": 0.030555555555555555,
+    "FAR_cond": 0.0990990990990991,
+    "wasted_calls": 1.151851851851852,
+    "waste_reduction": 0.7035271687321258,
+    "lambda": 0.11365967758607087
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 414,
+    "n_Y1_with_failure": 252
+   },
+   "frozen_learned": {
+    "success": 0.3194444444444444,
+    "mean_calls": 2.9064814814814817,
+    "stop_rate": 0.5953703703703703,
+    "FAR": 0.06388888888888888,
+    "FAR_cond": 0.27380952380952384,
+    "wasted_calls": 1.9666666666666666,
+    "waste_reduction": 0.577649632133625
+   },
+   "frozen_table": {
+    "success": 0.31574074074074077,
+    "mean_calls": 3.1712962962962963,
+    "stop_rate": 0.4601851851851852,
+    "FAR": 0.06759259259259259,
+    "FAR_cond": 0.2896825396825397,
+    "wasted_calls": 2.2564814814814813,
+    "waste_reduction": 0.5154106184132035
+   },
+   "retry_3": {
+    "success": 0.3138888888888889,
+    "mean_calls": 3.3046296296296296,
+    "stop_rate": 0.45,
+    "FAR": 0.06944444444444445,
+    "FAR_cond": 0.2976190476190476,
+    "wasted_calls": 2.39537037037037,
+    "waste_reduction": 0.48558361503280967
+   },
+   "never_stop": {
+    "success": 0.38333333333333336,
+    "mean_calls": 5.767592592592592,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.656481481481482,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3685185185185185,
+    "mean_calls": 4.257407407407407,
+    "stop_rate": 0.4324074074074074,
+    "FAR": 0.014814814814814815,
+    "FAR_cond": 0.06349206349206349,
+    "wasted_calls": 3.1731481481481483,
+    "waste_reduction": 0.3185523961026049,
+    "lambda": 0.000479325283692373
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3638888888888889,
+    "mean_calls": 3.9935185185185187,
+    "stop_rate": 0.4527777777777778,
+    "FAR": 0.019444444444444445,
+    "FAR_cond": 0.08333333333333333,
+    "wasted_calls": 2.9138888888888888,
+    "waste_reduction": 0.37422946907933985,
+    "lambda": 0.042773199489123434
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.0879787076366286,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 480,
+    "n_Y1_with_failure": 324
+   },
+   "frozen_learned": {
+    "success": 0.4351851851851852,
+    "mean_calls": 2.524074074074074,
+    "stop_rate": 0.48055555555555557,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.030864197530864196,
+    "wasted_calls": 1.712037037037037,
+    "waste_reduction": 0.5681924334423167
+   },
+   "frozen_table": {
+    "success": 0.4351851851851852,
+    "mean_calls": 2.6314814814814813,
+    "stop_rate": 0.3972222222222222,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.030864197530864196,
+    "wasted_calls": 1.8203703703703704,
+    "waste_reduction": 0.5408687529191967
+   },
+   "retry_3": {
+    "success": 0.4425925925925926,
+    "mean_calls": 2.922222222222222,
+    "stop_rate": 0.31296296296296294,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006172839506172839,
+    "wasted_calls": 2.100925925925926,
+    "waste_reduction": 0.4701074264362447
+   },
+   "never_stop": {
+    "success": 0.4444444444444444,
+    "mean_calls": 4.787962962962963,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.964814814814815,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4185185185185185,
+    "mean_calls": 2.0231481481481484,
+    "stop_rate": 0.5592592592592592,
+    "FAR": 0.025925925925925925,
+    "FAR_cond": 0.08641975308641975,
+    "wasted_calls": 1.2333333333333334,
+    "waste_reduction": 0.688930406352172,
+    "lambda": 0.19951773657577881
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.41944444444444445,
+    "mean_calls": 1.9972222222222222,
+    "stop_rate": 0.5435185185185185,
+    "FAR": 0.025,
+    "FAR_cond": 0.08333333333333333,
+    "wasted_calls": 1.2055555555555555,
+    "waste_reduction": 0.695936478281177,
+    "lambda": 0.11147871798427049
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 397,
+    "n_Y1_with_failure": 241
+   },
+   "frozen_learned": {
+    "success": 0.29814814814814816,
+    "mean_calls": 2.9055555555555554,
+    "stop_rate": 0.6194444444444445,
+    "FAR": 0.06944444444444445,
+    "FAR_cond": 0.3112033195020747,
+    "wasted_calls": 2.024074074074074,
+    "waste_reduction": 0.5659253375694996
+   },
+   "frozen_table": {
+    "success": 0.3055555555555556,
+    "mean_calls": 3.025,
+    "stop_rate": 0.49722222222222223,
+    "FAR": 0.062037037037037036,
+    "FAR_cond": 0.27800829875518673,
+    "wasted_calls": 2.1564814814814817,
+    "waste_reduction": 0.5375297855440826
+   },
+   "retry_3": {
+    "success": 0.3,
+    "mean_calls": 3.3268518518518517,
+    "stop_rate": 0.4398148148148148,
+    "FAR": 0.06759259259259259,
+    "FAR_cond": 0.3029045643153527,
+    "wasted_calls": 2.4768518518518516,
+    "waste_reduction": 0.4688244638602065
+   },
+   "never_stop": {
+    "success": 0.3675925925925926,
+    "mean_calls": 5.728703703703704,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.662962962962963,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3509259259259259,
+    "mean_calls": 4.098148148148148,
+    "stop_rate": 0.4351851851851852,
+    "FAR": 0.016666666666666666,
+    "FAR_cond": 0.07468879668049792,
+    "wasted_calls": 3.0657407407407407,
+    "waste_reduction": 0.34253375694996024,
+    "lambda": 0.0008747818894300674
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.33796296296296297,
+    "mean_calls": 3.9,
+    "stop_rate": 0.4759259259259259,
+    "FAR": 0.02962962962962963,
+    "FAR_cond": 0.13278008298755187,
+    "wasted_calls": 2.876851851851852,
+    "waste_reduction": 0.3830420969023034,
+    "lambda": 0.04983232376852982
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.0879787076366286,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 481,
+    "n_Y1_with_failure": 336
+   },
+   "frozen_learned": {
+    "success": 0.44074074074074077,
+    "mean_calls": 2.5194444444444444,
+    "stop_rate": 0.4777777777777778,
+    "FAR": 0.004629629629629629,
+    "FAR_cond": 0.01488095238095238,
+    "wasted_calls": 1.6953703703703704,
+    "waste_reduction": 0.5779160903642231
+   },
+   "frozen_table": {
+    "success": 0.44166666666666665,
+    "mean_calls": 2.6351851851851853,
+    "stop_rate": 0.39444444444444443,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.011904761904761904,
+    "wasted_calls": 1.8111111111111111,
+    "waste_reduction": 0.5491009681881052
+   },
+   "retry_3": {
+    "success": 0.44537037037037036,
+    "mean_calls": 2.9092592592592594,
+    "stop_rate": 0.325,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 2.0796296296296295,
+    "waste_reduction": 0.48224988473951125
+   },
+   "never_stop": {
+    "success": 0.44537037037037036,
+    "mean_calls": 4.8462962962962965,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.016666666666667,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4203703703703704,
+    "mean_calls": 2.0324074074074074,
+    "stop_rate": 0.5527777777777778,
+    "FAR": 0.025,
+    "FAR_cond": 0.08035714285714286,
+    "wasted_calls": 1.2324074074074074,
+    "waste_reduction": 0.6931765790686952,
+    "lambda": 0.19609014855271076
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4185185185185185,
+    "mean_calls": 1.9962962962962962,
+    "stop_rate": 0.5351851851851852,
+    "FAR": 0.026851851851851852,
+    "FAR_cond": 0.08630952380952381,
+    "wasted_calls": 1.1990740740740742,
+    "waste_reduction": 0.7014753342554172,
+    "lambda": 0.11151264587672294
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 399,
+    "n_Y1_with_failure": 254
+   },
+   "frozen_learned": {
+    "success": 0.2962962962962963,
+    "mean_calls": 2.9342592592592593,
+    "stop_rate": 0.6175925925925926,
+    "FAR": 0.07314814814814814,
+    "FAR_cond": 0.3110236220472441,
+    "wasted_calls": 2.0064814814814813,
+    "waste_reduction": 0.57426326129666
+   },
+   "frozen_table": {
+    "success": 0.2953703703703704,
+    "mean_calls": 3.0527777777777776,
+    "stop_rate": 0.5111111111111111,
+    "FAR": 0.07407407407407407,
+    "FAR_cond": 0.31496062992125984,
+    "wasted_calls": 2.15,
+    "waste_reduction": 0.543811394891945
+   },
+   "retry_3": {
+    "success": 0.287962962962963,
+    "mean_calls": 3.337962962962963,
+    "stop_rate": 0.46574074074074073,
+    "FAR": 0.08148148148148149,
+    "FAR_cond": 0.3464566929133858,
+    "wasted_calls": 2.4546296296296295,
+    "waste_reduction": 0.47917485265225934
+   },
+   "never_stop": {
+    "success": 0.36944444444444446,
+    "mean_calls": 5.841666666666667,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.712962962962963,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.34629629629629627,
+    "mean_calls": 4.032407407407407,
+    "stop_rate": 0.4527777777777778,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.0984251968503937,
+    "wasted_calls": 2.949074074074074,
+    "waste_reduction": 0.3742632612966601,
+    "lambda": 0.0016551546068714546
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3509259259259259,
+    "mean_calls": 4.07962962962963,
+    "stop_rate": 0.45555555555555555,
+    "FAR": 0.018518518518518517,
+    "FAR_cond": 0.07874015748031496,
+    "wasted_calls": 2.9814814814814814,
+    "waste_reduction": 0.3673870333988212,
+    "lambda": 0.04271857908483539
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10298879579580565,
+  "lambda_frozen_table": 0.08695652173913045,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 478,
+    "n_Y1_with_failure": 317
+   },
+   "frozen_learned": {
+    "success": 0.43148148148148147,
+    "mean_calls": 2.4425925925925926,
+    "stop_rate": 0.5,
+    "FAR": 0.011111111111111112,
+    "FAR_cond": 0.03785488958990536,
+    "wasted_calls": 1.6314814814814815,
+    "waste_reduction": 0.589755529685681
+   },
+   "frozen_table": {
+    "success": 0.43703703703703706,
+    "mean_calls": 2.7935185185185185,
+    "stop_rate": 0.3574074074074074,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.01892744479495268,
+    "wasted_calls": 1.9777777777777779,
+    "waste_reduction": 0.5026775320139698
+   },
+   "retry_3": {
+    "success": 0.4388888888888889,
+    "mean_calls": 2.914814814814815,
+    "stop_rate": 0.32592592592592595,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012618296529968454,
+    "wasted_calls": 2.096296296296296,
+    "waste_reduction": 0.47287543655413267
+   },
+   "never_stop": {
+    "success": 0.4425925925925926,
+    "mean_calls": 4.799074074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.9768518518518516,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4111111111111111,
+    "mean_calls": 1.9796296296296296,
+    "stop_rate": 0.5648148148148148,
+    "FAR": 0.03148148148148148,
+    "FAR_cond": 0.10725552050473186,
+    "wasted_calls": 1.1962962962962962,
+    "waste_reduction": 0.6991850989522701,
+    "lambda": 0.21612748512579089
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4074074074074074,
+    "mean_calls": 1.9342592592592593,
+    "stop_rate": 0.55,
+    "FAR": 0.03518518518518519,
+    "FAR_cond": 0.11987381703470032,
+    "wasted_calls": 1.1592592592592592,
+    "waste_reduction": 0.7084982537834692,
+    "lambda": 0.1255043565314583
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 396,
+    "n_Y1_with_failure": 235
+   },
+   "frozen_learned": {
+    "success": 0.2953703703703704,
+    "mean_calls": 2.7962962962962963,
+    "stop_rate": 0.649074074074074,
+    "FAR": 0.0712962962962963,
+    "FAR_cond": 0.3276595744680851,
+    "wasted_calls": 1.9296296296296296,
+    "waste_reduction": 0.5928096912856584
+   },
+   "frozen_table": {
+    "success": 0.30648148148148147,
+    "mean_calls": 3.200925925925926,
+    "stop_rate": 0.462037037037037,
+    "FAR": 0.06018518518518518,
+    "FAR_cond": 0.2765957446808511,
+    "wasted_calls": 2.3314814814814815,
+    "waste_reduction": 0.5080109417741305
+   },
+   "retry_3": {
+    "success": 0.29907407407407405,
+    "mean_calls": 3.3222222222222224,
+    "stop_rate": 0.45925925925925926,
+    "FAR": 0.06759259259259259,
+    "FAR_cond": 0.31063829787234043,
+    "wasted_calls": 2.4694444444444446,
+    "waste_reduction": 0.47889800703399765
+   },
+   "never_stop": {
+    "success": 0.36666666666666664,
+    "mean_calls": 5.79537037037037,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.738888888888889,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35,
+    "mean_calls": 4.122222222222222,
+    "stop_rate": 0.45185185185185184,
+    "FAR": 0.016666666666666666,
+    "FAR_cond": 0.07659574468085106,
+    "wasted_calls": 3.096296296296296,
+    "waste_reduction": 0.34661977334896443,
+    "lambda": 0.0008747818894300674
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35833333333333334,
+    "mean_calls": 4.135185185185185,
+    "stop_rate": 0.42777777777777776,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.03829787234042553,
+    "wasted_calls": 3.0907407407407406,
+    "waste_reduction": 0.34779210629152013,
+    "lambda": 0.03546602416725289
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.09060844298570633,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 501,
+    "n_Y1_with_failure": 319
+   },
+   "frozen_learned": {
+    "success": 0.4583333333333333,
+    "mean_calls": 2.438888888888889,
+    "stop_rate": 0.462037037037037,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.018808777429467086,
+    "wasted_calls": 1.6101851851851852,
+    "waste_reduction": 0.5756466569058076
+   },
+   "frozen_table": {
+    "success": 0.45925925925925926,
+    "mean_calls": 2.562037037037037,
+    "stop_rate": 0.3814814814814815,
+    "FAR": 0.004629629629629629,
+    "FAR_cond": 0.01567398119122257,
+    "wasted_calls": 1.7324074074074074,
+    "waste_reduction": 0.543435822352367
+   },
+   "retry_3": {
+    "success": 0.462037037037037,
+    "mean_calls": 2.838888888888889,
+    "stop_rate": 0.30833333333333335,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006269592476489028,
+    "wasted_calls": 2.0055555555555555,
+    "waste_reduction": 0.4714494875549048
+   },
+   "never_stop": {
+    "success": 0.4638888888888889,
+    "mean_calls": 4.62962962962963,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.7944444444444443,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4425925925925926,
+    "mean_calls": 1.9953703703703705,
+    "stop_rate": 0.5268518518518519,
+    "FAR": 0.021296296296296296,
+    "FAR_cond": 0.07210031347962383,
+    "wasted_calls": 1.1842592592592593,
+    "waste_reduction": 0.6878965348950707,
+    "lambda": 0.19564644040543885
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.44074074074074077,
+    "mean_calls": 1.9574074074074075,
+    "stop_rate": 0.5166666666666667,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.07836990595611286,
+    "wasted_calls": 1.15,
+    "waste_reduction": 0.6969253294289898,
+    "lambda": 0.11086455945190729
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 410,
+    "n_Y1_with_failure": 228
+   },
+   "frozen_learned": {
+    "success": 0.3175925925925926,
+    "mean_calls": 2.8268518518518517,
+    "stop_rate": 0.5990740740740741,
+    "FAR": 0.062037037037037036,
+    "FAR_cond": 0.29385964912280704,
+    "wasted_calls": 1.951851851851852,
+    "waste_reduction": 0.571631782158098
+   },
+   "frozen_table": {
+    "success": 0.3175925925925926,
+    "mean_calls": 2.9722222222222223,
+    "stop_rate": 0.48333333333333334,
+    "FAR": 0.062037037037037036,
+    "FAR_cond": 0.29385964912280704,
+    "wasted_calls": 2.1166666666666667,
+    "waste_reduction": 0.5354602723023776
+   },
+   "retry_3": {
+    "success": 0.3138888888888889,
+    "mean_calls": 3.25,
+    "stop_rate": 0.43796296296296294,
+    "FAR": 0.06574074074074074,
+    "FAR_cond": 0.31140350877192985,
+    "wasted_calls": 2.4064814814814817,
+    "waste_reduction": 0.4718553139605771
+   },
+   "never_stop": {
+    "success": 0.37962962962962965,
+    "mean_calls": 5.606481481481482,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.556481481481481,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3574074074074074,
+    "mean_calls": 3.8175925925925926,
+    "stop_rate": 0.4425925925925926,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.10526315789473684,
+    "wasted_calls": 2.8055555555555554,
+    "waste_reduction": 0.3842714895346474,
+    "lambda": 0.0018273662493175128
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35185185185185186,
+    "mean_calls": 3.8046296296296296,
+    "stop_rate": 0.462037037037037,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.13157894736842105,
+    "wasted_calls": 2.7925925925925927,
+    "waste_reduction": 0.3871164397480187,
+    "lambda": 0.049433185494564484
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.09892169820644268,
+  "lambda_frozen_table": 0.08450704225352114,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 481,
+    "n_Y1_with_failure": 329
+   },
+   "frozen_learned": {
+    "success": 0.43425925925925923,
+    "mean_calls": 2.4935185185185187,
+    "stop_rate": 0.4824074074074074,
+    "FAR": 0.011111111111111112,
+    "FAR_cond": 0.0364741641337386,
+    "wasted_calls": 1.6712962962962963,
+    "waste_reduction": 0.5818855686819551
+   },
+   "frozen_table": {
+    "success": 0.4388888888888889,
+    "mean_calls": 2.7935185185185185,
+    "stop_rate": 0.35555555555555557,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.02127659574468085,
+    "wasted_calls": 1.9675925925925926,
+    "waste_reduction": 0.5077600185313875
+   },
+   "retry_3": {
+    "success": 0.44351851851851853,
+    "mean_calls": 2.9055555555555554,
+    "stop_rate": 0.32592592592592595,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.0060790273556231,
+    "wasted_calls": 2.073148148148148,
+    "waste_reduction": 0.4813527912902479
+   },
+   "never_stop": {
+    "success": 0.44537037037037036,
+    "mean_calls": 4.8314814814814815,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.9972222222222222,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4074074074074074,
+    "mean_calls": 1.9555555555555555,
+    "stop_rate": 0.5611111111111111,
+    "FAR": 0.03796296296296296,
+    "FAR_cond": 0.12462006079027356,
+    "wasted_calls": 1.1694444444444445,
+    "waste_reduction": 0.7074357192494788,
+    "lambda": 0.2217817639181214
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4111111111111111,
+    "mean_calls": 1.9527777777777777,
+    "stop_rate": 0.5425925925925926,
+    "FAR": 0.03425925925925926,
+    "FAR_cond": 0.11246200607902736,
+    "wasted_calls": 1.1675925925925925,
+    "waste_reduction": 0.7078990039379198,
+    "lambda": 0.11729721833014017
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 397,
+    "n_Y1_with_failure": 245
+   },
+   "frozen_learned": {
+    "success": 0.2935185185185185,
+    "mean_calls": 2.8601851851851854,
+    "stop_rate": 0.6305555555555555,
+    "FAR": 0.07407407407407407,
+    "FAR_cond": 0.32653061224489793,
+    "wasted_calls": 1.9722222222222223,
+    "waste_reduction": 0.5780507131537242
+   },
+   "frozen_table": {
+    "success": 0.30185185185185187,
+    "mean_calls": 3.2083333333333335,
+    "stop_rate": 0.45925925925925926,
+    "FAR": 0.06574074074074074,
+    "FAR_cond": 0.2897959183673469,
+    "wasted_calls": 2.3185185185185184,
+    "waste_reduction": 0.5039619651347068
+   },
+   "retry_3": {
+    "success": 0.2972222222222222,
+    "mean_calls": 3.316666666666667,
+    "stop_rate": 0.4546296296296296,
+    "FAR": 0.07037037037037037,
+    "FAR_cond": 0.31020408163265306,
+    "wasted_calls": 2.4444444444444446,
+    "waste_reduction": 0.47702060221870046
+   },
+   "never_stop": {
+    "success": 0.3675925925925926,
+    "mean_calls": 5.757407407407407,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.674074074074074,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35555555555555557,
+    "mean_calls": 4.280555555555556,
+    "stop_rate": 0.4351851851851852,
+    "FAR": 0.012037037037037037,
+    "FAR_cond": 0.053061224489795916,
+    "wasted_calls": 3.224074074074074,
+    "waste_reduction": 0.31022187004754354,
+    "lambda": 0.0004125940460280657
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3435185185185185,
+    "mean_calls": 4.0018518518518515,
+    "stop_rate": 0.4685185185185185,
+    "FAR": 0.024074074074074074,
+    "FAR_cond": 0.10612244897959183,
+    "wasted_calls": 2.9564814814814815,
+    "waste_reduction": 0.36747226624405704,
+    "lambda": 0.04502753025398378
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10143488770777238,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 488,
+    "n_Y1_with_failure": 315
+   },
+   "frozen_learned": {
+    "success": 0.4462962962962963,
+    "mean_calls": 2.408333333333333,
+    "stop_rate": 0.48055555555555557,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.01904761904761905,
+    "wasted_calls": 1.6027777777777779,
+    "waste_reduction": 0.5873659117997616
+   },
+   "frozen_table": {
+    "success": 0.44722222222222224,
+    "mean_calls": 2.537962962962963,
+    "stop_rate": 0.3962962962962963,
+    "FAR": 0.004629629629629629,
+    "FAR_cond": 0.015873015873015872,
+    "wasted_calls": 1.7314814814814814,
+    "waste_reduction": 0.5542312276519666
+   },
+   "retry_3": {
+    "success": 0.45,
+    "mean_calls": 2.8555555555555556,
+    "stop_rate": 0.30925925925925923,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006349206349206349,
+    "wasted_calls": 2.0462962962962963,
+    "waste_reduction": 0.47318235995232416
+   },
+   "never_stop": {
+    "success": 0.45185185185185184,
+    "mean_calls": 4.69537037037037,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.884259259259259,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4287037037037037,
+    "mean_calls": 1.9768518518518519,
+    "stop_rate": 0.5407407407407407,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.07936507936507936,
+    "wasted_calls": 1.1925925925925926,
+    "waste_reduction": 0.6929678188319428,
+    "lambda": 0.19609014855271076
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4324074074074074,
+    "mean_calls": 1.9675925925925926,
+    "stop_rate": 0.5222222222222223,
+    "FAR": 0.019444444444444445,
+    "FAR_cond": 0.06666666666666667,
+    "wasted_calls": 1.1814814814814816,
+    "waste_reduction": 0.6958283671036949,
+    "lambda": 0.10558383403206516
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 410,
+    "n_Y1_with_failure": 237
+   },
+   "frozen_learned": {
+    "success": 0.3074074074074074,
+    "mean_calls": 2.759259259259259,
+    "stop_rate": 0.6268518518518519,
+    "FAR": 0.07222222222222222,
+    "FAR_cond": 0.3291139240506329,
+    "wasted_calls": 1.8833333333333333,
+    "waste_reduction": 0.5884257385673817
+   },
+   "frozen_table": {
+    "success": 0.3175925925925926,
+    "mean_calls": 2.939814814814815,
+    "stop_rate": 0.5046296296296297,
+    "FAR": 0.062037037037037036,
+    "FAR_cond": 0.28270042194092826,
+    "wasted_calls": 2.0527777777777776,
+    "waste_reduction": 0.5513961958721165
+   },
+   "retry_3": {
+    "success": 0.30925925925925923,
+    "mean_calls": 3.263888888888889,
+    "stop_rate": 0.4398148148148148,
+    "FAR": 0.07037037037037037,
+    "FAR_cond": 0.3206751054852321,
+    "wasted_calls": 2.403703703703704,
+    "waste_reduction": 0.47470659651962765
+   },
+   "never_stop": {
+    "success": 0.37962962962962965,
+    "mean_calls": 5.65,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.575925925925926,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35555555555555557,
+    "mean_calls": 3.852777777777778,
+    "stop_rate": 0.4425925925925926,
+    "FAR": 0.024074074074074074,
+    "FAR_cond": 0.10970464135021098,
+    "wasted_calls": 2.825,
+    "waste_reduction": 0.3826386078510724,
+    "lambda": 0.0019016806683039534
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35833333333333334,
+    "mean_calls": 3.8824074074074075,
+    "stop_rate": 0.462037037037037,
+    "FAR": 0.021296296296296296,
+    "FAR_cond": 0.0970464135021097,
+    "wasted_calls": 2.8444444444444446,
+    "waste_reduction": 0.37838931606636994,
+    "lambda": 0.04345267234417312
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10093219574895829,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 483,
+    "n_Y1_with_failure": 318
+   },
+   "frozen_learned": {
+    "success": 0.43796296296296294,
+    "mean_calls": 2.450925925925926,
+    "stop_rate": 0.4888888888888889,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.031446540880503145,
+    "wasted_calls": 1.6305555555555555,
+    "waste_reduction": 0.59264399722415
+   },
+   "frozen_table": {
+    "success": 0.44074074074074077,
+    "mean_calls": 2.5925925925925926,
+    "stop_rate": 0.4,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.0220125786163522,
+    "wasted_calls": 1.7703703703703704,
+    "waste_reduction": 0.5577145500809623
+   },
+   "retry_3": {
+    "success": 0.4444444444444444,
+    "mean_calls": 2.9046296296296297,
+    "stop_rate": 0.3277777777777778,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009433962264150943,
+    "wasted_calls": 2.077777777777778,
+    "waste_reduction": 0.48091603053435117
+   },
+   "never_stop": {
+    "success": 0.44722222222222224,
+    "mean_calls": 4.832407407407407,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.002777777777778,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4046296296296296,
+    "mean_calls": 1.8990740740740741,
+    "stop_rate": 0.5666666666666667,
+    "FAR": 0.04259259259259259,
+    "FAR_cond": 0.14465408805031446,
+    "wasted_calls": 1.1212962962962962,
+    "waste_reduction": 0.7198704603284756,
+    "lambda": 0.23338151812057667
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4064814814814815,
+    "mean_calls": 1.9101851851851852,
+    "stop_rate": 0.549074074074074,
+    "FAR": 0.040740740740740744,
+    "FAR_cond": 0.13836477987421383,
+    "wasted_calls": 1.135185185185185,
+    "waste_reduction": 0.7164006476983575,
+    "lambda": 0.12798657917945255
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 394,
+    "n_Y1_with_failure": 229
+   },
+   "frozen_learned": {
+    "success": 0.29259259259259257,
+    "mean_calls": 2.8194444444444446,
+    "stop_rate": 0.6361111111111111,
+    "FAR": 0.07222222222222222,
+    "FAR_cond": 0.3406113537117904,
+    "wasted_calls": 1.9601851851851853,
+    "waste_reduction": 0.5853897375636505
+   },
+   "frozen_table": {
+    "success": 0.3037037037037037,
+    "mean_calls": 2.9833333333333334,
+    "stop_rate": 0.5055555555555555,
+    "FAR": 0.06111111111111111,
+    "FAR_cond": 0.28820960698689957,
+    "wasted_calls": 2.125,
+    "waste_reduction": 0.5505287896592244
+   },
+   "retry_3": {
+    "success": 0.2972222222222222,
+    "mean_calls": 3.316666666666667,
+    "stop_rate": 0.4462962962962963,
+    "FAR": 0.06759259259259259,
+    "FAR_cond": 0.31877729257641924,
+    "wasted_calls": 2.475,
+    "waste_reduction": 0.4764982373678026
+   },
+   "never_stop": {
+    "success": 0.3648148148148148,
+    "mean_calls": 5.774074074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.727777777777778,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3490740740740741,
+    "mean_calls": 4.110185185185185,
+    "stop_rate": 0.44074074074074077,
+    "FAR": 0.01574074074074074,
+    "FAR_cond": 0.07423580786026202,
+    "wasted_calls": 3.0944444444444446,
+    "waste_reduction": 0.34547591069330197,
+    "lambda": 0.0008747818894300674
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3472222222222222,
+    "mean_calls": 4.002777777777778,
+    "stop_rate": 0.45092592592592595,
+    "FAR": 0.017592592592592594,
+    "FAR_cond": 0.08296943231441048,
+    "wasted_calls": 2.97962962962963,
+    "waste_reduction": 0.3697610654132393,
+    "lambda": 0.042773199489123434
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.09807348822802202,
+  "lambda_frozen_table": 0.08450704225352114,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 493,
+    "n_Y1_with_failure": 332
+   },
+   "frozen_learned": {
+    "success": 0.44722222222222224,
+    "mean_calls": 2.4657407407407406,
+    "stop_rate": 0.4638888888888889,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.030120481927710843,
+    "wasted_calls": 1.6287037037037038,
+    "waste_reduction": 0.5813898143741076
+   },
+   "frozen_table": {
+    "success": 0.45,
+    "mean_calls": 2.75,
+    "stop_rate": 0.35,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.02108433734939759,
+    "wasted_calls": 1.9111111111111112,
+    "waste_reduction": 0.5088053307948596
+   },
+   "retry_3": {
+    "success": 0.45555555555555555,
+    "mean_calls": 2.8759259259259258,
+    "stop_rate": 0.3148148148148148,
+    "FAR": 0.000925925925925926,
+    "FAR_cond": 0.0030120481927710845,
+    "wasted_calls": 2.028703703703704,
+    "waste_reduction": 0.47858162779628743
+   },
+   "never_stop": {
+    "success": 0.4564814814814815,
+    "mean_calls": 4.738888888888889,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.890740740740741,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.42407407407407405,
+    "mean_calls": 1.9666666666666666,
+    "stop_rate": 0.5444444444444444,
+    "FAR": 0.032407407407407406,
+    "FAR_cond": 0.10542168674698796,
+    "wasted_calls": 1.1583333333333334,
+    "waste_reduction": 0.702284626368396,
+    "lambda": 0.21612748512579089
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.42685185185185187,
+    "mean_calls": 1.9638888888888888,
+    "stop_rate": 0.5231481481481481,
+    "FAR": 0.02962962962962963,
+    "FAR_cond": 0.0963855421686747,
+    "wasted_calls": 1.1546296296296297,
+    "waste_reduction": 0.7032365540218943,
+    "lambda": 0.11365967758607087
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 403,
+    "n_Y1_with_failure": 242
+   },
+   "frozen_learned": {
+    "success": 0.30925925925925923,
+    "mean_calls": 2.8564814814814814,
+    "stop_rate": 0.6064814814814815,
+    "FAR": 0.06388888888888888,
+    "FAR_cond": 0.28512396694214875,
+    "wasted_calls": 1.9657407407407408,
+    "waste_reduction": 0.5804347826086956
+   },
+   "frozen_table": {
+    "success": 0.31296296296296294,
+    "mean_calls": 3.1805555555555554,
+    "stop_rate": 0.45555555555555555,
+    "FAR": 0.06018518518518518,
+    "FAR_cond": 0.26859504132231404,
+    "wasted_calls": 2.2953703703703705,
+    "waste_reduction": 0.5100790513833993
+   },
+   "retry_3": {
+    "success": 0.3037037037037037,
+    "mean_calls": 3.2935185185185185,
+    "stop_rate": 0.4537037037037037,
+    "FAR": 0.06944444444444445,
+    "FAR_cond": 0.30991735537190085,
+    "wasted_calls": 2.435185185185185,
+    "waste_reduction": 0.48023715415019763
+   },
+   "never_stop": {
+    "success": 0.3731481481481482,
+    "mean_calls": 5.7518518518518515,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.685185185185185,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3592592592592593,
+    "mean_calls": 4.2555555555555555,
+    "stop_rate": 0.4324074074074074,
+    "FAR": 0.013888888888888888,
+    "FAR_cond": 0.06198347107438017,
+    "wasted_calls": 3.212037037037037,
+    "waste_reduction": 0.3144268774703557,
+    "lambda": 0.0004625079853998136
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3574074074074074,
+    "mean_calls": 4.029629629629629,
+    "stop_rate": 0.44074074074074077,
+    "FAR": 0.01574074074074074,
+    "FAR_cond": 0.07024793388429752,
+    "wasted_calls": 2.987962962962963,
+    "waste_reduction": 0.3622529644268775,
+    "lambda": 0.04116890416517272
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10867259230676005,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 479,
+    "n_Y1_with_failure": 326
+   },
+   "frozen_learned": {
+    "success": 0.43148148148148147,
+    "mean_calls": 2.4212962962962963,
+    "stop_rate": 0.5064814814814815,
+    "FAR": 0.012037037037037037,
+    "FAR_cond": 0.03987730061349693,
+    "wasted_calls": 1.6092592592592592,
+    "waste_reduction": 0.5974988420565077
+   },
+   "frozen_table": {
+    "success": 0.43703703703703706,
+    "mean_calls": 2.6398148148148146,
+    "stop_rate": 0.4074074074074074,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.02147239263803681,
+    "wasted_calls": 1.8222222222222222,
+    "waste_reduction": 0.5442334414080593
+   },
+   "retry_3": {
+    "success": 0.44166666666666665,
+    "mean_calls": 2.924074074074074,
+    "stop_rate": 0.32407407407407407,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006134969325153374,
+    "wasted_calls": 2.1,
+    "waste_reduction": 0.4747568318666049
+   },
+   "never_stop": {
+    "success": 0.44351851851851853,
+    "mean_calls": 4.824074074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.998148148148148,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4083333333333333,
+    "mean_calls": 1.9685185185185186,
+    "stop_rate": 0.5685185185185185,
+    "FAR": 0.03518518518518519,
+    "FAR_cond": 0.1165644171779141,
+    "wasted_calls": 1.1861111111111111,
+    "waste_reduction": 0.7033348772579898,
+    "lambda": 0.21791942475319787
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4074074074074074,
+    "mean_calls": 1.9314814814814816,
+    "stop_rate": 0.5527777777777778,
+    "FAR": 0.03611111111111111,
+    "FAR_cond": 0.1196319018404908,
+    "wasted_calls": 1.1527777777777777,
+    "waste_reduction": 0.7116720704029643,
+    "lambda": 0.1255043565314583
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 397,
+    "n_Y1_with_failure": 244
+   },
+   "frozen_learned": {
+    "success": 0.2851851851851852,
+    "mean_calls": 2.775,
+    "stop_rate": 0.6648148148148149,
+    "FAR": 0.0824074074074074,
+    "FAR_cond": 0.36475409836065575,
+    "wasted_calls": 1.8962962962962964,
+    "waste_reduction": 0.6005461283401599
+   },
+   "frozen_table": {
+    "success": 0.3037037037037037,
+    "mean_calls": 3.0462962962962963,
+    "stop_rate": 0.5166666666666667,
+    "FAR": 0.06388888888888888,
+    "FAR_cond": 0.2827868852459016,
+    "wasted_calls": 2.150925925925926,
+    "waste_reduction": 0.5469085235030232
+   },
+   "retry_3": {
+    "success": 0.30092592592592593,
+    "mean_calls": 3.3648148148148147,
+    "stop_rate": 0.45555555555555555,
+    "FAR": 0.06666666666666667,
+    "FAR_cond": 0.29508196721311475,
+    "wasted_calls": 2.477777777777778,
+    "waste_reduction": 0.4780573434757168
+   },
+   "never_stop": {
+    "success": 0.3675925925925926,
+    "mean_calls": 5.8314814814814815,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.747222222222222,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35185185185185186,
+    "mean_calls": 4.29537037037037,
+    "stop_rate": 0.45,
+    "FAR": 0.01574074074074074,
+    "FAR_cond": 0.06967213114754098,
+    "wasted_calls": 3.236111111111111,
+    "waste_reduction": 0.3183148039789351,
+    "lambda": 0.000553447333017213
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35185185185185186,
+    "mean_calls": 4.078703703703703,
+    "stop_rate": 0.45925925925925926,
+    "FAR": 0.01574074074074074,
+    "FAR_cond": 0.06967213114754098,
+    "wasted_calls": 3.024074074074074,
+    "waste_reduction": 0.36298030037058704,
+    "lambda": 0.04107056345608472
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10040232009446717,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 490,
+    "n_Y1_with_failure": 333
+   },
+   "frozen_learned": {
+    "success": 0.4462962962962963,
+    "mean_calls": 2.5037037037037035,
+    "stop_rate": 0.4759259259259259,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.024024024024024024,
+    "wasted_calls": 1.6787037037037038,
+    "waste_reduction": 0.5629218900675024
+   },
+   "frozen_table": {
+    "success": 0.44722222222222224,
+    "mean_calls": 2.6666666666666665,
+    "stop_rate": 0.37407407407407406,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.021021021021021023,
+    "wasted_calls": 1.8407407407407408,
+    "waste_reduction": 0.5207328833172613
+   },
+   "retry_3": {
+    "success": 0.45092592592592595,
+    "mean_calls": 2.887037037037037,
+    "stop_rate": 0.30833333333333335,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009009009009009009,
+    "wasted_calls": 2.0564814814814816,
+    "waste_reduction": 0.46456123432979746
+   },
+   "never_stop": {
+    "success": 0.4537037037037037,
+    "mean_calls": 4.674074074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8407407407407406,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4305555555555556,
+    "mean_calls": 2.058333333333333,
+    "stop_rate": 0.5398148148148149,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.07507507507507508,
+    "wasted_calls": 1.2537037037037038,
+    "waste_reduction": 0.6735776277724204,
+    "lambda": 0.19564644040543885
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.42592592592592593,
+    "mean_calls": 1.9972222222222222,
+    "stop_rate": 0.5324074074074074,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.09009009009009009,
+    "wasted_calls": 1.1990740740740742,
+    "waste_reduction": 0.6878013500482161,
+    "lambda": 0.1119592471332874
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 410,
+    "n_Y1_with_failure": 253
+   },
+   "frozen_learned": {
+    "success": 0.29907407407407405,
+    "mean_calls": 2.876851851851852,
+    "stop_rate": 0.6277777777777778,
+    "FAR": 0.08055555555555556,
+    "FAR_cond": 0.3438735177865613,
+    "wasted_calls": 1.9694444444444446,
+    "waste_reduction": 0.5670669651943823
+   },
+   "frozen_table": {
+    "success": 0.30833333333333335,
+    "mean_calls": 3.0657407407407407,
+    "stop_rate": 0.49166666666666664,
+    "FAR": 0.0712962962962963,
+    "FAR_cond": 0.30434782608695654,
+    "wasted_calls": 2.1574074074074074,
+    "waste_reduction": 0.5257480154691634
+   },
+   "retry_3": {
+    "success": 0.30648148148148147,
+    "mean_calls": 3.312962962962963,
+    "stop_rate": 0.44074074074074077,
+    "FAR": 0.07314814814814814,
+    "FAR_cond": 0.31225296442687744,
+    "wasted_calls": 2.4157407407407407,
+    "waste_reduction": 0.4689599023000204
+   },
+   "never_stop": {
+    "success": 0.37962962962962965,
+    "mean_calls": 5.6722222222222225,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.549074074074074,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35648148148148145,
+    "mean_calls": 4.014814814814815,
+    "stop_rate": 0.425,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.09881422924901186,
+    "wasted_calls": 2.935185185185185,
+    "waste_reduction": 0.35477305108894774,
+    "lambda": 0.001723278180917968
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3611111111111111,
+    "mean_calls": 4.032407407407407,
+    "stop_rate": 0.43703703703703706,
+    "FAR": 0.018518518518518517,
+    "FAR_cond": 0.07905138339920949,
+    "wasted_calls": 2.9435185185185184,
+    "waste_reduction": 0.3529411764705882,
+    "lambda": 0.042773199489123434
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.09892169820644268,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 495,
+    "n_Y1_with_failure": 322
+   },
+   "frozen_learned": {
+    "success": 0.44907407407407407,
+    "mean_calls": 2.414814814814815,
+    "stop_rate": 0.4777777777777778,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.031055900621118012,
+    "wasted_calls": 1.5925925925925926,
+    "waste_reduction": 0.5797703396042023
+   },
+   "frozen_table": {
+    "success": 0.45,
+    "mean_calls": 2.5314814814814817,
+    "stop_rate": 0.3925925925925926,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.027950310559006212,
+    "wasted_calls": 1.7083333333333333,
+    "waste_reduction": 0.5492303933545077
+   },
+   "retry_3": {
+    "success": 0.4564814814814815,
+    "mean_calls": 2.8675925925925925,
+    "stop_rate": 0.3,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006211180124223602,
+    "wasted_calls": 2.036111111111111,
+    "waste_reduction": 0.46274126557537254
+   },
+   "never_stop": {
+    "success": 0.4583333333333333,
+    "mean_calls": 4.6231481481481485,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.789814814814815,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.42314814814814816,
+    "mean_calls": 1.9268518518518518,
+    "stop_rate": 0.5518518518518518,
+    "FAR": 0.03518518518518519,
+    "FAR_cond": 0.11801242236024845,
+    "wasted_calls": 1.137962962962963,
+    "waste_reduction": 0.6997312484730027,
+    "lambda": 0.21791942475319787
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.42777777777777776,
+    "mean_calls": 1.9305555555555556,
+    "stop_rate": 0.5287037037037037,
+    "FAR": 0.030555555555555555,
+    "FAR_cond": 0.10248447204968944,
+    "wasted_calls": 1.1388888888888888,
+    "waste_reduction": 0.6994869289030051,
+    "lambda": 0.11417798127675453
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 417,
+    "n_Y1_with_failure": 244
+   },
+   "frozen_learned": {
+    "success": 0.31666666666666665,
+    "mean_calls": 2.7824074074074074,
+    "stop_rate": 0.6129629629629629,
+    "FAR": 0.06944444444444445,
+    "FAR_cond": 0.3073770491803279,
+    "wasted_calls": 1.8814814814814815,
+    "waste_reduction": 0.5833504203403732
+   },
+   "frozen_table": {
+    "success": 0.32314814814814813,
+    "mean_calls": 2.9296296296296296,
+    "stop_rate": 0.4935185185185185,
+    "FAR": 0.06296296296296296,
+    "FAR_cond": 0.2786885245901639,
+    "wasted_calls": 2.033333333333333,
+    "waste_reduction": 0.5497231904859545
+   },
+   "retry_3": {
+    "success": 0.31851851851851853,
+    "mean_calls": 3.2731481481481484,
+    "stop_rate": 0.425,
+    "FAR": 0.06759259259259259,
+    "FAR_cond": 0.29918032786885246,
+    "wasted_calls": 2.388888888888889,
+    "waste_reduction": 0.47098626204634
+   },
+   "never_stop": {
+    "success": 0.3861111111111111,
+    "mean_calls": 5.6,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.515740740740741,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.37222222222222223,
+    "mean_calls": 4.113888888888889,
+    "stop_rate": 0.40925925925925927,
+    "FAR": 0.013888888888888888,
+    "FAR_cond": 0.06147540983606557,
+    "wasted_calls": 3.0546296296296296,
+    "waste_reduction": 0.32355956530654095,
+    "lambda": 0.0004625079853998136
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3675925925925926,
+    "mean_calls": 3.839814814814815,
+    "stop_rate": 0.4444444444444444,
+    "FAR": 0.018518518518518517,
+    "FAR_cond": 0.08196721311475409,
+    "wasted_calls": 2.786111111111111,
+    "waste_reduction": 0.3830223498052081,
+    "lambda": 0.04271857908483539
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.0874163518291963,
+  "lambda_frozen_table": 0.07547169811320756,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 504,
+    "n_Y1_with_failure": 335
+   },
+   "frozen_learned": {
+    "success": 0.45740740740740743,
+    "mean_calls": 2.4851851851851854,
+    "stop_rate": 0.4546296296296296,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.029850746268656716,
+    "wasted_calls": 1.6416666666666666,
+    "waste_reduction": 0.5621141022474685
+   },
+   "frozen_table": {
+    "success": 0.4638888888888889,
+    "mean_calls": 2.821296296296296,
+    "stop_rate": 0.31851851851851853,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.008955223880597015,
+    "wasted_calls": 1.9703703703703703,
+    "waste_reduction": 0.4744381328723142
+   },
+   "retry_3": {
+    "success": 0.4648148148148148,
+    "mean_calls": 2.838888888888889,
+    "stop_rate": 0.30277777777777776,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.005970149253731343,
+    "wasted_calls": 1.9861111111111112,
+    "waste_reduction": 0.4702395653247715
+   },
+   "never_stop": {
+    "success": 0.4666666666666667,
+    "mean_calls": 4.603703703703704,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.7490740740740742,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4444444444444444,
+    "mean_calls": 2.0324074074074074,
+    "stop_rate": 0.524074074074074,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.07164179104477612,
+    "wasted_calls": 1.2055555555555555,
+    "waste_reduction": 0.6784391207705607,
+    "lambda": 0.19554453932766827
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.44074074074074077,
+    "mean_calls": 1.989814814814815,
+    "stop_rate": 0.5111111111111111,
+    "FAR": 0.025925925925925925,
+    "FAR_cond": 0.08358208955223881,
+    "wasted_calls": 1.1666666666666667,
+    "waste_reduction": 0.688812052358607,
+    "lambda": 0.11147871798427049
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 413,
+    "n_Y1_with_failure": 244
+   },
+   "frozen_learned": {
+    "success": 0.31574074074074077,
+    "mean_calls": 2.9166666666666665,
+    "stop_rate": 0.5962962962962963,
+    "FAR": 0.06666666666666667,
+    "FAR_cond": 0.29508196721311475,
+    "wasted_calls": 1.9907407407407407,
+    "waste_reduction": 0.5641597405230083
+   },
+   "frozen_table": {
+    "success": 0.32314814814814813,
+    "mean_calls": 3.312037037037037,
+    "stop_rate": 0.42592592592592593,
+    "FAR": 0.05925925925925926,
+    "FAR_cond": 0.26229508196721313,
+    "wasted_calls": 2.3722222222222222,
+    "waste_reduction": 0.48064058382323127
+   },
+   "retry_3": {
+    "success": 0.30833333333333335,
+    "mean_calls": 3.2888888888888888,
+    "stop_rate": 0.44814814814814813,
+    "FAR": 0.07407407407407407,
+    "FAR_cond": 0.32786885245901637,
+    "wasted_calls": 2.400925925925926,
+    "waste_reduction": 0.47435637543077236
+   },
+   "never_stop": {
+    "success": 0.3824074074074074,
+    "mean_calls": 5.6722222222222225,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.567592592592592,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3685185185185185,
+    "mean_calls": 4.226851851851852,
+    "stop_rate": 0.4212962962962963,
+    "FAR": 0.013888888888888888,
+    "FAR_cond": 0.06147540983606557,
+    "wasted_calls": 3.150925925925926,
+    "waste_reduction": 0.31015609162781266,
+    "lambda": 0.0004625079853998136
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3638888888888889,
+    "mean_calls": 3.9657407407407406,
+    "stop_rate": 0.44537037037037036,
+    "FAR": 0.018518518518518517,
+    "FAR_cond": 0.08196721311475409,
+    "wasted_calls": 2.8935185185185186,
+    "waste_reduction": 0.36651125076018654,
+    "lambda": 0.042773199489123434
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10657645805332394,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 502,
+    "n_Y1_with_failure": 332
+   },
+   "frozen_learned": {
+    "success": 0.4527777777777778,
+    "mean_calls": 2.3851851851851853,
+    "stop_rate": 0.48518518518518516,
+    "FAR": 0.012037037037037037,
+    "FAR_cond": 0.0391566265060241,
+    "wasted_calls": 1.55,
+    "waste_reduction": 0.5930967428293632
+   },
+   "frozen_table": {
+    "success": 0.45925925925925926,
+    "mean_calls": 2.585185185185185,
+    "stop_rate": 0.37777777777777777,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.018072289156626505,
+    "wasted_calls": 1.7435185185185185,
+    "waste_reduction": 0.5422946037919301
+   },
+   "retry_3": {
+    "success": 0.4638888888888889,
+    "mean_calls": 2.8518518518518516,
+    "stop_rate": 0.3111111111111111,
+    "FAR": 0.000925925925925926,
+    "FAR_cond": 0.0030120481927710845,
+    "wasted_calls": 2.0046296296296298,
+    "waste_reduction": 0.4737481769567331
+   },
+   "never_stop": {
+    "success": 0.4648148148148148,
+    "mean_calls": 4.657407407407407,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8092592592592593,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4324074074074074,
+    "mean_calls": 1.9527777777777777,
+    "stop_rate": 0.5416666666666666,
+    "FAR": 0.032407407407407406,
+    "FAR_cond": 0.10542168674698796,
+    "wasted_calls": 1.1425925925925926,
+    "waste_reduction": 0.7000486144871172,
+    "lambda": 0.21612748512579089
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4361111111111111,
+    "mean_calls": 1.9490740740740742,
+    "stop_rate": 0.5212962962962963,
+    "FAR": 0.028703703703703703,
+    "FAR_cond": 0.09337349397590361,
+    "wasted_calls": 1.137037037037037,
+    "waste_reduction": 0.701507049100632,
+    "lambda": 0.1130519950231096
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 421,
+    "n_Y1_with_failure": 251
+   },
+   "frozen_learned": {
+    "success": 0.31574074074074077,
+    "mean_calls": 2.7268518518518516,
+    "stop_rate": 0.6314814814814815,
+    "FAR": 0.07407407407407407,
+    "FAR_cond": 0.3187250996015936,
+    "wasted_calls": 1.837037037037037,
+    "waste_reduction": 0.5957620211898941
+   },
+   "frozen_table": {
+    "success": 0.3277777777777778,
+    "mean_calls": 2.975,
+    "stop_rate": 0.48518518518518516,
+    "FAR": 0.062037037037037036,
+    "FAR_cond": 0.26693227091633465,
+    "wasted_calls": 2.075925925925926,
+    "waste_reduction": 0.5431947840260798
+   },
+   "retry_3": {
+    "success": 0.3212962962962963,
+    "mean_calls": 3.262037037037037,
+    "stop_rate": 0.44537037037037036,
+    "FAR": 0.06851851851851852,
+    "FAR_cond": 0.2948207171314741,
+    "wasted_calls": 2.3712962962962965,
+    "waste_reduction": 0.478198859005705
+   },
+   "never_stop": {
+    "success": 0.38981481481481484,
+    "mean_calls": 5.621296296296296,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.544444444444444,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3814814814814815,
+    "mean_calls": 4.257407407407407,
+    "stop_rate": 0.4064814814814815,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.035856573705179286,
+    "wasted_calls": 3.1925925925925926,
+    "waste_reduction": 0.2974735126324368,
+    "lambda": 0.00014188411277258283
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.37777777777777777,
+    "mean_calls": 3.987962962962963,
+    "stop_rate": 0.4212962962962963,
+    "FAR": 0.012037037037037037,
+    "FAR_cond": 0.05179282868525897,
+    "wasted_calls": 2.9277777777777776,
+    "waste_reduction": 0.3557457212713936,
+    "lambda": 0.03861085792997954
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10671305050401948,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 481,
+    "n_Y1_with_failure": 316
+   },
+   "frozen_learned": {
+    "success": 0.43333333333333335,
+    "mean_calls": 2.4064814814814817,
+    "stop_rate": 0.5092592592592593,
+    "FAR": 0.012037037037037037,
+    "FAR_cond": 0.04113924050632911,
+    "wasted_calls": 1.6055555555555556,
+    "waste_reduction": 0.6025670410268165
+   },
+   "frozen_table": {
+    "success": 0.43703703703703706,
+    "mean_calls": 2.615740740740741,
+    "stop_rate": 0.4046296296296296,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.028481012658227847,
+    "wasted_calls": 1.8120370370370371,
+    "waste_reduction": 0.5514554205821682
+   },
+   "retry_3": {
+    "success": 0.44351851851851853,
+    "mean_calls": 2.910185185185185,
+    "stop_rate": 0.3212962962962963,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006329113924050633,
+    "wasted_calls": 2.0972222222222223,
+    "waste_reduction": 0.48086179234471693
+   },
+   "never_stop": {
+    "success": 0.44537037037037036,
+    "mean_calls": 4.854629629629629,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.0398148148148145,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.41203703703703703,
+    "mean_calls": 1.9583333333333333,
+    "stop_rate": 0.5666666666666667,
+    "FAR": 0.03333333333333333,
+    "FAR_cond": 0.11392405063291139,
+    "wasted_calls": 1.1861111111111111,
+    "waste_reduction": 0.7063946825578731,
+    "lambda": 0.21779167224582405
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.40555555555555556,
+    "mean_calls": 1.901851851851852,
+    "stop_rate": 0.5583333333333333,
+    "FAR": 0.03981481481481482,
+    "FAR_cond": 0.1360759493670886,
+    "wasted_calls": 1.1416666666666666,
+    "waste_reduction": 0.7173962869585148,
+    "lambda": 0.12798657917945255
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 396,
+    "n_Y1_with_failure": 231
+   },
+   "frozen_learned": {
+    "success": 0.2953703703703704,
+    "mean_calls": 2.724074074074074,
+    "stop_rate": 0.6564814814814814,
+    "FAR": 0.0712962962962963,
+    "FAR_cond": 0.3333333333333333,
+    "wasted_calls": 1.8990740740740741,
+    "waste_reduction": 0.6031346749226006
+   },
+   "frozen_table": {
+    "success": 0.30833333333333335,
+    "mean_calls": 2.9962962962962965,
+    "stop_rate": 0.5064814814814815,
+    "FAR": 0.058333333333333334,
+    "FAR_cond": 0.2727272727272727,
+    "wasted_calls": 2.158333333333333,
+    "waste_reduction": 0.5489551083591331
+   },
+   "retry_3": {
+    "success": 0.30462962962962964,
+    "mean_calls": 3.3055555555555554,
+    "stop_rate": 0.44722222222222224,
+    "FAR": 0.062037037037037036,
+    "FAR_cond": 0.29004329004329005,
+    "wasted_calls": 2.47962962962963,
+    "waste_reduction": 0.4818111455108359
+   },
+   "never_stop": {
+    "success": 0.36666666666666664,
+    "mean_calls": 5.823148148148148,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.785185185185185,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.33796296296296297,
+    "mean_calls": 3.835185185185185,
+    "stop_rate": 0.462037037037037,
+    "FAR": 0.028703703703703703,
+    "FAR_cond": 0.1341991341991342,
+    "wasted_calls": 2.8666666666666667,
+    "waste_reduction": 0.4009287925696594,
+    "lambda": 0.002585395683547335
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.33796296296296297,
+    "mean_calls": 3.9203703703703705,
+    "stop_rate": 0.4888888888888889,
+    "FAR": 0.028703703703703703,
+    "FAR_cond": 0.1341991341991342,
+    "wasted_calls": 2.935185185185185,
+    "waste_reduction": 0.38660990712074306,
+    "lambda": 0.04983232376852982
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10298879579580565,
+  "lambda_frozen_table": 0.08695652173913045,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 472,
+    "n_Y1_with_failure": 321
+   },
+   "frozen_learned": {
+    "success": 0.42777777777777776,
+    "mean_calls": 2.446296296296296,
+    "stop_rate": 0.4981481481481482,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.03115264797507788,
+    "wasted_calls": 1.6481481481481481,
+    "waste_reduction": 0.5765937202664129
+   },
+   "frozen_table": {
+    "success": 0.4305555555555556,
+    "mean_calls": 2.811111111111111,
+    "stop_rate": 0.34814814814814815,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.021806853582554516,
+    "wasted_calls": 2.011111111111111,
+    "waste_reduction": 0.48334919124643194
+   },
+   "retry_3": {
+    "success": 0.43333333333333335,
+    "mean_calls": 2.8925925925925924,
+    "stop_rate": 0.30648148148148147,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012461059190031152,
+    "wasted_calls": 2.087962962962963,
+    "waste_reduction": 0.4636060894386299
+   },
+   "never_stop": {
+    "success": 0.43703703703703706,
+    "mean_calls": 4.700925925925926,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8925925925925924,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.41203703703703703,
+    "mean_calls": 2.0277777777777777,
+    "stop_rate": 0.5564814814814815,
+    "FAR": 0.025,
+    "FAR_cond": 0.08411214953271028,
+    "wasted_calls": 1.250925925925926,
+    "waste_reduction": 0.678639391056137,
+    "lambda": 0.19951773657577881
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4166666666666667,
+    "mean_calls": 2.0166666666666666,
+    "stop_rate": 0.5305555555555556,
+    "FAR": 0.020370370370370372,
+    "FAR_cond": 0.06853582554517133,
+    "wasted_calls": 1.2351851851851852,
+    "waste_reduction": 0.6826831588962892,
+    "lambda": 0.10558383403206516
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 386,
+    "n_Y1_with_failure": 235
+   },
+   "frozen_learned": {
+    "success": 0.2814814814814815,
+    "mean_calls": 2.8,
+    "stop_rate": 0.6555555555555556,
+    "FAR": 0.07592592592592592,
+    "FAR_cond": 0.34893617021276596,
+    "wasted_calls": 1.9601851851851853,
+    "waste_reduction": 0.5840047160542345
+   },
+   "frozen_table": {
+    "success": 0.29259259259259257,
+    "mean_calls": 3.213888888888889,
+    "stop_rate": 0.4601851851851852,
+    "FAR": 0.06481481481481481,
+    "FAR_cond": 0.2978723404255319,
+    "wasted_calls": 2.3666666666666667,
+    "waste_reduction": 0.4977402240125761
+   },
+   "retry_3": {
+    "success": 0.29074074074074074,
+    "mean_calls": 3.3268518518518517,
+    "stop_rate": 0.44166666666666665,
+    "FAR": 0.06666666666666667,
+    "FAR_cond": 0.30638297872340425,
+    "wasted_calls": 2.4953703703703702,
+    "waste_reduction": 0.47042640990371387
+   },
+   "never_stop": {
+    "success": 0.3574074074074074,
+    "mean_calls": 5.752777777777778,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.712037037037037,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3416666666666667,
+    "mean_calls": 4.212962962962963,
+    "stop_rate": 0.44074074074074077,
+    "FAR": 0.01574074074074074,
+    "FAR_cond": 0.07234042553191489,
+    "wasted_calls": 3.2046296296296295,
+    "waste_reduction": 0.3199056789153075,
+    "lambda": 0.0007421872735581262
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3416666666666667,
+    "mean_calls": 4.075925925925926,
+    "stop_rate": 0.44537037037037036,
+    "FAR": 0.01574074074074074,
+    "FAR_cond": 0.07234042553191489,
+    "wasted_calls": 3.0592592592592593,
+    "waste_reduction": 0.3507565337001376,
+    "lambda": 0.04116890416517272
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10657645805332394,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 472,
+    "n_Y1_with_failure": 321
+   },
+   "frozen_learned": {
+    "success": 0.42962962962962964,
+    "mean_calls": 2.4055555555555554,
+    "stop_rate": 0.5027777777777778,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.024922118380062305,
+    "wasted_calls": 1.5962962962962963,
+    "waste_reduction": 0.5975723622782446
+   },
+   "frozen_table": {
+    "success": 0.42962962962962964,
+    "mean_calls": 2.6055555555555556,
+    "stop_rate": 0.39537037037037037,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.024922118380062305,
+    "wasted_calls": 1.7962962962962963,
+    "waste_reduction": 0.5471521942110178
+   },
+   "retry_3": {
+    "success": 0.43425925925925923,
+    "mean_calls": 2.941666666666667,
+    "stop_rate": 0.3138888888888889,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009345794392523364,
+    "wasted_calls": 2.126851851851852,
+    "waste_reduction": 0.4638188608776844
+   },
+   "never_stop": {
+    "success": 0.43703703703703706,
+    "mean_calls": 4.784259259259259,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.966666666666667,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4111111111111111,
+    "mean_calls": 2.0055555555555555,
+    "stop_rate": 0.562962962962963,
+    "FAR": 0.025925925925925925,
+    "FAR_cond": 0.08722741433021806,
+    "wasted_calls": 1.2203703703703703,
+    "waste_reduction": 0.69234360410831,
+    "lambda": 0.20513725473033453
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.40925925925925927,
+    "mean_calls": 1.9796296296296296,
+    "stop_rate": 0.5509259259259259,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.09345794392523364,
+    "wasted_calls": 1.1981481481481482,
+    "waste_reduction": 0.6979458450046685,
+    "lambda": 0.1130519950231096
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 388,
+    "n_Y1_with_failure": 237
+   },
+   "frozen_learned": {
+    "success": 0.27685185185185185,
+    "mean_calls": 2.7583333333333333,
+    "stop_rate": 0.6648148148148149,
+    "FAR": 0.0824074074074074,
+    "FAR_cond": 0.3755274261603376,
+    "wasted_calls": 1.887962962962963,
+    "waste_reduction": 0.5975128306356099
+   },
+   "frozen_table": {
+    "success": 0.29074074074074074,
+    "mean_calls": 3.026851851851852,
+    "stop_rate": 0.5074074074074074,
+    "FAR": 0.06851851851851852,
+    "FAR_cond": 0.31223628691983124,
+    "wasted_calls": 2.1435185185185186,
+    "waste_reduction": 0.5430319778918279
+   },
+   "retry_3": {
+    "success": 0.2814814814814815,
+    "mean_calls": 3.352777777777778,
+    "stop_rate": 0.44907407407407407,
+    "FAR": 0.07777777777777778,
+    "FAR_cond": 0.35443037974683544,
+    "wasted_calls": 2.4990740740740742,
+    "waste_reduction": 0.4672325305961311
+   },
+   "never_stop": {
+    "success": 0.3592592592592593,
+    "mean_calls": 5.787037037037037,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.690740740740741,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3314814814814815,
+    "mean_calls": 3.8564814814814814,
+    "stop_rate": 0.45092592592592595,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.12658227848101267,
+    "wasted_calls": 2.8157407407407407,
+    "waste_reduction": 0.3997236478484011,
+    "lambda": 0.0025023574824422374
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.33425925925925926,
+    "mean_calls": 3.960185185185185,
+    "stop_rate": 0.47129629629629627,
+    "FAR": 0.025,
+    "FAR_cond": 0.11392405063291139,
+    "wasted_calls": 2.9046296296296297,
+    "waste_reduction": 0.38077378602447687,
+    "lambda": 0.04508289887952212
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.0874163518291963,
+  "lambda_frozen_table": 0.07547169811320756,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 481,
+    "n_Y1_with_failure": 315
+   },
+   "frozen_learned": {
+    "success": 0.4398148148148148,
+    "mean_calls": 2.5074074074074075,
+    "stop_rate": 0.46944444444444444,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.01904761904761905,
+    "wasted_calls": 1.6990740740740742,
+    "waste_reduction": 0.5685398542205502
+   },
+   "frozen_table": {
+    "success": 0.4444444444444444,
+    "mean_calls": 2.8407407407407406,
+    "stop_rate": 0.32407407407407407,
+    "FAR": 0.000925925925925926,
+    "FAR_cond": 0.0031746031746031746,
+    "wasted_calls": 2.026851851851852,
+    "waste_reduction": 0.48530449094756645
+   },
+   "retry_3": {
+    "success": 0.4444444444444444,
+    "mean_calls": 2.884259259259259,
+    "stop_rate": 0.3111111111111111,
+    "FAR": 0.000925925925925926,
+    "FAR_cond": 0.0031746031746031746,
+    "wasted_calls": 2.0703703703703704,
+    "waste_reduction": 0.47425346814013636
+   },
+   "never_stop": {
+    "success": 0.44537037037037036,
+    "mean_calls": 4.752777777777778,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.937962962962963,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4203703703703704,
+    "mean_calls": 2.0046296296296298,
+    "stop_rate": 0.5481481481481482,
+    "FAR": 0.025,
+    "FAR_cond": 0.08571428571428572,
+    "wasted_calls": 1.2194444444444446,
+    "waste_reduction": 0.6903362332471197,
+    "lambda": 0.19951773657577881
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4166666666666667,
+    "mean_calls": 1.9555555555555555,
+    "stop_rate": 0.5333333333333333,
+    "FAR": 0.028703703703703703,
+    "FAR_cond": 0.09841269841269841,
+    "wasted_calls": 1.1759259259259258,
+    "waste_reduction": 0.7013872560545498,
+    "lambda": 0.11365967758607087
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 405,
+    "n_Y1_with_failure": 239
+   },
+   "frozen_learned": {
+    "success": 0.3111111111111111,
+    "mean_calls": 2.903703703703704,
+    "stop_rate": 0.5990740740740741,
+    "FAR": 0.06388888888888888,
+    "FAR_cond": 0.28870292887029286,
+    "wasted_calls": 1.9907407407407407,
+    "waste_reduction": 0.5656565656565656
+   },
+   "frozen_table": {
+    "success": 0.31574074074074077,
+    "mean_calls": 3.299074074074074,
+    "stop_rate": 0.41759259259259257,
+    "FAR": 0.05925925925925926,
+    "FAR_cond": 0.26778242677824265,
+    "wasted_calls": 2.3824074074074075,
+    "waste_reduction": 0.4802020202020202
+   },
+   "retry_3": {
+    "success": 0.30092592592592593,
+    "mean_calls": 3.297222222222222,
+    "stop_rate": 0.4388888888888889,
+    "FAR": 0.07407407407407407,
+    "FAR_cond": 0.33472803347280333,
+    "wasted_calls": 2.4212962962962963,
+    "waste_reduction": 0.47171717171717176
+   },
+   "never_stop": {
+    "success": 0.375,
+    "mean_calls": 5.674074074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.583333333333333,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3537037037037037,
+    "mean_calls": 3.9407407407407407,
+    "stop_rate": 0.42592592592592593,
+    "FAR": 0.021296296296296296,
+    "FAR_cond": 0.09623430962343096,
+    "wasted_calls": 2.887962962962963,
+    "waste_reduction": 0.36989898989898995,
+    "lambda": 0.0016551546068714546
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35555555555555557,
+    "mean_calls": 3.9722222222222223,
+    "stop_rate": 0.44537037037037036,
+    "FAR": 0.019444444444444445,
+    "FAR_cond": 0.08786610878661087,
+    "wasted_calls": 2.912037037037037,
+    "waste_reduction": 0.36464646464646466,
+    "lambda": 0.04336969896735284
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10908688921809344,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 485,
+    "n_Y1_with_failure": 317
+   },
+   "frozen_learned": {
+    "success": 0.4398148148148148,
+    "mean_calls": 2.4194444444444443,
+    "stop_rate": 0.4898148148148148,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.031545741324921134,
+    "wasted_calls": 1.6166666666666667,
+    "waste_reduction": 0.5909090909090908
+   },
+   "frozen_table": {
+    "success": 0.4425925925925926,
+    "mean_calls": 2.6462962962962964,
+    "stop_rate": 0.37592592592592594,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.022082018927444796,
+    "wasted_calls": 1.8407407407407408,
+    "waste_reduction": 0.5342080599812559
+   },
+   "retry_3": {
+    "success": 0.44814814814814813,
+    "mean_calls": 2.8777777777777778,
+    "stop_rate": 0.3194444444444444,
+    "FAR": 0.000925925925925926,
+    "FAR_cond": 0.0031545741324921135,
+    "wasted_calls": 2.0657407407407407,
+    "waste_reduction": 0.4772727272727273
+   },
+   "never_stop": {
+    "success": 0.44907407407407407,
+    "mean_calls": 4.764814814814815,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.9518518518518517,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.40925925925925927,
+    "mean_calls": 1.9296296296296296,
+    "stop_rate": 0.5601851851851852,
+    "FAR": 0.03981481481481482,
+    "FAR_cond": 0.13564668769716087,
+    "wasted_calls": 1.163888888888889,
+    "waste_reduction": 0.7054826616682287,
+    "lambda": 0.22849895222207997
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.41944444444444445,
+    "mean_calls": 1.950925925925926,
+    "stop_rate": 0.5351851851851852,
+    "FAR": 0.02962962962962963,
+    "FAR_cond": 0.10094637223974763,
+    "wasted_calls": 1.1759259259259258,
+    "waste_reduction": 0.7024367385192127,
+    "lambda": 0.11417798127675453
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 409,
+    "n_Y1_with_failure": 241
+   },
+   "frozen_learned": {
+    "success": 0.287962962962963,
+    "mean_calls": 2.7814814814814817,
+    "stop_rate": 0.6527777777777778,
+    "FAR": 0.09074074074074075,
+    "FAR_cond": 0.4066390041493776,
+    "wasted_calls": 1.886111111111111,
+    "waste_reduction": 0.592436974789916
+   },
+   "frozen_table": {
+    "success": 0.30833333333333335,
+    "mean_calls": 3.0675925925925926,
+    "stop_rate": 0.4925925925925926,
+    "FAR": 0.07037037037037037,
+    "FAR_cond": 0.3153526970954357,
+    "wasted_calls": 2.138888888888889,
+    "waste_reduction": 0.5378151260504201
+   },
+   "retry_3": {
+    "success": 0.2972222222222222,
+    "mean_calls": 3.3046296296296296,
+    "stop_rate": 0.46296296296296297,
+    "FAR": 0.08148148148148149,
+    "FAR_cond": 0.3651452282157676,
+    "wasted_calls": 2.410185185185185,
+    "waste_reduction": 0.4791916766706683
+   },
+   "never_stop": {
+    "success": 0.3787037037037037,
+    "mean_calls": 5.79074074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.627777777777778,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.34629629629629627,
+    "mean_calls": 3.8916666666666666,
+    "stop_rate": 0.4546296296296296,
+    "FAR": 0.032407407407407406,
+    "FAR_cond": 0.14522821576763487,
+    "wasted_calls": 2.800925925925926,
+    "waste_reduction": 0.39475790316126447,
+    "lambda": 0.003164454385123028
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3472222222222222,
+    "mean_calls": 3.9833333333333334,
+    "stop_rate": 0.4759259259259259,
+    "FAR": 0.03148148148148148,
+    "FAR_cond": 0.14107883817427386,
+    "wasted_calls": 2.8703703703703702,
+    "waste_reduction": 0.3797519007603041,
+    "lambda": 0.05055057955614165
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.09892169820644268,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 501,
+    "n_Y1_with_failure": 340
+   },
+   "frozen_learned": {
+    "success": 0.45555555555555555,
+    "mean_calls": 2.435185185185185,
+    "stop_rate": 0.47129629629629627,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.026470588235294117,
+    "wasted_calls": 1.587037037037037,
+    "waste_reduction": 0.5918075732317218
+   },
+   "frozen_table": {
+    "success": 0.4537037037037037,
+    "mean_calls": 2.589814814814815,
+    "stop_rate": 0.3861111111111111,
+    "FAR": 0.010185185185185186,
+    "FAR_cond": 0.03235294117647059,
+    "wasted_calls": 1.7444444444444445,
+    "waste_reduction": 0.5513217432722077
+   },
+   "retry_3": {
+    "success": 0.45925925925925926,
+    "mean_calls": 2.863888888888889,
+    "stop_rate": 0.3111111111111111,
+    "FAR": 0.004629629629629629,
+    "FAR_cond": 0.014705882352941176,
+    "wasted_calls": 2.011111111111111,
+    "waste_reduction": 0.4827339842819719
+   },
+   "never_stop": {
+    "success": 0.4638888888888889,
+    "mean_calls": 4.74537037037037,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.887962962962963,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4361111111111111,
+    "mean_calls": 1.9777777777777779,
+    "stop_rate": 0.5370370370370371,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.08823529411764706,
+    "wasted_calls": 1.1555555555555554,
+    "waste_reduction": 0.7027863777089783,
+    "lambda": 0.20513725473033453
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4361111111111111,
+    "mean_calls": 1.9722222222222223,
+    "stop_rate": 0.5185185185185185,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.08823529411764706,
+    "wasted_calls": 1.151851851851852,
+    "waste_reduction": 0.7037389854727316,
+    "lambda": 0.1119592471332874
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 425,
+    "n_Y1_with_failure": 264
+   },
+   "frozen_learned": {
+    "success": 0.31203703703703706,
+    "mean_calls": 2.8407407407407406,
+    "stop_rate": 0.6222222222222222,
+    "FAR": 0.08148148148148149,
+    "FAR_cond": 0.3333333333333333,
+    "wasted_calls": 1.8833333333333333,
+    "waste_reduction": 0.5919759277833501
+   },
+   "frozen_table": {
+    "success": 0.32037037037037036,
+    "mean_calls": 3.037962962962963,
+    "stop_rate": 0.5,
+    "FAR": 0.07314814814814814,
+    "FAR_cond": 0.29924242424242425,
+    "wasted_calls": 2.0805555555555557,
+    "waste_reduction": 0.5492477432296891
+   },
+   "retry_3": {
+    "success": 0.31574074074074077,
+    "mean_calls": 3.3055555555555554,
+    "stop_rate": 0.45,
+    "FAR": 0.07777777777777778,
+    "FAR_cond": 0.3181818181818182,
+    "wasted_calls": 2.3675925925925925,
+    "waste_reduction": 0.487061183550652
+   },
+   "never_stop": {
+    "success": 0.39351851851851855,
+    "mean_calls": 5.80462962962963,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.6157407407407405,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3648148148148148,
+    "mean_calls": 3.9175925925925927,
+    "stop_rate": 0.45,
+    "FAR": 0.028703703703703703,
+    "FAR_cond": 0.11742424242424243,
+    "wasted_calls": 2.7814814814814817,
+    "waste_reduction": 0.3973921765295888,
+    "lambda": 0.0021182700938495976
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.37777777777777777,
+    "mean_calls": 4.093518518518518,
+    "stop_rate": 0.4388888888888889,
+    "FAR": 0.01574074074074074,
+    "FAR_cond": 0.06439393939393939,
+    "wasted_calls": 2.9314814814814816,
+    "waste_reduction": 0.3648946840521564,
+    "lambda": 0.04035770401497793
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.0874163518291963,
+  "lambda_frozen_table": 0.07547169811320756,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 505,
+    "n_Y1_with_failure": 347
+   },
+   "frozen_learned": {
+    "success": 0.4601851851851852,
+    "mean_calls": 2.539814814814815,
+    "stop_rate": 0.44814814814814813,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.023054755043227664,
+    "wasted_calls": 1.6712962962962963,
+    "waste_reduction": 0.5634824667472793
+   },
+   "frozen_table": {
+    "success": 0.4638888888888889,
+    "mean_calls": 2.8787037037037035,
+    "stop_rate": 0.31296296296296294,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.011527377521613832,
+    "wasted_calls": 2.0055555555555555,
+    "waste_reduction": 0.4761789600967352
+   },
+   "retry_3": {
+    "success": 0.4648148148148148,
+    "mean_calls": 2.8601851851851854,
+    "stop_rate": 0.30833333333333335,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.008645533141210375,
+    "wasted_calls": 1.9861111111111112,
+    "waste_reduction": 0.48125755743651755
+   },
+   "never_stop": {
+    "success": 0.4675925925925926,
+    "mean_calls": 4.705555555555556,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8287037037037037,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4305555555555556,
+    "mean_calls": 1.987962962962963,
+    "stop_rate": 0.5407407407407407,
+    "FAR": 0.037037037037037035,
+    "FAR_cond": 0.11527377521613832,
+    "wasted_calls": 1.1546296296296297,
+    "waste_reduction": 0.6984280532043531,
+    "lambda": 0.21791942475319787
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.43148148148148147,
+    "mean_calls": 1.9685185185185186,
+    "stop_rate": 0.5185185185185185,
+    "FAR": 0.03611111111111111,
+    "FAR_cond": 0.11239193083573487,
+    "wasted_calls": 1.1407407407407408,
+    "waste_reduction": 0.702055622732769,
+    "lambda": 0.11729721833014017
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 416,
+    "n_Y1_with_failure": 258
+   },
+   "frozen_learned": {
+    "success": 0.32037037037037036,
+    "mean_calls": 2.941666666666667,
+    "stop_rate": 0.5879629629629629,
+    "FAR": 0.06481481481481481,
+    "FAR_cond": 0.2713178294573643,
+    "wasted_calls": 2.012037037037037,
+    "waste_reduction": 0.5582435454360642
+   },
+   "frozen_table": {
+    "success": 0.3277777777777778,
+    "mean_calls": 3.338888888888889,
+    "stop_rate": 0.41203703703703703,
+    "FAR": 0.05740740740740741,
+    "FAR_cond": 0.24031007751937986,
+    "wasted_calls": 2.4074074074074074,
+    "waste_reduction": 0.4714372840008132
+   },
+   "retry_3": {
+    "success": 0.3138888888888889,
+    "mean_calls": 3.275,
+    "stop_rate": 0.43796296296296294,
+    "FAR": 0.0712962962962963,
+    "FAR_cond": 0.29844961240310075,
+    "wasted_calls": 2.3824074074074075,
+    "waste_reduction": 0.4769262045131124
+   },
+   "never_stop": {
+    "success": 0.3851851851851852,
+    "mean_calls": 5.671296296296297,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.55462962962963,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.362962962962963,
+    "mean_calls": 4.022222222222222,
+    "stop_rate": 0.43148148148148147,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.09302325581395349,
+    "wasted_calls": 2.949074074074074,
+    "waste_reduction": 0.35251067290099614,
+    "lambda": 0.0012148854253496877
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3685185185185185,
+    "mean_calls": 4.094444444444444,
+    "stop_rate": 0.4305555555555556,
+    "FAR": 0.016666666666666666,
+    "FAR_cond": 0.06976744186046512,
+    "wasted_calls": 3.0083333333333333,
+    "waste_reduction": 0.33949989835332384,
+    "lambda": 0.04107056345608472
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.09060844298570633,
+  "lambda_frozen_table": 0.08450704225352114,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 471,
+    "n_Y1_with_failure": 315
+   },
+   "frozen_learned": {
+    "success": 0.42592592592592593,
+    "mean_calls": 2.5064814814814813,
+    "stop_rate": 0.48333333333333334,
+    "FAR": 0.010185185185185186,
+    "FAR_cond": 0.03492063492063492,
+    "wasted_calls": 1.7083333333333333,
+    "waste_reduction": 0.5644475920679887
+   },
+   "frozen_table": {
+    "success": 0.4305555555555556,
+    "mean_calls": 2.803703703703704,
+    "stop_rate": 0.3527777777777778,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.01904761904761905,
+    "wasted_calls": 2.001851851851852,
+    "waste_reduction": 0.48961284230406044
+   },
+   "retry_3": {
+    "success": 0.43333333333333335,
+    "mean_calls": 2.9175925925925927,
+    "stop_rate": 0.30925925925925923,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009523809523809525,
+    "wasted_calls": 2.111111111111111,
+    "waste_reduction": 0.4617563739376771
+   },
+   "never_stop": {
+    "success": 0.4361111111111111,
+    "mean_calls": 4.731481481481482,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.922222222222222,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4027777777777778,
+    "mean_calls": 1.9583333333333333,
+    "stop_rate": 0.5685185185185185,
+    "FAR": 0.03333333333333333,
+    "FAR_cond": 0.11428571428571428,
+    "wasted_calls": 1.1898148148148149,
+    "waste_reduction": 0.6966477809254012,
+    "lambda": 0.21779167224582405
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4083333333333333,
+    "mean_calls": 1.9685185185185186,
+    "stop_rate": 0.5425925925925926,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.09523809523809523,
+    "wasted_calls": 1.1972222222222222,
+    "waste_reduction": 0.6947592067988668,
+    "lambda": 0.1130519950231096
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 384,
+    "n_Y1_with_failure": 228
+   },
+   "frozen_learned": {
+    "success": 0.28888888888888886,
+    "mean_calls": 2.8935185185185186,
+    "stop_rate": 0.625,
+    "FAR": 0.06666666666666667,
+    "FAR_cond": 0.3157894736842105,
+    "wasted_calls": 2.0462962962962963,
+    "waste_reduction": 0.5636722606120435
+   },
+   "frozen_table": {
+    "success": 0.2916666666666667,
+    "mean_calls": 3.2222222222222223,
+    "stop_rate": 0.462037037037037,
+    "FAR": 0.06388888888888888,
+    "FAR_cond": 0.3026315789473684,
+    "wasted_calls": 2.386111111111111,
+    "waste_reduction": 0.4912142152023692
+   },
+   "retry_3": {
+    "success": 0.287962962962963,
+    "mean_calls": 3.325,
+    "stop_rate": 0.4444444444444444,
+    "FAR": 0.06759259259259259,
+    "FAR_cond": 0.3201754385964912,
+    "wasted_calls": 2.5027777777777778,
+    "waste_reduction": 0.4663376110562685
+   },
+   "never_stop": {
+    "success": 0.35555555555555557,
+    "mean_calls": 5.725,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.689814814814815,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.33240740740740743,
+    "mean_calls": 3.9935185185185187,
+    "stop_rate": 0.44907407407407407,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.10964912280701754,
+    "wasted_calls": 3.0027777777777778,
+    "waste_reduction": 0.35972359328726555,
+    "lambda": 0.0019016806683039534
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3314814814814815,
+    "mean_calls": 4.003703703703704,
+    "stop_rate": 0.4722222222222222,
+    "FAR": 0.024074074074074074,
+    "FAR_cond": 0.11403508771929824,
+    "wasted_calls": 3.0064814814814813,
+    "waste_reduction": 0.35893385982230996,
+    "lambda": 0.04508289887952212
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.0874163518291963,
+  "lambda_frozen_table": 0.08695652173913045,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 496,
+    "n_Y1_with_failure": 336
+   },
+   "frozen_learned": {
+    "success": 0.45185185185185184,
+    "mean_calls": 2.4851851851851854,
+    "stop_rate": 0.4583333333333333,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.023809523809523808,
+    "wasted_calls": 1.637037037037037,
+    "waste_reduction": 0.5674088573525813
+   },
+   "frozen_table": {
+    "success": 0.4527777777777778,
+    "mean_calls": 2.6685185185185185,
+    "stop_rate": 0.3490740740740741,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.020833333333333332,
+    "wasted_calls": 1.8203703703703704,
+    "waste_reduction": 0.5189625642280401
+   },
+   "retry_3": {
+    "success": 0.4564814814814815,
+    "mean_calls": 2.8694444444444445,
+    "stop_rate": 0.3037037037037037,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.008928571428571428,
+    "wasted_calls": 2.0148148148148146,
+    "waste_reduction": 0.46758013212625393
+   },
+   "never_stop": {
+    "success": 0.45925925925925926,
+    "mean_calls": 4.641666666666667,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.7842592592592594,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.42314814814814816,
+    "mean_calls": 1.9444444444444444,
+    "stop_rate": 0.5435185185185185,
+    "FAR": 0.03611111111111111,
+    "FAR_cond": 0.11607142857142858,
+    "wasted_calls": 1.1324074074074073,
+    "waste_reduction": 0.7007585025691216,
+    "lambda": 0.21791942475319787
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4287037037037037,
+    "mean_calls": 1.9527777777777777,
+    "stop_rate": 0.525,
+    "FAR": 0.030555555555555555,
+    "FAR_cond": 0.09821428571428571,
+    "wasted_calls": 1.137037037037037,
+    "waste_reduction": 0.6995351113286029,
+    "lambda": 0.11365967758607087
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 411,
+    "n_Y1_with_failure": 251
+   },
+   "frozen_learned": {
+    "success": 0.31203703703703706,
+    "mean_calls": 2.910185185185185,
+    "stop_rate": 0.5962962962962963,
+    "FAR": 0.06851851851851852,
+    "FAR_cond": 0.2948207171314741,
+    "wasted_calls": 1.9685185185185186,
+    "waste_reduction": 0.566387925759739
+   },
+   "frozen_table": {
+    "success": 0.30833333333333335,
+    "mean_calls": 3.109259259259259,
+    "stop_rate": 0.4583333333333333,
+    "FAR": 0.07222222222222222,
+    "FAR_cond": 0.3107569721115538,
+    "wasted_calls": 2.188888888888889,
+    "waste_reduction": 0.5178462166020803
+   },
+   "retry_3": {
+    "success": 0.3055555555555556,
+    "mean_calls": 3.3074074074074074,
+    "stop_rate": 0.44351851851851853,
+    "FAR": 0.075,
+    "FAR_cond": 0.32270916334661354,
+    "wasted_calls": 2.3981481481481484,
+    "waste_reduction": 0.4717519885784214
+   },
+   "never_stop": {
+    "success": 0.38055555555555554,
+    "mean_calls": 5.66574074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.5398148148148145,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3592592592592593,
+    "mean_calls": 3.926851851851852,
+    "stop_rate": 0.42962962962962964,
+    "FAR": 0.021296296296296296,
+    "FAR_cond": 0.09163346613545817,
+    "wasted_calls": 2.8407407407407406,
+    "waste_reduction": 0.3742606567407709,
+    "lambda": 0.0012148854253496877
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.362962962962963,
+    "mean_calls": 3.9694444444444446,
+    "stop_rate": 0.43148148148148147,
+    "FAR": 0.017592592592592594,
+    "FAR_cond": 0.07569721115537849,
+    "wasted_calls": 2.8712962962962965,
+    "waste_reduction": 0.36753008362227213,
+    "lambda": 0.04116890416517272
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.08857119417384172,
+  "lambda_frozen_table": 0.08695652173913045,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 487,
+    "n_Y1_with_failure": 333
+   },
+   "frozen_learned": {
+    "success": 0.44351851851851853,
+    "mean_calls": 2.5148148148148146,
+    "stop_rate": 0.4648148148148148,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.024024024024024024,
+    "wasted_calls": 1.6814814814814816,
+    "waste_reduction": 0.5744082493555192
+   },
+   "frozen_table": {
+    "success": 0.44537037037037036,
+    "mean_calls": 2.751851851851852,
+    "stop_rate": 0.3611111111111111,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.018018018018018018,
+    "wasted_calls": 1.9166666666666667,
+    "waste_reduction": 0.5148816498711037
+   },
+   "retry_3": {
+    "success": 0.44722222222222224,
+    "mean_calls": 2.89537037037037,
+    "stop_rate": 0.325,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012012012012012012,
+    "wasted_calls": 2.058333333333333,
+    "waste_reduction": 0.4790250761659245
+   },
+   "never_stop": {
+    "success": 0.45092592592592595,
+    "mean_calls": 4.791666666666667,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.950925925925926,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.42777777777777776,
+    "mean_calls": 2.0462962962962963,
+    "stop_rate": 0.5416666666666666,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.07507507507507508,
+    "wasted_calls": 1.2333333333333334,
+    "waste_reduction": 0.6878368877431451,
+    "lambda": 0.19554453932766827
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.42407407407407405,
+    "mean_calls": 1.987962962962963,
+    "stop_rate": 0.5287037037037037,
+    "FAR": 0.026851851851851852,
+    "FAR_cond": 0.08708708708708708,
+    "wasted_calls": 1.1805555555555556,
+    "waste_reduction": 0.701195219123506,
+    "lambda": 0.11151264587672294
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 393,
+    "n_Y1_with_failure": 239
+   },
+   "frozen_learned": {
+    "success": 0.29907407407407405,
+    "mean_calls": 2.9296296296296296,
+    "stop_rate": 0.6083333333333333,
+    "FAR": 0.06481481481481481,
+    "FAR_cond": 0.2928870292887029,
+    "wasted_calls": 2.0416666666666665,
+    "waste_reduction": 0.570426651081239
+   },
+   "frozen_table": {
+    "success": 0.29907407407407405,
+    "mean_calls": 3.158333333333333,
+    "stop_rate": 0.4722222222222222,
+    "FAR": 0.06481481481481481,
+    "FAR_cond": 0.2928870292887029,
+    "wasted_calls": 2.2935185185185185,
+    "waste_reduction": 0.5174361971556595
+   },
+   "retry_3": {
+    "success": 0.29259259259259257,
+    "mean_calls": 3.3203703703703704,
+    "stop_rate": 0.4583333333333333,
+    "FAR": 0.0712962962962963,
+    "FAR_cond": 0.32217573221757323,
+    "wasted_calls": 2.4722222222222223,
+    "waste_reduction": 0.47983635300993566
+   },
+   "never_stop": {
+    "success": 0.3638888888888889,
+    "mean_calls": 5.809259259259259,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.752777777777778,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.34444444444444444,
+    "mean_calls": 4.0092592592592595,
+    "stop_rate": 0.4546296296296296,
+    "FAR": 0.019444444444444445,
+    "FAR_cond": 0.08786610878661087,
+    "wasted_calls": 2.984259259259259,
+    "waste_reduction": 0.37210208455094484,
+    "lambda": 0.0011396813436293646
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.34814814814814815,
+    "mean_calls": 4.058333333333334,
+    "stop_rate": 0.4537037037037037,
+    "FAR": 0.01574074074074074,
+    "FAR_cond": 0.07112970711297072,
+    "wasted_calls": 3.026851851851852,
+    "waste_reduction": 0.3631404636664719,
+    "lambda": 0.04116890416517272
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10298879579580565,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 479,
+    "n_Y1_with_failure": 322
+   },
+   "frozen_learned": {
+    "success": 0.4324074074074074,
+    "mean_calls": 2.387962962962963,
+    "stop_rate": 0.4925925925925926,
+    "FAR": 0.011111111111111112,
+    "FAR_cond": 0.037267080745341616,
+    "wasted_calls": 1.575,
+    "waste_reduction": 0.6007042253521127
+   },
+   "frozen_table": {
+    "success": 0.4351851851851852,
+    "mean_calls": 2.587037037037037,
+    "stop_rate": 0.38981481481481484,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.027950310559006212,
+    "wasted_calls": 1.7722222222222221,
+    "waste_reduction": 0.5507042253521126
+   },
+   "retry_3": {
+    "success": 0.4398148148148148,
+    "mean_calls": 2.8796296296296298,
+    "stop_rate": 0.3148148148148148,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012422360248447204,
+    "wasted_calls": 2.058333333333333,
+    "waste_reduction": 0.47816901408450707
+   },
+   "never_stop": {
+    "success": 0.44351851851851853,
+    "mean_calls": 4.769444444444445,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.9444444444444446,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4009259259259259,
+    "mean_calls": 1.8712962962962962,
+    "stop_rate": 0.562962962962963,
+    "FAR": 0.04259259259259259,
+    "FAR_cond": 0.14285714285714285,
+    "wasted_calls": 1.098148148148148,
+    "waste_reduction": 0.7215962441314554,
+    "lambda": 0.23338151812057667
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4064814814814815,
+    "mean_calls": 1.8990740740740741,
+    "stop_rate": 0.5388888888888889,
+    "FAR": 0.037037037037037035,
+    "FAR_cond": 0.12422360248447205,
+    "wasted_calls": 1.124074074074074,
+    "waste_reduction": 0.7150234741784037,
+    "lambda": 0.12760617323383047
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 398,
+    "n_Y1_with_failure": 241
+   },
+   "frozen_learned": {
+    "success": 0.2861111111111111,
+    "mean_calls": 2.7546296296296298,
+    "stop_rate": 0.6462962962962963,
+    "FAR": 0.0824074074074074,
+    "FAR_cond": 0.36929460580912865,
+    "wasted_calls": 1.8703703703703705,
+    "waste_reduction": 0.60228391415633
+   },
+   "frozen_table": {
+    "success": 0.30185185185185187,
+    "mean_calls": 2.988888888888889,
+    "stop_rate": 0.5046296296296297,
+    "FAR": 0.06666666666666667,
+    "FAR_cond": 0.2987551867219917,
+    "wasted_calls": 2.091666666666667,
+    "waste_reduction": 0.5552274069698759
+   },
+   "retry_3": {
+    "success": 0.29444444444444445,
+    "mean_calls": 3.3092592592592593,
+    "stop_rate": 0.45092592592592595,
+    "FAR": 0.07407407407407407,
+    "FAR_cond": 0.33195020746887965,
+    "wasted_calls": 2.435185185185185,
+    "waste_reduction": 0.48218153179759793
+   },
+   "never_stop": {
+    "success": 0.3685185185185185,
+    "mean_calls": 5.816666666666666,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.7027777777777775,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3435185185185185,
+    "mean_calls": 3.876851851851852,
+    "stop_rate": 0.4444444444444444,
+    "FAR": 0.025,
+    "FAR_cond": 0.11203319502074689,
+    "wasted_calls": 2.814814814814815,
+    "waste_reduction": 0.4014569797204174,
+    "lambda": 0.002033083938016958
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3425925925925926,
+    "mean_calls": 3.938888888888889,
+    "stop_rate": 0.462037037037037,
+    "FAR": 0.025925925925925925,
+    "FAR_cond": 0.11618257261410789,
+    "wasted_calls": 2.8666666666666667,
+    "waste_reduction": 0.390431187241583,
+    "lambda": 0.04522321349040765
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.11609549523552679,
+  "lambda_frozen_table": 0.11111111111111112,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 488,
+    "n_Y1_with_failure": 324
+   },
+   "frozen_learned": {
+    "success": 0.43796296296296294,
+    "mean_calls": 2.3703703703703702,
+    "stop_rate": 0.5018518518518519,
+    "FAR": 0.013888888888888888,
+    "FAR_cond": 0.046296296296296294,
+    "wasted_calls": 1.5518518518518518,
+    "waste_reduction": 0.6060178655383168
+   },
+   "frozen_table": {
+    "success": 0.4425925925925926,
+    "mean_calls": 2.512962962962963,
+    "stop_rate": 0.4166666666666667,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.030864197530864196,
+    "wasted_calls": 1.6898148148148149,
+    "waste_reduction": 0.5709920075223319
+   },
+   "retry_3": {
+    "success": 0.45,
+    "mean_calls": 2.8824074074074075,
+    "stop_rate": 0.32314814814814813,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006172839506172839,
+    "wasted_calls": 2.05,
+    "waste_reduction": 0.47954866008462627
+   },
+   "never_stop": {
+    "success": 0.45185185185185184,
+    "mean_calls": 4.773148148148148,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.938888888888889,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.41759259259259257,
+    "mean_calls": 1.9546296296296297,
+    "stop_rate": 0.5555555555555556,
+    "FAR": 0.03425925925925926,
+    "FAR_cond": 0.11419753086419752,
+    "wasted_calls": 1.1648148148148147,
+    "waste_reduction": 0.7042783262811472,
+    "lambda": 0.21779167224582405
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.41388888888888886,
+    "mean_calls": 1.9259259259259258,
+    "stop_rate": 0.5370370370370371,
+    "FAR": 0.03796296296296296,
+    "FAR_cond": 0.12654320987654322,
+    "wasted_calls": 1.1435185185185186,
+    "waste_reduction": 0.7096850023507287,
+    "lambda": 0.12760617323383047
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 409,
+    "n_Y1_with_failure": 245
+   },
+   "frozen_learned": {
+    "success": 0.2861111111111111,
+    "mean_calls": 2.6925925925925926,
+    "stop_rate": 0.6685185185185185,
+    "FAR": 0.09259259259259259,
+    "FAR_cond": 0.40816326530612246,
+    "wasted_calls": 1.8231481481481482,
+    "waste_reduction": 0.6053317298055723
+   },
+   "frozen_table": {
+    "success": 0.28888888888888886,
+    "mean_calls": 2.859259259259259,
+    "stop_rate": 0.5638888888888889,
+    "FAR": 0.08981481481481482,
+    "FAR_cond": 0.39591836734693875,
+    "wasted_calls": 1.989814814814815,
+    "waste_reduction": 0.569252355181399
+   },
+   "retry_3": {
+    "success": 0.29814814814814816,
+    "mean_calls": 3.297222222222222,
+    "stop_rate": 0.4564814814814815,
+    "FAR": 0.08055555555555556,
+    "FAR_cond": 0.3551020408163265,
+    "wasted_calls": 2.412037037037037,
+    "waste_reduction": 0.4778512728001604
+   },
+   "never_stop": {
+    "success": 0.3787037037037037,
+    "mean_calls": 5.738888888888889,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.6194444444444445,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3574074074074074,
+    "mean_calls": 3.9916666666666667,
+    "stop_rate": 0.43703703703703706,
+    "FAR": 0.021296296296296296,
+    "FAR_cond": 0.09387755102040816,
+    "wasted_calls": 2.914814814814815,
+    "waste_reduction": 0.3690118260172379,
+    "lambda": 0.0012148854253496877
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3527777777777778,
+    "mean_calls": 3.9805555555555556,
+    "stop_rate": 0.4638888888888889,
+    "FAR": 0.025925925925925925,
+    "FAR_cond": 0.11428571428571428,
+    "wasted_calls": 2.900925925925926,
+    "waste_reduction": 0.3720184405692524,
+    "lambda": 0.04508289887952212
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10657645805332394,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 499,
+    "n_Y1_with_failure": 325
+   },
+   "frozen_learned": {
+    "success": 0.45555555555555555,
+    "mean_calls": 2.39537037037037,
+    "stop_rate": 0.47962962962962963,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.021538461538461538,
+    "wasted_calls": 1.5685185185185184,
+    "waste_reduction": 0.5875334794253713
+   },
+   "frozen_table": {
+    "success": 0.4583333333333333,
+    "mean_calls": 2.588888888888889,
+    "stop_rate": 0.3712962962962963,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012307692307692308,
+    "wasted_calls": 1.7592592592592593,
+    "waste_reduction": 0.5373752130508886
+   },
+   "retry_3": {
+    "success": 0.46111111111111114,
+    "mean_calls": 2.8601851851851854,
+    "stop_rate": 0.3,
+    "FAR": 0.000925925925925926,
+    "FAR_cond": 0.003076923076923077,
+    "wasted_calls": 2.0277777777777777,
+    "waste_reduction": 0.466764061358656
+   },
+   "never_stop": {
+    "success": 0.462037037037037,
+    "mean_calls": 4.636111111111111,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8027777777777776,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4398148148148148,
+    "mean_calls": 2.022222222222222,
+    "stop_rate": 0.5333333333333333,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.07384615384615385,
+    "wasted_calls": 1.2138888888888888,
+    "waste_reduction": 0.6807888970051132,
+    "lambda": 0.19554453932766827
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4444444444444444,
+    "mean_calls": 2.0,
+    "stop_rate": 0.5148148148148148,
+    "FAR": 0.017592592592592594,
+    "FAR_cond": 0.05846153846153846,
+    "wasted_calls": 1.1879629629629629,
+    "waste_reduction": 0.6876065254443633,
+    "lambda": 0.10524432340125484
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 411,
+    "n_Y1_with_failure": 237
+   },
+   "frozen_learned": {
+    "success": 0.29814814814814816,
+    "mean_calls": 2.762962962962963,
+    "stop_rate": 0.6416666666666667,
+    "FAR": 0.0824074074074074,
+    "FAR_cond": 0.3755274261603376,
+    "wasted_calls": 1.874074074074074,
+    "waste_reduction": 0.585415813191315
+   },
+   "frozen_table": {
+    "success": 0.3148148148148148,
+    "mean_calls": 3.0083333333333333,
+    "stop_rate": 0.4898148148148148,
+    "FAR": 0.06574074074074074,
+    "FAR_cond": 0.29957805907172996,
+    "wasted_calls": 2.1074074074074076,
+    "waste_reduction": 0.533797623924621
+   },
+   "retry_3": {
+    "success": 0.30833333333333335,
+    "mean_calls": 3.297222222222222,
+    "stop_rate": 0.4287037037037037,
+    "FAR": 0.07222222222222222,
+    "FAR_cond": 0.3291139240506329,
+    "wasted_calls": 2.4157407407407407,
+    "waste_reduction": 0.465587873822204
+   },
+   "never_stop": {
+    "success": 0.38055555555555554,
+    "mean_calls": 5.636111111111111,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.520370370370371,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3527777777777778,
+    "mean_calls": 3.8574074074074076,
+    "stop_rate": 0.4324074074074074,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.12658227848101267,
+    "wasted_calls": 2.801851851851852,
+    "waste_reduction": 0.38017206063088893,
+    "lambda": 0.0025023574824422374
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35648148148148145,
+    "mean_calls": 3.964814814814815,
+    "stop_rate": 0.44814814814814813,
+    "FAR": 0.024074074074074074,
+    "FAR_cond": 0.10970464135021098,
+    "wasted_calls": 2.8898148148148146,
+    "waste_reduction": 0.36071282261368287,
+    "lambda": 0.04390277740681558
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.0879787076366286,
+  "lambda_frozen_table": 0.08333333333333334,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 493,
+    "n_Y1_with_failure": 331
+   },
+   "frozen_learned": {
+    "success": 0.4527777777777778,
+    "mean_calls": 2.4768518518518516,
+    "stop_rate": 0.46296296296296297,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012084592145015106,
+    "wasted_calls": 1.6490740740740741,
+    "waste_reduction": 0.5705329153605015
+   },
+   "frozen_table": {
+    "success": 0.4527777777777778,
+    "mean_calls": 2.7583333333333333,
+    "stop_rate": 0.34444444444444444,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012084592145015106,
+    "wasted_calls": 1.9314814814814816,
+    "waste_reduction": 0.49698577284784184
+   },
+   "retry_3": {
+    "success": 0.4537037037037037,
+    "mean_calls": 2.862037037037037,
+    "stop_rate": 0.3074074074074074,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.00906344410876133,
+    "wasted_calls": 2.033333333333333,
+    "waste_reduction": 0.47046057390884977
+   },
+   "never_stop": {
+    "success": 0.4564814814814815,
+    "mean_calls": 4.671296296296297,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.839814814814815,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.43703703703703706,
+    "mean_calls": 2.0037037037037035,
+    "stop_rate": 0.5333333333333333,
+    "FAR": 0.019444444444444445,
+    "FAR_cond": 0.0634441087613293,
+    "wasted_calls": 1.1944444444444444,
+    "waste_reduction": 0.6889317578972751,
+    "lambda": 0.19354924472785204
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.43703703703703706,
+    "mean_calls": 1.987037037037037,
+    "stop_rate": 0.5175925925925926,
+    "FAR": 0.019444444444444445,
+    "FAR_cond": 0.0634441087613293,
+    "wasted_calls": 1.1796296296296296,
+    "waste_reduction": 0.6927899686520376,
+    "lambda": 0.10558383403206516
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 406,
+    "n_Y1_with_failure": 244
+   },
+   "frozen_learned": {
+    "success": 0.3101851851851852,
+    "mean_calls": 2.9138888888888888,
+    "stop_rate": 0.6092592592592593,
+    "FAR": 0.06574074074074074,
+    "FAR_cond": 0.29098360655737704,
+    "wasted_calls": 1.988888888888889,
+    "waste_reduction": 0.5712574850299401
+   },
+   "frozen_table": {
+    "success": 0.3175925925925926,
+    "mean_calls": 3.263888888888889,
+    "stop_rate": 0.44722222222222224,
+    "FAR": 0.058333333333333334,
+    "FAR_cond": 0.2581967213114754,
+    "wasted_calls": 2.3296296296296295,
+    "waste_reduction": 0.4978043912175649
+   },
+   "retry_3": {
+    "success": 0.30648148148148147,
+    "mean_calls": 3.312037037037037,
+    "stop_rate": 0.44537037037037036,
+    "FAR": 0.06944444444444445,
+    "FAR_cond": 0.3073770491803279,
+    "wasted_calls": 2.425,
+    "waste_reduction": 0.4772455089820359
+   },
+   "never_stop": {
+    "success": 0.37592592592592594,
+    "mean_calls": 5.757407407407407,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.638888888888889,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3472222222222222,
+    "mean_calls": 3.865740740740741,
+    "stop_rate": 0.4527777777777778,
+    "FAR": 0.028703703703703703,
+    "FAR_cond": 0.12704918032786885,
+    "wasted_calls": 2.8046296296296296,
+    "waste_reduction": 0.39540918163672656,
+    "lambda": 0.0025023574824422374
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3416666666666667,
+    "mean_calls": 3.8833333333333333,
+    "stop_rate": 0.49444444444444446,
+    "FAR": 0.03425925925925926,
+    "FAR_cond": 0.15163934426229508,
+    "wasted_calls": 2.813888888888889,
+    "waste_reduction": 0.39341317365269457,
+    "lambda": 0.050858417282385784
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10040232009446717,
+  "lambda_frozen_table": 0.08333333333333334,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 498,
+    "n_Y1_with_failure": 336
+   },
+   "frozen_learned": {
+    "success": 0.4537037037037037,
+    "mean_calls": 2.4444444444444446,
+    "stop_rate": 0.4722222222222222,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.023809523809523808,
+    "wasted_calls": 1.6018518518518519,
+    "waste_reduction": 0.5800970873786409
+   },
+   "frozen_table": {
+    "success": 0.4564814814814815,
+    "mean_calls": 2.7842592592592594,
+    "stop_rate": 0.337037037037037,
+    "FAR": 0.004629629629629629,
+    "FAR_cond": 0.01488095238095238,
+    "wasted_calls": 1.9388888888888889,
+    "waste_reduction": 0.49174757281553394
+   },
+   "retry_3": {
+    "success": 0.45740740740740743,
+    "mean_calls": 2.8666666666666667,
+    "stop_rate": 0.31574074074074077,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.011904761904761904,
+    "wasted_calls": 2.0194444444444444,
+    "waste_reduction": 0.47063106796116505
+   },
+   "never_stop": {
+    "success": 0.46111111111111114,
+    "mean_calls": 4.66574074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.814814814814815,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4425925925925926,
+    "mean_calls": 2.0435185185185185,
+    "stop_rate": 0.5287037037037037,
+    "FAR": 0.018518518518518517,
+    "FAR_cond": 0.05952380952380952,
+    "wasted_calls": 1.2157407407407408,
+    "waste_reduction": 0.6813106796116505,
+    "lambda": 0.19053277843556943
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4351851851851852,
+    "mean_calls": 1.988888888888889,
+    "stop_rate": 0.5212962962962963,
+    "FAR": 0.025925925925925925,
+    "FAR_cond": 0.08333333333333333,
+    "wasted_calls": 1.1722222222222223,
+    "waste_reduction": 0.6927184466019418,
+    "lambda": 0.11147871798427049
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 419,
+    "n_Y1_with_failure": 257
+   },
+   "frozen_learned": {
+    "success": 0.31296296296296294,
+    "mean_calls": 2.812962962962963,
+    "stop_rate": 0.6138888888888889,
+    "FAR": 0.075,
+    "FAR_cond": 0.3151750972762646,
+    "wasted_calls": 1.886111111111111,
+    "waste_reduction": 0.5793929382614083
+   },
+   "frozen_table": {
+    "success": 0.32592592592592595,
+    "mean_calls": 3.2268518518518516,
+    "stop_rate": 0.4388888888888889,
+    "FAR": 0.062037037037037036,
+    "FAR_cond": 0.2607003891050584,
+    "wasted_calls": 2.2805555555555554,
+    "waste_reduction": 0.4914309312409664
+   },
+   "retry_3": {
+    "success": 0.3148148148148148,
+    "mean_calls": 3.2805555555555554,
+    "stop_rate": 0.44074074074074077,
+    "FAR": 0.07314814814814814,
+    "FAR_cond": 0.30739299610894943,
+    "wasted_calls": 2.3777777777777778,
+    "waste_reduction": 0.46975015486268845
+   },
+   "never_stop": {
+    "success": 0.38796296296296295,
+    "mean_calls": 5.617592592592593,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.484259259259259,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3675925925925926,
+    "mean_calls": 3.9444444444444446,
+    "stop_rate": 0.4324074074074074,
+    "FAR": 0.020370370370370372,
+    "FAR_cond": 0.08560311284046693,
+    "wasted_calls": 2.8537037037037036,
+    "waste_reduction": 0.3636175924014041,
+    "lambda": 0.0011064736824557859
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.36944444444444446,
+    "mean_calls": 3.933333333333333,
+    "stop_rate": 0.4398148148148148,
+    "FAR": 0.018518518518518517,
+    "FAR_cond": 0.07782101167315175,
+    "wasted_calls": 2.8324074074074073,
+    "waste_reduction": 0.3683667148461698,
+    "lambda": 0.04271857908483539
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.09892169820644268,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 501,
+    "n_Y1_with_failure": 330
+   },
+   "frozen_learned": {
+    "success": 0.45925925925925926,
+    "mean_calls": 2.39537037037037,
+    "stop_rate": 0.475,
+    "FAR": 0.004629629629629629,
+    "FAR_cond": 0.015151515151515152,
+    "wasted_calls": 1.5620370370370371,
+    "waste_reduction": 0.58692458374143
+   },
+   "frozen_table": {
+    "success": 0.45925925925925926,
+    "mean_calls": 2.550925925925926,
+    "stop_rate": 0.3824074074074074,
+    "FAR": 0.004629629629629629,
+    "FAR_cond": 0.015151515151515152,
+    "wasted_calls": 1.7175925925925926,
+    "waste_reduction": 0.5457884427032321
+   },
+   "retry_3": {
+    "success": 0.462037037037037,
+    "mean_calls": 2.859259259259259,
+    "stop_rate": 0.30092592592592593,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006060606060606061,
+    "wasted_calls": 2.022222222222222,
+    "waste_reduction": 0.46523016650342797
+   },
+   "never_stop": {
+    "success": 0.4638888888888889,
+    "mean_calls": 4.62037037037037,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.7814814814814817,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.45185185185185184,
+    "mean_calls": 2.0907407407407406,
+    "stop_rate": 0.5212962962962963,
+    "FAR": 0.012037037037037037,
+    "FAR_cond": 0.03939393939393939,
+    "wasted_calls": 1.2657407407407408,
+    "waste_reduction": 0.6652791380999021,
+    "lambda": 0.1705506279408372
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4444444444444444,
+    "mean_calls": 1.9648148148148148,
+    "stop_rate": 0.5194444444444445,
+    "FAR": 0.019444444444444445,
+    "FAR_cond": 0.06363636363636363,
+    "wasted_calls": 1.150925925925926,
+    "waste_reduction": 0.69564152791381,
+    "lambda": 0.10558383403206516
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 410,
+    "n_Y1_with_failure": 239
+   },
+   "frozen_learned": {
+    "success": 0.3055555555555556,
+    "mean_calls": 2.7712962962962964,
+    "stop_rate": 0.6314814814814815,
+    "FAR": 0.07407407407407407,
+    "FAR_cond": 0.33472803347280333,
+    "wasted_calls": 1.8925925925925926,
+    "waste_reduction": 0.5882352941176471
+   },
+   "frozen_table": {
+    "success": 0.31666666666666665,
+    "mean_calls": 2.9685185185185183,
+    "stop_rate": 0.4981481481481482,
+    "FAR": 0.06296296296296296,
+    "FAR_cond": 0.28451882845188287,
+    "wasted_calls": 2.088888888888889,
+    "waste_reduction": 0.5455278001611603
+   },
+   "retry_3": {
+    "success": 0.30648148148148147,
+    "mean_calls": 3.276851851851852,
+    "stop_rate": 0.44351851851851853,
+    "FAR": 0.07314814814814814,
+    "FAR_cond": 0.3305439330543933,
+    "wasted_calls": 2.425925925925926,
+    "waste_reduction": 0.47219983883964545
+   },
+   "never_stop": {
+    "success": 0.37962962962962965,
+    "mean_calls": 5.678703703703704,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.5962962962962965,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35833333333333334,
+    "mean_calls": 3.838888888888889,
+    "stop_rate": 0.4388888888888889,
+    "FAR": 0.021296296296296296,
+    "FAR_cond": 0.09623430962343096,
+    "wasted_calls": 2.799074074074074,
+    "waste_reduction": 0.3910153102336825,
+    "lambda": 0.0016551546068714546
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3638888888888889,
+    "mean_calls": 3.9194444444444443,
+    "stop_rate": 0.44074074074074077,
+    "FAR": 0.01574074074074074,
+    "FAR_cond": 0.07112970711297072,
+    "wasted_calls": 2.861111111111111,
+    "waste_reduction": 0.37751813053988714,
+    "lambda": 0.04107056345608472
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.1029062491358039,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 500,
+    "n_Y1_with_failure": 329
+   },
+   "frozen_learned": {
+    "success": 0.4537037037037037,
+    "mean_calls": 2.3796296296296298,
+    "stop_rate": 0.475,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.030395136778115502,
+    "wasted_calls": 1.537962962962963,
+    "waste_reduction": 0.5920923379174853
+   },
+   "frozen_table": {
+    "success": 0.4546296296296296,
+    "mean_calls": 2.575925925925926,
+    "stop_rate": 0.37222222222222223,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.02735562310030395,
+    "wasted_calls": 1.7342592592592592,
+    "waste_reduction": 0.5400294695481336
+   },
+   "retry_3": {
+    "success": 0.4601851851851852,
+    "mean_calls": 2.8685185185185187,
+    "stop_rate": 0.30462962962962964,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.00911854103343465,
+    "wasted_calls": 2.0185185185185186,
+    "waste_reduction": 0.46463654223968565
+   },
+   "never_stop": {
+    "success": 0.46296296296296297,
+    "mean_calls": 4.6231481481481485,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.77037037037037,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4222222222222222,
+    "mean_calls": 1.8953703703703704,
+    "stop_rate": 0.549074074074074,
+    "FAR": 0.040740740740740744,
+    "FAR_cond": 0.1337386018237082,
+    "wasted_calls": 1.0962962962962963,
+    "waste_reduction": 0.7092337917485265,
+    "lambda": 0.22849895222207997
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.43148148148148147,
+    "mean_calls": 1.9324074074074074,
+    "stop_rate": 0.5268518518518519,
+    "FAR": 0.03148148148148148,
+    "FAR_cond": 0.1033434650455927,
+    "wasted_calls": 1.1212962962962962,
+    "waste_reduction": 0.7026031434184676,
+    "lambda": 0.11690549617442982
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 417,
+    "n_Y1_with_failure": 246
+   },
+   "frozen_learned": {
+    "success": 0.3138888888888889,
+    "mean_calls": 2.7527777777777778,
+    "stop_rate": 0.6194444444444445,
+    "FAR": 0.07222222222222222,
+    "FAR_cond": 0.3170731707317073,
+    "wasted_calls": 1.8416666666666666,
+    "waste_reduction": 0.5901504224191222
+   },
+   "frozen_table": {
+    "success": 0.32037037037037036,
+    "mean_calls": 2.9916666666666667,
+    "stop_rate": 0.47685185185185186,
+    "FAR": 0.06574074074074074,
+    "FAR_cond": 0.2886178861788618,
+    "wasted_calls": 2.0814814814814815,
+    "waste_reduction": 0.5367813723470019
+   },
+   "retry_3": {
+    "success": 0.3148148148148148,
+    "mean_calls": 3.2796296296296297,
+    "stop_rate": 0.4324074074074074,
+    "FAR": 0.0712962962962963,
+    "FAR_cond": 0.3130081300813008,
+    "wasted_calls": 2.3833333333333333,
+    "waste_reduction": 0.46960642901298166
+   },
+   "never_stop": {
+    "success": 0.3861111111111111,
+    "mean_calls": 5.603703703703704,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.493518518518519,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.36574074074074076,
+    "mean_calls": 3.912037037037037,
+    "stop_rate": 0.42777777777777776,
+    "FAR": 0.020370370370370372,
+    "FAR_cond": 0.08943089430894309,
+    "wasted_calls": 2.838888888888889,
+    "waste_reduction": 0.3682258396867917,
+    "lambda": 0.0011396813436293646
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.36018518518518516,
+    "mean_calls": 3.899074074074074,
+    "stop_rate": 0.4444444444444444,
+    "FAR": 0.025925925925925925,
+    "FAR_cond": 0.11382113821138211,
+    "wasted_calls": 2.8287037037037037,
+    "waste_reduction": 0.3704924788790439,
+    "lambda": 0.04508289887952212
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.1029062491358039,
+  "lambda_frozen_table": 0.10000000000000002,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 501,
+    "n_Y1_with_failure": 334
+   },
+   "frozen_learned": {
+    "success": 0.4537037037037037,
+    "mean_calls": 2.4407407407407407,
+    "stop_rate": 0.47314814814814815,
+    "FAR": 0.010185185185185186,
+    "FAR_cond": 0.03293413173652695,
+    "wasted_calls": 1.5925925925925926,
+    "waste_reduction": 0.5811008280565026
+   },
+   "frozen_table": {
+    "success": 0.4546296296296296,
+    "mean_calls": 2.5925925925925926,
+    "stop_rate": 0.3907407407407407,
+    "FAR": 0.009259259259259259,
+    "FAR_cond": 0.029940119760479042,
+    "wasted_calls": 1.7435185185185185,
+    "waste_reduction": 0.5414028251339503
+   },
+   "retry_3": {
+    "success": 0.46111111111111114,
+    "mean_calls": 2.8685185185185187,
+    "stop_rate": 0.3074074074074074,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.008982035928143712,
+    "wasted_calls": 2.012037037037037,
+    "waste_reduction": 0.4707744763760351
+   },
+   "never_stop": {
+    "success": 0.4638888888888889,
+    "mean_calls": 4.661111111111111,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.801851851851852,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.425,
+    "mean_calls": 1.95,
+    "stop_rate": 0.5527777777777778,
+    "FAR": 0.03888888888888889,
+    "FAR_cond": 0.12574850299401197,
+    "wasted_calls": 1.137962962962963,
+    "waste_reduction": 0.7006819288845592,
+    "lambda": 0.2217817639181214
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4305555555555556,
+    "mean_calls": 1.9638888888888888,
+    "stop_rate": 0.5212962962962963,
+    "FAR": 0.03333333333333333,
+    "FAR_cond": 0.10778443113772455,
+    "wasted_calls": 1.1490740740740741,
+    "waste_reduction": 0.6977593765221627,
+    "lambda": 0.11690549617442982
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 415,
+    "n_Y1_with_failure": 248
+   },
+   "frozen_learned": {
+    "success": 0.30277777777777776,
+    "mean_calls": 2.825,
+    "stop_rate": 0.6305555555555555,
+    "FAR": 0.08148148148148149,
+    "FAR_cond": 0.3548387096774194,
+    "wasted_calls": 1.8981481481481481,
+    "waste_reduction": 0.5781893004115226
+   },
+   "frozen_table": {
+    "success": 0.3074074074074074,
+    "mean_calls": 3.0083333333333333,
+    "stop_rate": 0.5185185185185185,
+    "FAR": 0.07685185185185185,
+    "FAR_cond": 0.3346774193548387,
+    "wasted_calls": 2.085185185185185,
+    "waste_reduction": 0.5366255144032922
+   },
+   "retry_3": {
+    "success": 0.30462962962962964,
+    "mean_calls": 3.3074074074074074,
+    "stop_rate": 0.4425925925925926,
+    "FAR": 0.07962962962962963,
+    "FAR_cond": 0.3467741935483871,
+    "wasted_calls": 2.4027777777777777,
+    "waste_reduction": 0.46604938271604934
+   },
+   "never_stop": {
+    "success": 0.38425925925925924,
+    "mean_calls": 5.6648148148148145,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.5,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3527777777777778,
+    "mean_calls": 3.8833333333333333,
+    "stop_rate": 0.44166666666666665,
+    "FAR": 0.03148148148148148,
+    "FAR_cond": 0.13709677419354838,
+    "wasted_calls": 2.7888888888888888,
+    "waste_reduction": 0.38024691358024687,
+    "lambda": 0.003092615946350926
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35185185185185186,
+    "mean_calls": 3.962962962962963,
+    "stop_rate": 0.4685185185185185,
+    "FAR": 0.032407407407407406,
+    "FAR_cond": 0.14112903225806453,
+    "wasted_calls": 2.8518518518518516,
+    "waste_reduction": 0.3662551440329218,
+    "lambda": 0.05055057955614165
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.08351561861544672,
+  "lambda_frozen_table": 0.08450704225352114,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 499,
+    "n_Y1_with_failure": 333
+   },
+   "frozen_learned": {
+    "success": 0.4546296296296296,
+    "mean_calls": 2.5055555555555555,
+    "stop_rate": 0.45185185185185184,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.024024024024024024,
+    "wasted_calls": 1.6601851851851852,
+    "waste_reduction": 0.5669082125603865
+   },
+   "frozen_table": {
+    "success": 0.4564814814814815,
+    "mean_calls": 2.698148148148148,
+    "stop_rate": 0.3527777777777778,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.018018018018018018,
+    "wasted_calls": 1.8509259259259259,
+    "waste_reduction": 0.5171497584541063
+   },
+   "retry_3": {
+    "success": 0.4601851851851852,
+    "mean_calls": 2.848148148148148,
+    "stop_rate": 0.3111111111111111,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006006006006006006,
+    "wasted_calls": 1.9953703703703705,
+    "waste_reduction": 0.47946859903381644
+   },
+   "never_stop": {
+    "success": 0.462037037037037,
+    "mean_calls": 4.687962962962963,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8333333333333335,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.44166666666666665,
+    "mean_calls": 2.0194444444444444,
+    "stop_rate": 0.5231481481481481,
+    "FAR": 0.020370370370370372,
+    "FAR_cond": 0.06606606606606606,
+    "wasted_calls": 1.1916666666666667,
+    "waste_reduction": 0.6891304347826087,
+    "lambda": 0.19354924472785204
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.43148148148148147,
+    "mean_calls": 1.9416666666666667,
+    "stop_rate": 0.5194444444444445,
+    "FAR": 0.030555555555555555,
+    "FAR_cond": 0.0990990990990991,
+    "wasted_calls": 1.1277777777777778,
+    "waste_reduction": 0.7057971014492754,
+    "lambda": 0.11365967758607087
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 415,
+    "n_Y1_with_failure": 249
+   },
+   "frozen_learned": {
+    "success": 0.32407407407407407,
+    "mean_calls": 2.9157407407407407,
+    "stop_rate": 0.575925925925926,
+    "FAR": 0.06018518518518518,
+    "FAR_cond": 0.26104417670682734,
+    "wasted_calls": 1.9944444444444445,
+    "waste_reduction": 0.5644084934277047
+   },
+   "frozen_table": {
+    "success": 0.32037037037037036,
+    "mean_calls": 3.098148148148148,
+    "stop_rate": 0.462037037037037,
+    "FAR": 0.06388888888888888,
+    "FAR_cond": 0.27710843373493976,
+    "wasted_calls": 2.1925925925925926,
+    "waste_reduction": 0.5211324570273004
+   },
+   "retry_3": {
+    "success": 0.3175925925925926,
+    "mean_calls": 3.2675925925925924,
+    "stop_rate": 0.44074074074074077,
+    "FAR": 0.06666666666666667,
+    "FAR_cond": 0.2891566265060241,
+    "wasted_calls": 2.376851851851852,
+    "waste_reduction": 0.48088978766430734
+   },
+   "never_stop": {
+    "success": 0.38425925925925924,
+    "mean_calls": 5.662962962962963,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.578703703703703,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.37037037037037035,
+    "mean_calls": 4.20462962962963,
+    "stop_rate": 0.41759259259259257,
+    "FAR": 0.013888888888888888,
+    "FAR_cond": 0.060240963855421686,
+    "wasted_calls": 3.1444444444444444,
+    "waste_reduction": 0.3132457027300304,
+    "lambda": 0.0004625079853998136
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3712962962962963,
+    "mean_calls": 3.974074074074074,
+    "stop_rate": 0.4305555555555556,
+    "FAR": 0.012962962962962963,
+    "FAR_cond": 0.05622489959839357,
+    "wasted_calls": 2.914814814814815,
+    "waste_reduction": 0.36339737108190096,
+    "lambda": 0.03906657298320658
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10040232009446717,
+  "lambda_frozen_table": 0.08333333333333334,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 493,
+    "n_Y1_with_failure": 330
+   },
+   "frozen_learned": {
+    "success": 0.44907407407407407,
+    "mean_calls": 2.475925925925926,
+    "stop_rate": 0.4740740740740741,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.024242424242424242,
+    "wasted_calls": 1.6462962962962964,
+    "waste_reduction": 0.5766666666666667
+   },
+   "frozen_table": {
+    "success": 0.45185185185185184,
+    "mean_calls": 2.8675925925925925,
+    "stop_rate": 0.33240740740740743,
+    "FAR": 0.004629629629629629,
+    "FAR_cond": 0.015151515151515152,
+    "wasted_calls": 2.036111111111111,
+    "waste_reduction": 0.4764285714285714
+   },
+   "retry_3": {
+    "success": 0.4546296296296296,
+    "mean_calls": 2.8814814814814813,
+    "stop_rate": 0.30648148148148147,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006060606060606061,
+    "wasted_calls": 2.0444444444444443,
+    "waste_reduction": 0.4742857142857143
+   },
+   "never_stop": {
+    "success": 0.4564814814814815,
+    "mean_calls": 4.727777777777778,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.888888888888889,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.43425925925925923,
+    "mean_calls": 2.0444444444444443,
+    "stop_rate": 0.5333333333333333,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.07272727272727272,
+    "wasted_calls": 1.2351851851851852,
+    "waste_reduction": 0.6823809523809523,
+    "lambda": 0.19554453932766827
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.43703703703703706,
+    "mean_calls": 2.0074074074074075,
+    "stop_rate": 0.5194444444444445,
+    "FAR": 0.019444444444444445,
+    "FAR_cond": 0.06363636363636363,
+    "wasted_calls": 1.1953703703703704,
+    "waste_reduction": 0.6926190476190477,
+    "lambda": 0.10558383403206516
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 400,
+    "n_Y1_with_failure": 237
+   },
+   "frozen_learned": {
+    "success": 0.2972222222222222,
+    "mean_calls": 2.8574074074074076,
+    "stop_rate": 0.6268518518518519,
+    "FAR": 0.07314814814814814,
+    "FAR_cond": 0.3333333333333333,
+    "wasted_calls": 1.9796296296296296,
+    "waste_reduction": 0.5692121700584324
+   },
+   "frozen_table": {
+    "success": 0.3055555555555556,
+    "mean_calls": 3.3064814814814816,
+    "stop_rate": 0.4351851851851852,
+    "FAR": 0.06481481481481481,
+    "FAR_cond": 0.29535864978902954,
+    "wasted_calls": 2.425925925925926,
+    "waste_reduction": 0.47209349183961313
+   },
+   "retry_3": {
+    "success": 0.29907407407407405,
+    "mean_calls": 3.3157407407407407,
+    "stop_rate": 0.43425925925925923,
+    "FAR": 0.0712962962962963,
+    "FAR_cond": 0.32489451476793246,
+    "wasted_calls": 2.4583333333333335,
+    "waste_reduction": 0.46504130566189805
+   },
+   "never_stop": {
+    "success": 0.37037037037037035,
+    "mean_calls": 5.676851851851852,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.595370370370371,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35,
+    "mean_calls": 3.988888888888889,
+    "stop_rate": 0.42685185185185187,
+    "FAR": 0.020370370370370372,
+    "FAR_cond": 0.09282700421940929,
+    "wasted_calls": 2.950925925925926,
+    "waste_reduction": 0.3578480757606286,
+    "lambda": 0.0012148854253496877
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.34814814814814815,
+    "mean_calls": 4.025,
+    "stop_rate": 0.44722222222222224,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.10126582278481013,
+    "wasted_calls": 2.977777777777778,
+    "waste_reduction": 0.35200483578480757,
+    "lambda": 0.04390277740681558
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10153036635588639,
+  "lambda_frozen_table": 0.08450704225352114,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 506,
+    "n_Y1_with_failure": 319
+   },
+   "frozen_learned": {
+    "success": 0.4583333333333333,
+    "mean_calls": 2.399074074074074,
+    "stop_rate": 0.475,
+    "FAR": 0.010185185185185186,
+    "FAR_cond": 0.034482758620689655,
+    "wasted_calls": 1.5666666666666667,
+    "waste_reduction": 0.5853957363391326
+   },
+   "frozen_table": {
+    "success": 0.46296296296296297,
+    "mean_calls": 2.7074074074074073,
+    "stop_rate": 0.34074074074074073,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.018808777429467086,
+    "wasted_calls": 1.8712962962962962,
+    "waste_reduction": 0.5047782406272971
+   },
+   "retry_3": {
+    "success": 0.4666666666666667,
+    "mean_calls": 2.841666666666667,
+    "stop_rate": 0.2953703703703704,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006269592476489028,
+    "wasted_calls": 2.0,
+    "waste_reduction": 0.470717961283999
+   },
+   "never_stop": {
+    "success": 0.4685185185185185,
+    "mean_calls": 4.622222222222222,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.778703703703704,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.43333333333333335,
+    "mean_calls": 1.924074074074074,
+    "stop_rate": 0.5416666666666666,
+    "FAR": 0.03518518518518519,
+    "FAR_cond": 0.11912225705329153,
+    "wasted_calls": 1.124074074074074,
+    "waste_reduction": 0.7025238912031364,
+    "lambda": 0.2198260567984417
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.43796296296296294,
+    "mean_calls": 1.9259259259259258,
+    "stop_rate": 0.524074074074074,
+    "FAR": 0.030555555555555555,
+    "FAR_cond": 0.10344827586206896,
+    "wasted_calls": 1.1231481481481482,
+    "waste_reduction": 0.7027689291840236,
+    "lambda": 0.11417798127675453
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 417,
+    "n_Y1_with_failure": 230
+   },
+   "frozen_learned": {
+    "success": 0.31574074074074077,
+    "mean_calls": 2.751851851851852,
+    "stop_rate": 0.6194444444444445,
+    "FAR": 0.07037037037037037,
+    "FAR_cond": 0.33043478260869563,
+    "wasted_calls": 1.8842592592592593,
+    "waste_reduction": 0.5862980280544826
+   },
+   "frozen_table": {
+    "success": 0.3287037037037037,
+    "mean_calls": 3.112962962962963,
+    "stop_rate": 0.43703703703703706,
+    "FAR": 0.05740740740740741,
+    "FAR_cond": 0.26956521739130435,
+    "wasted_calls": 2.236111111111111,
+    "waste_reduction": 0.5090465541776784
+   },
+   "retry_3": {
+    "success": 0.32222222222222224,
+    "mean_calls": 3.2555555555555555,
+    "stop_rate": 0.42314814814814816,
+    "FAR": 0.06388888888888888,
+    "FAR_cond": 0.3,
+    "wasted_calls": 2.4,
+    "waste_reduction": 0.47306363081927216
+   },
+   "never_stop": {
+    "success": 0.3861111111111111,
+    "mean_calls": 5.6,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.55462962962963,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.36944444444444446,
+    "mean_calls": 4.002777777777778,
+    "stop_rate": 0.4212962962962963,
+    "FAR": 0.016666666666666666,
+    "FAR_cond": 0.0782608695652174,
+    "wasted_calls": 2.990740740740741,
+    "waste_reduction": 0.3433624720471641,
+    "lambda": 0.0008747818894300674
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3648148148148148,
+    "mean_calls": 3.886111111111111,
+    "stop_rate": 0.4388888888888889,
+    "FAR": 0.021296296296296296,
+    "FAR_cond": 0.1,
+    "wasted_calls": 2.876851851851852,
+    "waste_reduction": 0.3683675543809718,
+    "lambda": 0.04390277740681558
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10093219574895829,
+  "lambda_frozen_table": 0.10000000000000002,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 504,
+    "n_Y1_with_failure": 339
+   },
+   "frozen_learned": {
+    "success": 0.45555555555555555,
+    "mean_calls": 2.435185185185185,
+    "stop_rate": 0.4666666666666667,
+    "FAR": 0.011111111111111112,
+    "FAR_cond": 0.035398230088495575,
+    "wasted_calls": 1.576851851851852,
+    "waste_reduction": 0.5768944099378882
+   },
+   "frozen_table": {
+    "success": 0.4564814814814815,
+    "mean_calls": 2.5435185185185185,
+    "stop_rate": 0.3907407407407407,
+    "FAR": 0.010185185185185186,
+    "FAR_cond": 0.032448377581120944,
+    "wasted_calls": 1.6842592592592593,
+    "waste_reduction": 0.5480745341614907
+   },
+   "retry_3": {
+    "success": 0.4638888888888889,
+    "mean_calls": 2.8574074074074076,
+    "stop_rate": 0.29814814814814816,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.008849557522123894,
+    "wasted_calls": 1.988888888888889,
+    "waste_reduction": 0.4663354037267081
+   },
+   "never_stop": {
+    "success": 0.4666666666666667,
+    "mean_calls": 4.598148148148148,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.7268518518518516,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.43148148148148147,
+    "mean_calls": 1.9370370370370371,
+    "stop_rate": 0.5416666666666666,
+    "FAR": 0.03518518518518519,
+    "FAR_cond": 0.11209439528023599,
+    "wasted_calls": 1.1092592592592592,
+    "waste_reduction": 0.7023602484472049,
+    "lambda": 0.21779167224582405
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.42777777777777776,
+    "mean_calls": 1.9064814814814814,
+    "stop_rate": 0.524074074074074,
+    "FAR": 0.03888888888888889,
+    "FAR_cond": 0.12389380530973451,
+    "wasted_calls": 1.086111111111111,
+    "waste_reduction": 0.7085714285714286,
+    "lambda": 0.12760617323383047
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 413,
+    "n_Y1_with_failure": 248
+   },
+   "frozen_learned": {
+    "success": 0.30925925925925923,
+    "mean_calls": 2.846296296296296,
+    "stop_rate": 0.6212962962962963,
+    "FAR": 0.07314814814814814,
+    "FAR_cond": 0.3185483870967742,
+    "wasted_calls": 1.9175925925925925,
+    "waste_reduction": 0.5756147540983607
+   },
+   "frozen_table": {
+    "success": 0.3055555555555556,
+    "mean_calls": 2.9574074074074073,
+    "stop_rate": 0.5212962962962963,
+    "FAR": 0.07685185185185185,
+    "FAR_cond": 0.3346774193548387,
+    "wasted_calls": 2.05,
+    "waste_reduction": 0.546311475409836
+   },
+   "retry_3": {
+    "success": 0.3055555555555556,
+    "mean_calls": 3.299074074074074,
+    "stop_rate": 0.44351851851851853,
+    "FAR": 0.07685185185185185,
+    "FAR_cond": 0.3346774193548387,
+    "wasted_calls": 2.401851851851852,
+    "waste_reduction": 0.4684426229508196
+   },
+   "never_stop": {
+    "success": 0.3824074074074074,
+    "mean_calls": 5.659259259259259,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.518518518518518,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35462962962962963,
+    "mean_calls": 3.8666666666666667,
+    "stop_rate": 0.4425925925925926,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.12096774193548387,
+    "wasted_calls": 2.7805555555555554,
+    "waste_reduction": 0.3846311475409836,
+    "lambda": 0.0024763501030757693
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35555555555555557,
+    "mean_calls": 3.9157407407407407,
+    "stop_rate": 0.4601851851851852,
+    "FAR": 0.026851851851851852,
+    "FAR_cond": 0.11693548387096774,
+    "wasted_calls": 2.816666666666667,
+    "waste_reduction": 0.37663934426229506,
+    "lambda": 0.04522321349040765
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10908688921809344,
+  "lambda_frozen_table": 0.11111111111111112,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 486,
+    "n_Y1_with_failure": 317
+   },
+   "frozen_learned": {
+    "success": 0.44351851851851853,
+    "mean_calls": 2.4064814814814817,
+    "stop_rate": 0.4842592592592593,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.022082018927444796,
+    "wasted_calls": 1.5925925925925926,
+    "waste_reduction": 0.5857418111753372
+   },
+   "frozen_table": {
+    "success": 0.44166666666666665,
+    "mean_calls": 2.471296296296296,
+    "stop_rate": 0.4222222222222222,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.028391167192429023,
+    "wasted_calls": 1.6592592592592592,
+    "waste_reduction": 0.5684007707129095
+   },
+   "retry_3": {
+    "success": 0.44814814814814813,
+    "mean_calls": 2.8777777777777778,
+    "stop_rate": 0.3074074074074074,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006309148264984227,
+    "wasted_calls": 2.0574074074074074,
+    "waste_reduction": 0.4648362235067437
+   },
+   "never_stop": {
+    "success": 0.45,
+    "mean_calls": 4.666666666666667,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8444444444444446,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4185185185185185,
+    "mean_calls": 1.9712962962962963,
+    "stop_rate": 0.5527777777777778,
+    "FAR": 0.03148148148148148,
+    "FAR_cond": 0.10725552050473186,
+    "wasted_calls": 1.1870370370370371,
+    "waste_reduction": 0.691233140655106,
+    "lambda": 0.21612748512579089
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4166666666666667,
+    "mean_calls": 1.9416666666666667,
+    "stop_rate": 0.5370370370370371,
+    "FAR": 0.03333333333333333,
+    "FAR_cond": 0.11356466876971609,
+    "wasted_calls": 1.1611111111111112,
+    "waste_reduction": 0.6979768786127167,
+    "lambda": 0.11729721833014017
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 409,
+    "n_Y1_with_failure": 240
+   },
+   "frozen_learned": {
+    "success": 0.2824074074074074,
+    "mean_calls": 2.7712962962962964,
+    "stop_rate": 0.6592592592592592,
+    "FAR": 0.0962962962962963,
+    "FAR_cond": 0.43333333333333335,
+    "wasted_calls": 1.8666666666666667,
+    "waste_reduction": 0.589993898718731
+   },
+   "frozen_table": {
+    "success": 0.2851851851851852,
+    "mean_calls": 2.8314814814814815,
+    "stop_rate": 0.5712962962962963,
+    "FAR": 0.09351851851851851,
+    "FAR_cond": 0.42083333333333334,
+    "wasted_calls": 1.9472222222222222,
+    "waste_reduction": 0.572300183038438
+   },
+   "retry_3": {
+    "success": 0.2916666666666667,
+    "mean_calls": 3.316666666666667,
+    "stop_rate": 0.4537037037037037,
+    "FAR": 0.08703703703703704,
+    "FAR_cond": 0.39166666666666666,
+    "wasted_calls": 2.4194444444444443,
+    "waste_reduction": 0.4685784014643075
+   },
+   "never_stop": {
+    "success": 0.3787037037037037,
+    "mean_calls": 5.735185185185185,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.552777777777778,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.33611111111111114,
+    "mean_calls": 3.763888888888889,
+    "stop_rate": 0.46111111111111114,
+    "FAR": 0.04259259259259259,
+    "FAR_cond": 0.19166666666666668,
+    "wasted_calls": 2.683333333333333,
+    "waste_reduction": 0.41061622940817577,
+    "lambda": 0.006256486786921822
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3333333333333333,
+    "mean_calls": 3.811111111111111,
+    "stop_rate": 0.524074074074074,
+    "FAR": 0.04537037037037037,
+    "FAR_cond": 0.20416666666666666,
+    "wasted_calls": 2.712037037037037,
+    "waste_reduction": 0.404311572096807,
+    "lambda": 0.0696490805784821
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10350127088740209,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 490,
+    "n_Y1_with_failure": 329
+   },
+   "frozen_learned": {
+    "success": 0.4425925925925926,
+    "mean_calls": 2.3824074074074075,
+    "stop_rate": 0.4861111111111111,
+    "FAR": 0.011111111111111112,
+    "FAR_cond": 0.0364741641337386,
+    "wasted_calls": 1.5629629629629629,
+    "waste_reduction": 0.5971360381861575
+   },
+   "frozen_table": {
+    "success": 0.44537037037037036,
+    "mean_calls": 2.5722222222222224,
+    "stop_rate": 0.39444444444444443,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.02735562310030395,
+    "wasted_calls": 1.75,
+    "waste_reduction": 0.5489260143198091
+   },
+   "retry_3": {
+    "success": 0.45092592592592595,
+    "mean_calls": 2.862962962962963,
+    "stop_rate": 0.31851851851851853,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.00911854103343465,
+    "wasted_calls": 2.033333333333333,
+    "waste_reduction": 0.47589498806682573
+   },
+   "never_stop": {
+    "success": 0.4537037037037037,
+    "mean_calls": 4.712037037037037,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8796296296296298,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.42407407407407405,
+    "mean_calls": 1.962962962962963,
+    "stop_rate": 0.5407407407407407,
+    "FAR": 0.02962962962962963,
+    "FAR_cond": 0.0972644376899696,
+    "wasted_calls": 1.1666666666666667,
+    "waste_reduction": 0.6992840095465394,
+    "lambda": 0.2146539684195846
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4222222222222222,
+    "mean_calls": 1.9351851851851851,
+    "stop_rate": 0.5259259259259259,
+    "FAR": 0.03148148148148148,
+    "FAR_cond": 0.1033434650455927,
+    "wasted_calls": 1.1435185185185186,
+    "waste_reduction": 0.7052505966587113,
+    "lambda": 0.11690549617442982
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 399,
+    "n_Y1_with_failure": 238
+   },
+   "frozen_learned": {
+    "success": 0.2972222222222222,
+    "mean_calls": 2.7527777777777778,
+    "stop_rate": 0.637962962962963,
+    "FAR": 0.07222222222222222,
+    "FAR_cond": 0.3277310924369748,
+    "wasted_calls": 1.8907407407407408,
+    "waste_reduction": 0.5928215353938185
+   },
+   "frozen_table": {
+    "success": 0.30462962962962964,
+    "mean_calls": 2.9833333333333334,
+    "stop_rate": 0.5037037037037037,
+    "FAR": 0.06481481481481481,
+    "FAR_cond": 0.29411764705882354,
+    "wasted_calls": 2.1212962962962965,
+    "waste_reduction": 0.5431704885343969
+   },
+   "retry_3": {
+    "success": 0.29814814814814816,
+    "mean_calls": 3.2916666666666665,
+    "stop_rate": 0.45092592592592595,
+    "FAR": 0.0712962962962963,
+    "FAR_cond": 0.3235294117647059,
+    "wasted_calls": 2.439814814814815,
+    "waste_reduction": 0.47457627118644063
+   },
+   "never_stop": {
+    "success": 0.36944444444444446,
+    "mean_calls": 5.723148148148148,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.643518518518518,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3398148148148148,
+    "mean_calls": 3.863888888888889,
+    "stop_rate": 0.45092592592592595,
+    "FAR": 0.02962962962962963,
+    "FAR_cond": 0.13445378151260504,
+    "wasted_calls": 2.848148148148148,
+    "waste_reduction": 0.3866400797607178,
+    "lambda": 0.002585395683547335
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.34814814814814815,
+    "mean_calls": 3.975,
+    "stop_rate": 0.4638888888888889,
+    "FAR": 0.021296296296296296,
+    "FAR_cond": 0.09663865546218488,
+    "wasted_calls": 2.9324074074074074,
+    "waste_reduction": 0.368494516450648,
+    "lambda": 0.04345267234417312
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.0879787076366286,
+  "lambda_frozen_table": 0.08695652173913045,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 495,
+    "n_Y1_with_failure": 338
+   },
+   "frozen_learned": {
+    "success": 0.45,
+    "mean_calls": 2.4944444444444445,
+    "stop_rate": 0.4601851851851852,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.026627218934911243,
+    "wasted_calls": 1.6564814814814814,
+    "waste_reduction": 0.5715996168582376
+   },
+   "frozen_table": {
+    "success": 0.4527777777777778,
+    "mean_calls": 2.6972222222222224,
+    "stop_rate": 0.3574074074074074,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.01775147928994083,
+    "wasted_calls": 1.8574074074074074,
+    "waste_reduction": 0.5196360153256705
+   },
+   "retry_3": {
+    "success": 0.45555555555555555,
+    "mean_calls": 2.862962962962963,
+    "stop_rate": 0.31203703703703706,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.008875739644970414,
+    "wasted_calls": 2.0185185185185186,
+    "waste_reduction": 0.47796934865900387
+   },
+   "never_stop": {
+    "success": 0.4583333333333333,
+    "mean_calls": 4.713888888888889,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.8666666666666667,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.43333333333333335,
+    "mean_calls": 2.011111111111111,
+    "stop_rate": 0.5342592592592592,
+    "FAR": 0.025,
+    "FAR_cond": 0.07988165680473373,
+    "wasted_calls": 1.1953703703703704,
+    "waste_reduction": 0.6908524904214559,
+    "lambda": 0.19609014855271076
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.43333333333333335,
+    "mean_calls": 1.9916666666666667,
+    "stop_rate": 0.5194444444444445,
+    "FAR": 0.025,
+    "FAR_cond": 0.07988165680473373,
+    "wasted_calls": 1.174074074074074,
+    "waste_reduction": 0.696360153256705,
+    "lambda": 0.11086455945190729
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 403,
+    "n_Y1_with_failure": 246
+   },
+   "frozen_learned": {
+    "success": 0.30648148148148147,
+    "mean_calls": 2.9296296296296296,
+    "stop_rate": 0.600925925925926,
+    "FAR": 0.06666666666666667,
+    "FAR_cond": 0.2926829268292683,
+    "wasted_calls": 2.0148148148148146,
+    "waste_reduction": 0.5696202531645569
+   },
+   "frozen_table": {
+    "success": 0.30833333333333335,
+    "mean_calls": 3.1462962962962964,
+    "stop_rate": 0.4722222222222222,
+    "FAR": 0.06481481481481481,
+    "FAR_cond": 0.2845528455284553,
+    "wasted_calls": 2.240740740740741,
+    "waste_reduction": 0.5213607594936709
+   },
+   "retry_3": {
+    "success": 0.3,
+    "mean_calls": 3.325925925925926,
+    "stop_rate": 0.4583333333333333,
+    "FAR": 0.07314814814814814,
+    "FAR_cond": 0.32113821138211385,
+    "wasted_calls": 2.4425925925925926,
+    "waste_reduction": 0.478243670886076
+   },
+   "never_stop": {
+    "success": 0.3731481481481482,
+    "mean_calls": 5.781481481481482,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.681481481481481,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35555555555555557,
+    "mean_calls": 4.154629629629629,
+    "stop_rate": 0.44537037037037036,
+    "FAR": 0.017592592592592594,
+    "FAR_cond": 0.07723577235772358,
+    "wasted_calls": 3.088888888888889,
+    "waste_reduction": 0.34018987341772156,
+    "lambda": 0.0008747818894300674
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.36018518518518516,
+    "mean_calls": 4.117592592592593,
+    "stop_rate": 0.4351851851851852,
+    "FAR": 0.012962962962962963,
+    "FAR_cond": 0.056910569105691054,
+    "wasted_calls": 3.0435185185185185,
+    "waste_reduction": 0.349881329113924,
+    "lambda": 0.03906657298320658
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10867259230676005,
+  "lambda_frozen_table": 0.10526315789473685,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 480,
+    "n_Y1_with_failure": 332
+   },
+   "frozen_learned": {
+    "success": 0.4305555555555556,
+    "mean_calls": 2.3759259259259258,
+    "stop_rate": 0.5046296296296297,
+    "FAR": 0.013888888888888888,
+    "FAR_cond": 0.045180722891566265,
+    "wasted_calls": 1.5657407407407407,
+    "waste_reduction": 0.6011792452830189
+   },
+   "frozen_table": {
+    "success": 0.43333333333333335,
+    "mean_calls": 2.564814814814815,
+    "stop_rate": 0.4111111111111111,
+    "FAR": 0.011111111111111112,
+    "FAR_cond": 0.03614457831325301,
+    "wasted_calls": 1.750925925925926,
+    "waste_reduction": 0.5540094339622641
+   },
+   "retry_3": {
+    "success": 0.4425925925925926,
+    "mean_calls": 2.9074074074074074,
+    "stop_rate": 0.31296296296296294,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.006024096385542169,
+    "wasted_calls": 2.0833333333333335,
+    "waste_reduction": 0.4693396226415094
+   },
+   "never_stop": {
+    "success": 0.4444444444444444,
+    "mean_calls": 4.7518518518518515,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.925925925925926,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4101851851851852,
+    "mean_calls": 1.9444444444444444,
+    "stop_rate": 0.5638888888888889,
+    "FAR": 0.03425925925925926,
+    "FAR_cond": 0.11144578313253012,
+    "wasted_calls": 1.1601851851851852,
+    "waste_reduction": 0.7044811320754717,
+    "lambda": 0.21779167224582405
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.41388888888888886,
+    "mean_calls": 1.9370370370370371,
+    "stop_rate": 0.5425925925925926,
+    "FAR": 0.030555555555555555,
+    "FAR_cond": 0.09939759036144578,
+    "wasted_calls": 1.1527777777777777,
+    "waste_reduction": 0.7063679245283019,
+    "lambda": 0.11417798127675453
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 387,
+    "n_Y1_with_failure": 239
+   },
+   "frozen_learned": {
+    "success": 0.27685185185185185,
+    "mean_calls": 2.7527777777777778,
+    "stop_rate": 0.6703703703703704,
+    "FAR": 0.08148148148148149,
+    "FAR_cond": 0.3682008368200837,
+    "wasted_calls": 1.900925925925926,
+    "waste_reduction": 0.6004281821720514
+   },
+   "frozen_table": {
+    "success": 0.2824074074074074,
+    "mean_calls": 2.9703703703703703,
+    "stop_rate": 0.549074074074074,
+    "FAR": 0.07592592592592592,
+    "FAR_cond": 0.34309623430962344,
+    "wasted_calls": 2.1185185185185187,
+    "waste_reduction": 0.5546905410665628
+   },
+   "retry_3": {
+    "success": 0.28425925925925927,
+    "mean_calls": 3.3601851851851854,
+    "stop_rate": 0.45740740740740743,
+    "FAR": 0.07407407407407407,
+    "FAR_cond": 0.33472803347280333,
+    "wasted_calls": 2.5046296296296298,
+    "waste_reduction": 0.47353055663682364
+   },
+   "never_stop": {
+    "success": 0.35833333333333334,
+    "mean_calls": 5.830555555555556,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.757407407407407,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.33611111111111114,
+    "mean_calls": 3.975925925925926,
+    "stop_rate": 0.4527777777777778,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.100418410041841,
+    "wasted_calls": 2.948148148148148,
+    "waste_reduction": 0.38030362008563645,
+    "lambda": 0.001723278180917968
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3277777777777778,
+    "mean_calls": 3.9212962962962963,
+    "stop_rate": 0.487962962962963,
+    "FAR": 0.030555555555555555,
+    "FAR_cond": 0.13807531380753138,
+    "wasted_calls": 2.8962962962962964,
+    "waste_reduction": 0.3912028026469443,
+    "lambda": 0.05006580170084401
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.0879787076366286,
+  "lambda_frozen_table": 0.08333333333333334,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 484,
+    "n_Y1_with_failure": 338
+   },
+   "frozen_learned": {
+    "success": 0.4398148148148148,
+    "mean_calls": 2.512037037037037,
+    "stop_rate": 0.47685185185185186,
+    "FAR": 0.008333333333333333,
+    "FAR_cond": 0.026627218934911243,
+    "wasted_calls": 1.6861111111111111,
+    "waste_reduction": 0.5696052942566769
+   },
+   "frozen_table": {
+    "success": 0.44166666666666665,
+    "mean_calls": 2.814814814814815,
+    "stop_rate": 0.3509259259259259,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.020710059171597635,
+    "wasted_calls": 1.987037037037037,
+    "waste_reduction": 0.49279130229260226
+   },
+   "retry_3": {
+    "success": 0.4444444444444444,
+    "mean_calls": 2.901851851851852,
+    "stop_rate": 0.3175925925925926,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.011834319526627219,
+    "wasted_calls": 2.0694444444444446,
+    "waste_reduction": 0.47175608603167096
+   },
+   "never_stop": {
+    "success": 0.44814814814814813,
+    "mean_calls": 4.753703703703704,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.9175925925925927,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.41203703703703703,
+    "mean_calls": 1.9527777777777777,
+    "stop_rate": 0.5638888888888889,
+    "FAR": 0.03611111111111111,
+    "FAR_cond": 0.11538461538461539,
+    "wasted_calls": 1.162037037037037,
+    "waste_reduction": 0.7033798156464193,
+    "lambda": 0.21791942475319787
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4212962962962963,
+    "mean_calls": 1.9981481481481482,
+    "stop_rate": 0.5333333333333333,
+    "FAR": 0.026851851851851852,
+    "FAR_cond": 0.08579881656804733,
+    "wasted_calls": 1.1981481481481482,
+    "waste_reduction": 0.6941621366107303,
+    "lambda": 0.11151264587672294
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 401,
+    "n_Y1_with_failure": 255
+   },
+   "frozen_learned": {
+    "success": 0.3101851851851852,
+    "mean_calls": 2.911111111111111,
+    "stop_rate": 0.6,
+    "FAR": 0.06111111111111111,
+    "FAR_cond": 0.25882352941176473,
+    "wasted_calls": 1.9935185185185185,
+    "waste_reduction": 0.5694861027794441
+   },
+   "frozen_table": {
+    "success": 0.31574074074074077,
+    "mean_calls": 3.227777777777778,
+    "stop_rate": 0.44907407407407407,
+    "FAR": 0.05555555555555555,
+    "FAR_cond": 0.23529411764705882,
+    "wasted_calls": 2.312037037037037,
+    "waste_reduction": 0.5006998600279944
+   },
+   "retry_3": {
+    "success": 0.30648148148148147,
+    "mean_calls": 3.337962962962963,
+    "stop_rate": 0.43703703703703706,
+    "FAR": 0.06481481481481481,
+    "FAR_cond": 0.27450980392156865,
+    "wasted_calls": 2.446296296296296,
+    "waste_reduction": 0.47170565886822635
+   },
+   "never_stop": {
+    "success": 0.3712962962962963,
+    "mean_calls": 5.7064814814814815,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.6305555555555555,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35833333333333334,
+    "mean_calls": 4.2407407407407405,
+    "stop_rate": 0.4287037037037037,
+    "FAR": 0.012962962962962963,
+    "FAR_cond": 0.054901960784313725,
+    "wasted_calls": 3.1814814814814816,
+    "waste_reduction": 0.3129374125174965,
+    "lambda": 0.0004125940460280657
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35648148148148145,
+    "mean_calls": 4.038888888888889,
+    "stop_rate": 0.43703703703703706,
+    "FAR": 0.014814814814814815,
+    "FAR_cond": 0.06274509803921569,
+    "wasted_calls": 2.9824074074074076,
+    "waste_reduction": 0.3559288142371526,
+    "lambda": 0.03906657298320658
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10143488770777238,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 494,
+    "n_Y1_with_failure": 331
+   },
+   "frozen_learned": {
+    "success": 0.45092592592592595,
+    "mean_calls": 2.3916666666666666,
+    "stop_rate": 0.4824074074074074,
+    "FAR": 0.006481481481481481,
+    "FAR_cond": 0.021148036253776436,
+    "wasted_calls": 1.5601851851851851,
+    "waste_reduction": 0.5931916948334138
+   },
+   "frozen_table": {
+    "success": 0.45,
+    "mean_calls": 2.5194444444444444,
+    "stop_rate": 0.40370370370370373,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.02416918429003021,
+    "wasted_calls": 1.6898148148148149,
+    "waste_reduction": 0.5593915982617093
+   },
+   "retry_3": {
+    "success": 0.4537037037037037,
+    "mean_calls": 2.8722222222222222,
+    "stop_rate": 0.32037037037037036,
+    "FAR": 0.003703703703703704,
+    "FAR_cond": 0.012084592145015106,
+    "wasted_calls": 2.037037037037037,
+    "waste_reduction": 0.4688556253017866
+   },
+   "never_stop": {
+    "success": 0.45740740740740743,
+    "mean_calls": 4.674074074074074,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.835185185185185,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4324074074074074,
+    "mean_calls": 1.9916666666666667,
+    "stop_rate": 0.5407407407407407,
+    "FAR": 0.025,
+    "FAR_cond": 0.08157099697885196,
+    "wasted_calls": 1.1842592592592593,
+    "waste_reduction": 0.6912119748913568,
+    "lambda": 0.19760004743786416
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.43333333333333335,
+    "mean_calls": 1.961111111111111,
+    "stop_rate": 0.524074074074074,
+    "FAR": 0.024074074074074074,
+    "FAR_cond": 0.07854984894259819,
+    "wasted_calls": 1.151851851851852,
+    "waste_reduction": 0.6996619990342829,
+    "lambda": 0.11086455945190729
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 405,
+    "n_Y1_with_failure": 242
+   },
+   "frozen_learned": {
+    "success": 0.3,
+    "mean_calls": 2.786111111111111,
+    "stop_rate": 0.6416666666666667,
+    "FAR": 0.075,
+    "FAR_cond": 0.3347107438016529,
+    "wasted_calls": 1.8898148148148148,
+    "waste_reduction": 0.5938308457711443
+   },
+   "frozen_table": {
+    "success": 0.3055555555555556,
+    "mean_calls": 2.946296296296296,
+    "stop_rate": 0.5203703703703704,
+    "FAR": 0.06944444444444445,
+    "FAR_cond": 0.30991735537190085,
+    "wasted_calls": 2.060185185185185,
+    "waste_reduction": 0.5572139303482587
+   },
+   "retry_3": {
+    "success": 0.3,
+    "mean_calls": 3.3092592592592593,
+    "stop_rate": 0.462037037037037,
+    "FAR": 0.075,
+    "FAR_cond": 0.3347107438016529,
+    "wasted_calls": 2.441666666666667,
+    "waste_reduction": 0.4752238805970149
+   },
+   "never_stop": {
+    "success": 0.375,
+    "mean_calls": 5.742592592592593,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.652777777777778,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35555555555555557,
+    "mean_calls": 3.9546296296296295,
+    "stop_rate": 0.4537037037037037,
+    "FAR": 0.019444444444444445,
+    "FAR_cond": 0.08677685950413223,
+    "wasted_calls": 2.89537037037037,
+    "waste_reduction": 0.3777114427860696,
+    "lambda": 0.0011396813436293646
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.35185185185185186,
+    "mean_calls": 3.9166666666666665,
+    "stop_rate": 0.48518518518518516,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.10330578512396695,
+    "wasted_calls": 2.8583333333333334,
+    "waste_reduction": 0.38567164179104474,
+    "lambda": 0.04502753025398378
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10143488770777238,
+  "lambda_frozen_table": 0.09090909090909093,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 492,
+    "n_Y1_with_failure": 334
+   },
+   "frozen_learned": {
+    "success": 0.4444444444444444,
+    "mean_calls": 2.471296296296296,
+    "stop_rate": 0.48333333333333334,
+    "FAR": 0.011111111111111112,
+    "FAR_cond": 0.03592814371257485,
+    "wasted_calls": 1.6305555555555555,
+    "waste_reduction": 0.5832938949361097
+   },
+   "frozen_table": {
+    "success": 0.44537037037037036,
+    "mean_calls": 2.64537037037037,
+    "stop_rate": 0.38796296296296295,
+    "FAR": 0.010185185185185186,
+    "FAR_cond": 0.03293413173652695,
+    "wasted_calls": 1.8046296296296296,
+    "waste_reduction": 0.5388073828679603
+   },
+   "retry_3": {
+    "success": 0.4537037037037037,
+    "mean_calls": 2.8851851851851853,
+    "stop_rate": 0.32407407407407407,
+    "FAR": 0.001851851851851852,
+    "FAR_cond": 0.005988023952095809,
+    "wasted_calls": 2.033333333333333,
+    "waste_reduction": 0.48035967818267866
+   },
+   "never_stop": {
+    "success": 0.45555555555555555,
+    "mean_calls": 4.766666666666667,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.912962962962963,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.4203703703703704,
+    "mean_calls": 1.974074074074074,
+    "stop_rate": 0.549074074074074,
+    "FAR": 0.03518518518518519,
+    "FAR_cond": 0.11377245508982035,
+    "wasted_calls": 1.1666666666666667,
+    "waste_reduction": 0.7018457169900616,
+    "lambda": 0.21779167224582405
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.41759259259259257,
+    "mean_calls": 1.9351851851851851,
+    "stop_rate": 0.537962962962963,
+    "FAR": 0.03796296296296296,
+    "FAR_cond": 0.12275449101796407,
+    "wasted_calls": 1.1333333333333333,
+    "waste_reduction": 0.7103644107903455,
+    "lambda": 0.1255043565314583
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 405,
+    "n_Y1_with_failure": 247
+   },
+   "frozen_learned": {
+    "success": 0.29814814814814816,
+    "mean_calls": 2.8601851851851854,
+    "stop_rate": 0.6342592592592593,
+    "FAR": 0.07685185185185185,
+    "FAR_cond": 0.3360323886639676,
+    "wasted_calls": 1.9444444444444444,
+    "waste_reduction": 0.5860437610881135
+   },
+   "frozen_table": {
+    "success": 0.3074074074074074,
+    "mean_calls": 3.061111111111111,
+    "stop_rate": 0.49537037037037035,
+    "FAR": 0.06759259259259259,
+    "FAR_cond": 0.29554655870445345,
+    "wasted_calls": 2.150925925925926,
+    "waste_reduction": 0.5420855509560418
+   },
+   "retry_3": {
+    "success": 0.30092592592592593,
+    "mean_calls": 3.316666666666667,
+    "stop_rate": 0.4648148148148148,
+    "FAR": 0.07407407407407407,
+    "FAR_cond": 0.32388663967611336,
+    "wasted_calls": 2.4203703703703705,
+    "waste_reduction": 0.4847230435639661
+   },
+   "never_stop": {
+    "success": 0.375,
+    "mean_calls": 5.826851851851852,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.697222222222222,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.35185185185185186,
+    "mean_calls": 4.012037037037037,
+    "stop_rate": 0.4546296296296296,
+    "FAR": 0.023148148148148147,
+    "FAR_cond": 0.10121457489878542,
+    "wasted_calls": 2.928703703703704,
+    "waste_reduction": 0.37650305539128726,
+    "lambda": 0.001723278180917968
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3453703703703704,
+    "mean_calls": 4.008333333333334,
+    "stop_rate": 0.48055555555555557,
+    "FAR": 0.02962962962962963,
+    "FAR_cond": 0.12955465587044535,
+    "wasted_calls": 2.9277777777777776,
+    "waste_reduction": 0.37670017740981665,
+    "lambda": 0.049433185494564484
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.10093219574895829,
+  "lambda_frozen_table": 0.10526315789473685,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 479,
+    "n_Y1_with_failure": 322
+   },
+   "frozen_learned": {
+    "success": 0.4361111111111111,
+    "mean_calls": 2.4898148148148147,
+    "stop_rate": 0.48518518518518516,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.024844720496894408,
+    "wasted_calls": 1.675,
+    "waste_reduction": 0.5761480787253983
+   },
+   "frozen_table": {
+    "success": 0.43333333333333335,
+    "mean_calls": 2.6240740740740742,
+    "stop_rate": 0.40555555555555556,
+    "FAR": 0.010185185185185186,
+    "FAR_cond": 0.034161490683229816,
+    "wasted_calls": 1.8120370370370371,
+    "waste_reduction": 0.5414714151827553
+   },
+   "retry_3": {
+    "success": 0.44074074074074077,
+    "mean_calls": 2.8944444444444444,
+    "stop_rate": 0.3212962962962963,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009316770186335404,
+    "wasted_calls": 2.073148148148148,
+    "waste_reduction": 0.47539831302717905
+   },
+   "never_stop": {
+    "success": 0.44351851851851853,
+    "mean_calls": 4.775925925925926,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.9518518518518517,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.41574074074074074,
+    "mean_calls": 1.9861111111111112,
+    "stop_rate": 0.5527777777777778,
+    "FAR": 0.027777777777777776,
+    "FAR_cond": 0.09316770186335403,
+    "wasted_calls": 1.1981481481481482,
+    "waste_reduction": 0.696813495782568,
+    "lambda": 0.2124673065854633
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.4212962962962963,
+    "mean_calls": 2.013888888888889,
+    "stop_rate": 0.525,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.07453416149068323,
+    "wasted_calls": 1.2194444444444446,
+    "waste_reduction": 0.6914245548266167,
+    "lambda": 0.10622549541338266
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 401,
+    "n_Y1_with_failure": 244
+   },
+   "frozen_learned": {
+    "success": 0.2935185185185185,
+    "mean_calls": 2.861111111111111,
+    "stop_rate": 0.6416666666666667,
+    "FAR": 0.07777777777777778,
+    "FAR_cond": 0.3442622950819672,
+    "wasted_calls": 1.9601851851851853,
+    "waste_reduction": 0.5788740799681719
+   },
+   "frozen_table": {
+    "success": 0.2962962962962963,
+    "mean_calls": 3.011111111111111,
+    "stop_rate": 0.5305555555555556,
+    "FAR": 0.075,
+    "FAR_cond": 0.3319672131147541,
+    "wasted_calls": 2.1203703703703702,
+    "waste_reduction": 0.5444599164511637
+   },
+   "retry_3": {
+    "success": 0.2962962962962963,
+    "mean_calls": 3.311111111111111,
+    "stop_rate": 0.4537037037037037,
+    "FAR": 0.075,
+    "FAR_cond": 0.3319672131147541,
+    "wasted_calls": 2.428703703703704,
+    "waste_reduction": 0.4782176248259399
+   },
+   "never_stop": {
+    "success": 0.3712962962962963,
+    "mean_calls": 5.770370370370371,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.654629629629629,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3490740740740741,
+    "mean_calls": 4.024074074074074,
+    "stop_rate": 0.4444444444444444,
+    "FAR": 0.022222222222222223,
+    "FAR_cond": 0.09836065573770492,
+    "wasted_calls": 2.952777777777778,
+    "waste_reduction": 0.36562562164312706,
+    "lambda": 0.0016551546068714546
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.34629629629629627,
+    "mean_calls": 4.050925925925926,
+    "stop_rate": 0.46574074074074073,
+    "FAR": 0.025,
+    "FAR_cond": 0.11065573770491803,
+    "wasted_calls": 2.9787037037037036,
+    "waste_reduction": 0.36005569922418934,
+    "lambda": 0.04502753025398378
+   }
+  }
+ },
+ {
+  "lambda_frozen_learned": 0.09060844298570633,
+  "lambda_frozen_table": 0.08450704225352114,
+  "0.2": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 471,
+    "n_Y1_with_failure": 320
+   },
+   "frozen_learned": {
+    "success": 0.4287037037037037,
+    "mean_calls": 2.5342592592592594,
+    "stop_rate": 0.4861111111111111,
+    "FAR": 0.007407407407407408,
+    "FAR_cond": 0.025,
+    "wasted_calls": 1.7222222222222223,
+    "waste_reduction": 0.5657249591407891
+   },
+   "frozen_table": {
+    "success": 0.4305555555555556,
+    "mean_calls": 2.787962962962963,
+    "stop_rate": 0.362962962962963,
+    "FAR": 0.005555555555555556,
+    "FAR_cond": 0.01875,
+    "wasted_calls": 1.974074074074074,
+    "waste_reduction": 0.5022180714452487
+   },
+   "retry_3": {
+    "success": 0.43333333333333335,
+    "mean_calls": 2.938888888888889,
+    "stop_rate": 0.31851851851851853,
+    "FAR": 0.002777777777777778,
+    "FAR_cond": 0.009375,
+    "wasted_calls": 2.1203703703703702,
+    "waste_reduction": 0.465328041092692
+   },
+   "never_stop": {
+    "success": 0.4361111111111111,
+    "mean_calls": 4.787037037037037,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 3.9657407407407406,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3925925925925926,
+    "mean_calls": 1.9148148148148147,
+    "stop_rate": 0.5796296296296296,
+    "FAR": 0.04351851851851852,
+    "FAR_cond": 0.146875,
+    "wasted_calls": 1.1462962962962964,
+    "waste_reduction": 0.7109502685033855,
+    "lambda": 0.23408237392471043
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3962962962962963,
+    "mean_calls": 1.924074074074074,
+    "stop_rate": 0.5592592592592592,
+    "FAR": 0.03981481481481482,
+    "FAR_cond": 0.134375,
+    "wasted_calls": 1.1555555555555554,
+    "waste_reduction": 0.7086154564557553,
+    "lambda": 0.12798657917945255
+   }
+  },
+  "0.8": {
+   "counts": {
+    "n_test": 1080,
+    "n_Y1": 382,
+    "n_Y1_with_failure": 231
+   },
+   "frozen_learned": {
+    "success": 0.29814814814814816,
+    "mean_calls": 2.9231481481481483,
+    "stop_rate": 0.6175925925925926,
+    "FAR": 0.05555555555555555,
+    "FAR_cond": 0.2597402597402597,
+    "wasted_calls": 2.062037037037037,
+    "waste_reduction": 0.5669000388953714
+   },
+   "frozen_table": {
+    "success": 0.2953703703703704,
+    "mean_calls": 3.178703703703704,
+    "stop_rate": 0.4675925925925926,
+    "FAR": 0.058333333333333334,
+    "FAR_cond": 0.2727272727272727,
+    "wasted_calls": 2.337037037037037,
+    "waste_reduction": 0.5091404122909373
+   },
+   "retry_3": {
+    "success": 0.29259259259259257,
+    "mean_calls": 3.346296296296296,
+    "stop_rate": 0.44166666666666665,
+    "FAR": 0.06111111111111111,
+    "FAR_cond": 0.2857142857142857,
+    "wasted_calls": 2.5166666666666666,
+    "waste_reduction": 0.4714119019836639
+   },
+   "never_stop": {
+    "success": 0.3537037037037037,
+    "mean_calls": 5.780555555555556,
+    "stop_rate": 0.0,
+    "FAR": 0.0,
+    "FAR_cond": 0.0,
+    "wasted_calls": 4.761111111111111,
+    "waste_reduction": 0.0
+   },
+   "recalibrated_learned": {
+    "success": 0.3388888888888889,
+    "mean_calls": 4.2212962962962965,
+    "stop_rate": 0.4462962962962963,
+    "FAR": 0.014814814814814815,
+    "FAR_cond": 0.06926406926406926,
+    "wasted_calls": 3.225925925925926,
+    "waste_reduction": 0.3224426293271101,
+    "lambda": 0.0007421872735581262
+   },
+   "retrained_recalibrated_learned": {
+    "success": 0.3416666666666667,
+    "mean_calls": 4.101851851851852,
+    "stop_rate": 0.45,
+    "FAR": 0.012037037037037037,
+    "FAR_cond": 0.05627705627705628,
+    "wasted_calls": 3.1018518518518516,
+    "waste_reduction": 0.3485025281991443,
+    "lambda": 0.03906657298320658
+   }
+  }
+ }
+]

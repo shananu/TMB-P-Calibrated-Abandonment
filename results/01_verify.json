@@ -1,0 +1,232 @@
+{
+  "n_tasks": 8100,
+  "trigger_counts(fault_type,on_nth_call,has_prob)": {
+    "('timeout', '1', False)": 2694,
+    "('rate_limit', '1', False)": 1350,
+    "('schema_drift', '1', False)": 1350,
+    "('authz', '1', False)": 1341,
+    "('adversarial_error', '1', False)": 1341
+  },
+  "recoverability_tag_by_primary_family": {
+    "clean": {
+      "None": 1365
+    },
+    "timeout": {
+      "transient": 1353
+    },
+    "rate_limit": {
+      "transient": 1350
+    },
+    "schema_drift": {
+      "repairable": 1350
+    },
+    "authz": {
+      "transient_denial": 1341
+    },
+    "adversarial_error": {
+      "transient_with_ambiguous_feedback": 1341
+    }
+  },
+  "observed_after_first_call(family,visible_recoverability,visible_fault_type)": {
+    "('timeout', ('transient',), ('timeout',))": 201,
+    "('rate_limit', ('transient',), ('rate_limit',))": 198,
+    "('schema_drift', ('repairable',), ('schema_drift',))": 198,
+    "('authz', ('transient_denial',), ('authz',))": 198,
+    "('adversarial_error', ('transient_with_ambiguous_feedback',), ('adversarial_error', 'timeout'))": 198
+  },
+  "first_error_examples": {
+    "timeout": {
+      "code": "timeout",
+      "message": "Tool call timed out.",
+      "details": {
+        "timeout_ms": 50,
+        "faults": [
+          {
+            "fault_type": "timeout",
+            "severity": "soft",
+            "payload": {
+              "recoverability": "transient",
+              "timeout_ms": 50
+            }
+          }
+        ]
+      }
+    },
+    "rate_limit": {
+      "code": "rate_limited",
+      "message": "Rate limit exceeded.",
+      "details": {
+        "retry_after_ms": 100,
+        "faults": [
+          {
+            "fault_type": "rate_limit",
+            "severity": "soft",
+            "payload": {
+              "after_n_calls": 0,
+              "recoverability": "transient",
+              "retry_after_ms": 100
+            }
+          }
+        ]
+      }
+    },
+    "schema_drift": {
+      "code": "missing_required_arg",
+      "message": "Action is missing required arguments.",
+      "details": {
+        "missing": [
+          "fields"
+        ],
+        "tool_name": "create_account",
+        "faults": [
+          {
+            "fault_type": "schema_drift",
+            "severity": "hard",
+            "payload": {
+              "drift_visibility": "hidden_backend",
+              "recoverability": "repairable",
+              "rename_args": {
+                "fields": "payload"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "authz": {
+      "code": "authz_denied",
+      "message": "Authorization failed for this action.",
+      "details": {
+        "required_role": "admin",
+        "faults": [
+          {
+            "fault_type": "authz",
+            "severity": "hard",
+            "payload": {
+              "deny": true,
+              "recoverability": "transient_denial",
+              "required_role": "admin"
+            }
+          }
+        ]
+      }
+    },
+    "adversarial_error": {
+      "code": "ambiguous_error",
+      "message": "The tool failed for an unclear reason. Try a safer recovery.",
+      "details": {
+        "timeout_ms": 50,
+        "faults": [
+          {
+            "fault_type": "timeout",
+            "severity": "soft",
+            "payload": {
+              "timeout_ms": 50
+            }
+          },
+          {
+            "fault_type": "adversarial_error",
+            "severity": "soft",
+            "payload": {
+              "code": "ambiguous_error",
+              "message": "The tool failed for an unclear reason. Try a safer recovery.",
+              "recoverability": "transient_with_ambiguous_feedback"
+            }
+          },
+          {
+            "fault_type": "adversarial_error",
+            "severity": "soft",
+            "payload": {
+              "code": "ambiguous_error",
+              "message": "The tool failed for an unclear reason. Try a safer recovery.",
+              "recoverability": "transient_with_ambiguous_feedback"
+            }
+          }
+        ],
+        "original_error_code": "timeout"
+      }
+    }
+  },
+  "persistent_timeout": {
+    "success": false,
+    "tool_calls": 12,
+    "error_codes": [
+      "timeout",
+      "timeout",
+      "timeout",
+      "timeout",
+      "timeout",
+      "timeout",
+      "timeout",
+      "timeout",
+      "timeout",
+      "timeout",
+      "timeout",
+      "retry_exceeded"
+    ]
+  },
+  "prob_timeout_p0.6_5seeds": [
+    [
+      "timeout",
+      "timeout",
+      "ok"
+    ],
+    [
+      "ok"
+    ],
+    [
+      "ok"
+    ],
+    [
+      "timeout",
+      "timeout",
+      "ok"
+    ],
+    [
+      "ok"
+    ]
+  ],
+  "replay_mismatches_first600": 0,
+  "parser_repair_failures(family,profile,last_error)": {
+    "('adversarial_error', 'relaxed', 'agent_stopped_no_error')": 7,
+    "('adversarial_error', 'standard', 'agent_stopped_no_error')": 8,
+    "('adversarial_error', 'tight', 'agent_stopped_no_error')": 4,
+    "('authz', 'relaxed', 'agent_stopped_no_error')": 6,
+    "('authz', 'standard', 'agent_stopped_no_error')": 9,
+    "('authz', 'tight', 'agent_stopped_no_error')": 8,
+    "('clean', 'relaxed', 'agent_stopped_no_error')": 7,
+    "('clean', 'standard', 'agent_stopped_no_error')": 6,
+    "('clean', 'tight', 'agent_stopped_no_error')": 5,
+    "('rate_limit', 'relaxed', 'agent_stopped_no_error')": 8,
+    "('rate_limit', 'standard', 'agent_stopped_no_error')": 8,
+    "('rate_limit', 'tight', 'agent_stopped_no_error')": 9,
+    "('schema_drift', 'relaxed', 'agent_stopped_no_error')": 37,
+    "('schema_drift', 'relaxed', 'retry_exceeded')": 20,
+    "('schema_drift', 'standard', 'agent_stopped_no_error')": 38,
+    "('schema_drift', 'standard', 'retry_exceeded')": 19,
+    "('schema_drift', 'tight', 'retry_exceeded')": 57,
+    "('timeout', 'relaxed', 'agent_stopped_no_error')": 6,
+    "('timeout', 'standard', 'agent_stopped_no_error')": 9,
+    "('timeout', 'tight', 'agent_stopped_no_error')": 9
+  },
+  "totals(family,profile)": {
+    "('adversarial_error', 'relaxed')": 66,
+    "('adversarial_error', 'standard')": 66,
+    "('adversarial_error', 'tight')": 66,
+    "('authz', 'relaxed')": 66,
+    "('authz', 'standard')": 66,
+    "('authz', 'tight')": 66,
+    "('clean', 'relaxed')": 69,
+    "('clean', 'standard')": 69,
+    "('clean', 'tight')": 69,
+    "('rate_limit', 'relaxed')": 66,
+    "('rate_limit', 'standard')": 66,
+    "('rate_limit', 'tight')": 66,
+    "('schema_drift', 'relaxed')": 66,
+    "('schema_drift', 'standard')": 66,
+    "('schema_drift', 'tight')": 66,
+    "('timeout', 'relaxed')": 67,
+    "('timeout', 'standard')": 67,
+    "('timeout', 'tight')": 67
+  }
+}

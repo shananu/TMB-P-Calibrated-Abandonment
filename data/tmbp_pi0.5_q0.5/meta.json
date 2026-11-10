@@ -1,0 +1,8 @@
+{
+  "pi": 0.5,
+  "q": 0.5,
+  "n_train": 2160,
+  "n_pool": 2160,
+  "gen_seed": 7,
+  "tmb_commit": "b6ee341"
+}

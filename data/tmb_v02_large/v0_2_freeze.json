@@ -1,0 +1,50 @@
+{
+  "budget_profiles": {
+    "relaxed": {
+      "max_retries": 3,
+      "max_steps": 10,
+      "max_tool_calls": 10,
+      "timeout_ms": 1500
+    },
+    "standard": {
+      "max_retries": 2,
+      "max_steps": 6,
+      "max_tool_calls": 6,
+      "timeout_ms": 1000
+    },
+    "tight": {
+      "max_retries": 1,
+      "max_steps": 3,
+      "max_tool_calls": 3,
+      "timeout_ms": 750
+    }
+  },
+  "design": "crossed_domain_fault_difficulty_budget",
+  "difficulty_set": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "domain_set": [
+    "crud",
+    "retrieval",
+    "files",
+    "scheduling"
+  ],
+  "fault_families": [
+    "clean",
+    "timeout",
+    "rate_limit",
+    "schema_drift",
+    "authz",
+    "adversarial_error"
+  ],
+  "seed": 42,
+  "size_profile": "large",
+  "split_sizes": {
+    "dev": 900,
+    "test_public": 1200,
+    "train": 6000
+  },
+  "version": "v0.2"
+}

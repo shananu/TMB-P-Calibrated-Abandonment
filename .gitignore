@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# local scratch: re-runs written via TMBP_RESULTS_DIR, logs
+results_*/
+logs_*.txt
+*.log
+.env
+
+# NOTE: data/ (TMB-P tasks + episode pickles, ~69 MB) and results/ are tracked on purpose:
+# they are the reference artifacts that CHECKSUMS.sha256 and tests/test_reported_numbers.py verify.
+
+# final-audit from-scratch reproduction copy (regenerated data + outputs, compared via checksums.py)
+_audit_repro/
